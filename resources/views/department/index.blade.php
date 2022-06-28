@@ -266,16 +266,16 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-team"></span></div>
+                                <img src="assets/images/sinergi.png">
                                 <h5>Sinergi</h5>
-                                {{--  <p>{{$departments->name}}</p>  --}}
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-money"></span></div>
+                                {{-- img src="assets/images/conversation.png" alt="" --}}
+                                <img src="assets/images/conversation.png">
                                 <h5>Interaktif</h5>
                             </div>
                         </div>
@@ -283,7 +283,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-assets"></span></div>
+                                <img src="assets/images/adaptation.png">
                                 <h5>Adaptif</h5>
                             </div>
                         </div>
@@ -291,19 +291,19 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-world"></span></div>
+                                <img src="assets/images/product-development.png">
                                 <h5>Produktif</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                    {{-- <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-notebook"></span></div>
                                 <h5>Criminal Case</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

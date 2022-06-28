@@ -1,12 +1,10 @@
-@extends('layouts.client.master')
-
 <!DOCTYPE html>
 <html lang="en">
 
 <!-- Mirrored from azim.commonsupport.com/Finandox/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jun 2022 07:22:04 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Finandox - Business HTML Template</title>
+<title>Divisi Teknologi Informasi</title>
 <!-- Stylesheets -->
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
@@ -37,7 +35,6 @@
         <div class="layer layer-two"><span class="overlay"></span></div>        
         <div class="layer layer-three"><span class="overlay"></span></div>        
     </div>
-<<<<<<< HEAD
 
     <!-- Main Header -->
     <header class="main-header header-style-two">
@@ -200,8 +197,6 @@
         </div><!-- End Mobile Menu -->
     </header>
     <!-- End Main Header -->
-=======
->>>>>>> da649b1e94fb1a48fb426b0b9c48dd433cc5ed96
     
     <!--Search Popup-->
     <div id="search-popup" class="search-popup">
@@ -271,7 +266,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-team"></span></div>
+                                <img src="assets/images/sinergi.png">
                                 <h5>Sinergi</h5>
                             </div>
                         </div>
@@ -279,7 +274,8 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-money"></span></div>
+                                {{-- img src="assets/images/conversation.png" alt="" --}}
+                                <img src="assets/images/conversation.png">
                                 <h5>Interaktif</h5>
                             </div>
                         </div>
@@ -287,7 +283,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-assets"></span></div>
+                                <img src="assets/images/adaptation.png">
                                 <h5>Adaptif</h5>
                             </div>
                         </div>
@@ -295,7 +291,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-world"></span></div>
+                                <img src="assets/images/product-development.png">
                                 <h5>Produktif</h5>
                             </div>
                         </div>
@@ -308,14 +304,14 @@
                             </div>
                         </div>
                     </div>  --}}
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                    {{-- <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-notebook"></span></div>
                                 <h5>Criminal Case</h5>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -831,7 +827,6 @@
             </div>
         </div>
     </section>
-<<<<<<< HEAD
     
 	<!-- Main Footer -->
     <footer class="main-footer">
@@ -946,8 +941,6 @@
 			</div>
 		</div>
 	</footer>
-=======
->>>>>>> da649b1e94fb1a48fb426b0b9c48dd433cc5ed96
 	
 </div>
 <!--End pagewrapper-->
