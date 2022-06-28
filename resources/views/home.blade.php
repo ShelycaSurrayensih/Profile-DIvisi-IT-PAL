@@ -1,3 +1,5 @@
+@extends('layouts.client.master')
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,6 +37,7 @@
         <div class="layer layer-two"><span class="overlay"></span></div>        
         <div class="layer layer-three"><span class="overlay"></span></div>        
     </div>
+<<<<<<< HEAD
 
     <!-- Main Header -->
     <header class="main-header header-style-two">
@@ -197,6 +200,8 @@
         </div><!-- End Mobile Menu -->
     </header>
     <!-- End Main Header -->
+=======
+>>>>>>> da649b1e94fb1a48fb426b0b9c48dd433cc5ed96
     
     <!--Search Popup-->
     <div id="search-popup" class="search-popup">
@@ -826,6 +831,7 @@
             </div>
         </div>
     </section>
+<<<<<<< HEAD
     
 	<!-- Main Footer -->
     <footer class="main-footer">
@@ -940,6 +946,8 @@
 			</div>
 		</div>
 	</footer>
+=======
+>>>>>>> da649b1e94fb1a48fb426b0b9c48dd433cc5ed96
 	
 </div>
 <!--End pagewrapper-->
