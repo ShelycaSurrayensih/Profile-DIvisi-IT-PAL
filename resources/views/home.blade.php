@@ -44,17 +44,17 @@
 				<div class="inner">
                     <div class="top-left">
                         <ul class="contact-info">
-                            <li><a href="mailto:info@webmail.com"><i class="far fa-envelope"></i>info@webmail.com</a></li>
+                            <li><a href="mailto:divti@pal.co.id"><i class="far fa-envelope"></i>divti@pal.co.id</a></li>
                             <li><a href="tel:+98787687676"><i class="far fa-phone"></i>+987 876 876 76</a></li>
                         </ul>
                     </div>
 
                     <div class="top-middile">
-                        <div class="text">Welcome To Our Company</div>
+                        <div class="text">Welcome To Information Technology Division (PT PAL)</div>
                     </div>
     
                     <div class="top-right">
-                        <div class="language">
+                        <!-- <div class="language">
                             <form action="#" class="language-switcher">
                                 <select class="selectpicker">
                                     <option value="1">EN</option>
@@ -63,13 +63,13 @@
                                     <option value="1">BE</option>
                                 </select>
                             </form>
-                        </div>
+                        </div> -->
                         <ul class="social-links clearfix">
-                            <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                            <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
-                            <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                            <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                            <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -93,22 +93,11 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown"><a href="index.html">Home</a>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="dropdown"><a href="#">Visi & Misi</a>
                                         <ul>
-                                            <li><a href="index.html">Home page 01</a></li>
-                                            <li><a href="index-2.html">Home page 02</a></li>
-                                            <li><a href="index-3.html">Home page 03</a></li>
-                                            <li><a href="index-4.html">Home page 04</a></li>
-                                            <li><a href="onepage.html">Onepage Version</a></li>
-                                            <li><a href="rtl-home.html">Home RTL</a></li>
-                                            <li class="dropdown"><a href="index.html">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header Style One</a></li>
-                                                    <li><a href="index-2.html">Header Style Two</a></li>
-                                                    <li><a href="index-3.html">Header Style Three</a></li>
-                                                    <li><a href="index-4.html">Header Style Four</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="visi.html">Visi</a></li>
+                                            <li><a href="misi.html">Misi</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="about.html">About Us</a></li>
@@ -119,7 +108,7 @@
                                             <li><a href="services-details.html">Services Details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Portfolio</a>
+                                    <li class="dropdown"><a href="#">Gallery</a>
                                         <ul>
                                             <li><a href="portfolio-1.html">Portfolio One</a></li>
                                             <li><a href="portfolio-2.html">Portfolio Two</a></li>
@@ -159,7 +148,10 @@
                         <!-- Main Menu End-->
                         
                         <!-- Link Btn-->
-                        <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Get A Quote</span></a></div>
+                        <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><img src="assets/images/bumn.png" alt=""></a></div>
+                        <!-- <div class="logo-box">
+                            <div class="logo"><a href="index.html"><img src="assets/images/logo-2.png" alt=""></a></div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -194,11 +186,11 @@
 				<!--Social Links-->
 				<div class="social-links">
 					<ul class="clearfix">
-						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
-						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+						<li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="#" target="_blank"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
 					</ul>
                 </div>
             </nav>
@@ -243,8 +235,8 @@
 
 				<div class="auto-container">
 					<div class="content-box">
-                        <h3>Making Your Business Idea</h3>
-						<h2>Prosper In This <br>Volatile Fund</h2>
+                        <h3>Divisi Teknologi Informasi</h3>
+						<h2>PT PAL Indonesia <br>-- Persero --</h2>
 						<div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
 					</div>
 				</div>
@@ -256,8 +248,8 @@
 
 				<div class="auto-container">
 					<div class="content-box">
-                        <h3>Making Your Business Idea</h3>
-                        <h2>Prosper In This <br>Volatile Fund</h2>
+                        <h3>Divisi Teknologi Informasi</h3>
+						<h2>PT PAL Indonesia <br>-- Persero --</h2>
                         <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
                     </div>
 				</div>
@@ -624,10 +616,10 @@
                             <div class="designation">Founder</div>
                             <h3>Rosalina D. William</h3>
                             <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -640,10 +632,10 @@
                             <div class="designation">CEO</div>
                             <h3>Velavos H. DesuJa</h3>
                             <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -656,10 +648,10 @@
                             <div class="designation">Developer</div>
                             <h3>Abdur Rahman J.</h3>
                             <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -851,10 +843,10 @@
                                 </div>
                                 <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div>
                                 <ul class="social-links clearfix">
-                                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                    <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="#" target="_blank"><span class="fab fa-vimeo-v"></span></a></li>
+                                    <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
                                 </ul>
                             </div>
 						</div>
