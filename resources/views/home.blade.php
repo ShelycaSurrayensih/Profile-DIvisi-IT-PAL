@@ -350,7 +350,7 @@
     </section>
 
     <!-- Funfacts Section -->
-    <section class="funfacts-section" style="background-image: url(assets/images/background/image-19.jpg);">
+    <section class="funfacts-section" style="background-image: url(assets/images/background/image-5.jpg);">
         <div class="auto-container">
             <!-- Fact Counter -->
             <div class="fact-counter-two">
