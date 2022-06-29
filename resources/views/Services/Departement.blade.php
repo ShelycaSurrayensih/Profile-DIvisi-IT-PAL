@@ -94,12 +94,7 @@
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="{{route('department.index')}}">Home</a></li>
-                                    <li class="dropdown"><a href="#">Visi & Misi</a>
-                                        <ul>
-                                            <li><a href="visi.html">Visi</a></li>
-                                            <li><a href="misi.html">Misi</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="{{route('visimisi.visi')}}">Visi & Misi</a></li>
                                     <li><a href={{ route("about.aboutus")}}>About Us</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
