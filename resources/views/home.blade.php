@@ -15,8 +15,8 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;display=swap" rel="stylesheet">
 
-<link rel="shortcut icon" href="assets/images/favicon-2.png" type="image/x-icon">
-<link rel="icon" href="assets/images/favicon-2.png" type="image/x-icon">
+<link rel="shortcut icon" href="assets/images/favicon-pal.png" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon-pal.png" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,7 +45,7 @@
                     <div class="top-left">
                         <ul class="contact-info">
                             <li><a href="mailto:divti@pal.co.id"><i class="far fa-envelope"></i>divti@pal.co.id</a></li>
-                            <li><a href="tel:+98787687676"><i class="far fa-phone"></i>+987 876 876 76</a></li>
+                            <li><i class="far fa-phone"></i> ext.3520</li>
                         </ul>
                     </div>
 
