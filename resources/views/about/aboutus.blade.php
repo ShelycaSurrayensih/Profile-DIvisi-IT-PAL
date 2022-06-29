@@ -4,7 +4,7 @@
 <!-- Mirrored from azim.commonsupport.com/Finandox/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jun 2022 07:22:04 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Finandox - Business HTML Template</title>
+<title>Divisi Teknologi Informasi</title>
 <!-- Stylesheets -->
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
@@ -15,8 +15,8 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;display=swap" rel="stylesheet">
 
-<link rel="shortcut icon" href="assets/images/favicon-2.png" type="image/x-icon">
-<link rel="icon" href="assets/images/favicon-2.png" type="image/x-icon">
+<link rel="shortcut icon" href="assets/images/favicon-pal.png" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon-pal.png" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,8 +32,8 @@
     <div class="loader-wrap style-two">
         <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
         <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>        
-        <div class="layer layer-three"><span class="overlay"></span></div>        
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
 
     <!-- Main Header -->
@@ -45,14 +45,14 @@
                     <div class="top-left">
                         <ul class="contact-info">
                             <li><a href="mailto:mailto:divti@pal.co.id"><i class="far fa-envelope"></i>divti@pal.co.id</a></li>
-                            <li><a href="tel:+98787687676"><i class="far fa-phone"></i>+987 876 876 76</a></li>
+                            <li><i class="far fa-phone"></i> ext.3520</li>
                         </ul>
                     </div>
 
                     <div class="top-middile">
                         <div class="text">Welcome To Information Technology Division (PT PAL)</div>
                     </div>
-    
+
                     <div class="top-right">
                         <!-- <div class="language">
                             <form action="#" class="language-switcher">
@@ -100,12 +100,12 @@
                                             <li><a href="misi.html">Misi</a></li>
                                         </ul>
                                     </li>
-                                  <li><a href="{{ route('about.aboutus')}}">About Us</a></li>
+                                    <li><a href={{ route("about.aboutus")}}>About Us</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
-                                            <li><a href="services-1.html">Services One</a></li>
-                                            <li><a href="services-2.html">Services Two</a></li>
-                                            <li><a href="services-details.html">Services Details</a></li>
+                                            <li><a href="{{route('Services.Departement')}}">Departement</a></li>
+                                            <li><a href="services-2.html">Hot Issue</a></li>
+                                            <li><a href="services-details.html">Tugas & Tanggung Jawab</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">Gallery</a>
@@ -127,7 +127,7 @@
                                             <li><a href="careers.html">Careers</a></li>
                                             <li><a href="team.html">Team</a></li>
                                             <li><a href="team-details.html">Team Details</a></li>
-                                            
+
                                             <li class="dropdown"><a href="shop.html">Shop</a>
                                                 <ul>
                                                     <li><a href="shop.html">Products</a></li>
@@ -140,13 +140,13 @@
                                             <li><a href="404.html">404</a></li>
                                         </ul>
                                     </li>
-                                    
+
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
                         <!-- Main Menu End-->
-                        
+
                         <!-- Link Btn-->
                         <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><img src="assets/images/bumn.png" alt=""></a></div>
                         <!-- <div class="logo-box">
@@ -179,7 +179,7 @@
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
@@ -219,7 +219,7 @@
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
@@ -237,7 +237,7 @@
         </div><!-- End Mobile Menu -->
     </header>
     <!-- End Main Header -->
-    
+
     <!--Search Popup-->
     <div id="search-popup" class="search-popup">
         <div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
@@ -262,14 +262,14 @@
                     <li><a href="#">Plan</a></li>
                 </ul>
             </div>
-            
+
         </div>
     </div>
-    
+
     <!-- Page Banner Section -->
     <section class="page-banner">
      <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
-        <div class="bottom-rotten-curve alternate"></div>  
+        <div class="bottom-rotten-curve alternate"></div>
 
         <div class="auto-container">
             <h1>About Us</h1>
@@ -320,7 +320,7 @@
                                 5. ERP IM 4.0 tahap 1 & 2
                                 </div>
                                 <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
-                            </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -349,7 +349,7 @@
                                 11. ERP IM 4.0 tahap 3
                                 </div>
                                 <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
-                            </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -376,7 +376,7 @@
                                 9. Komputerisasi fasilitas & peralatan produksi tahap 2
                                 </div>
                                 <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
-                            </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -399,7 +399,7 @@
                                 5. Komputerisasi fasilitas & peralatan produksi tahap 3
                                 </div>
                                 <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
-                            </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -416,7 +416,7 @@
                                 </div>
                                 <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
                                 <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
-                            </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -563,7 +563,7 @@
         	<!--Widgets Section-->
             <div class="widgets-section">
             	<div class="row clearfix">
-                	
+
                     <!--Column-->
                     <div class="column col-lg-4">
 						<div class="footer-widget logo-widget">
@@ -581,7 +581,7 @@
                             </div>
 						</div>
 					</div>
-					
+
 					<!--Column-->
                     <div class="column col-lg-4">
 						<div class="footer-widget links-widget">
@@ -591,7 +591,7 @@
                                     <div class="col-md-6">
                                         <ul>
                                             <li><a href="#">Home</a></li>
-                                            <li><a href="#">About</a></li>
+                                            <li><a href="{{ route("about.aboutus")}}">About</a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">Portfolio</a></li>
                                             <li><a href="#">Pricing</a></li>
@@ -607,10 +607,10 @@
                                         </ul>
                                     </div>
                                 </div>
-							</div>	
+							</div>
 						</div>
 					</div>
-					
+
 					<!--Column-->
                     <div class="column col-lg-4">
 						<div class="footer-widget instagram-widget">
@@ -654,23 +654,23 @@
                                         <div class="overlay-link"><a href="assets/images/gallery/gallery-9.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                 </div><!-- /.gallery-wrapper -->
-                            </div>	
+                            </div>
 						</div>
 					</div>
-					
+
 				</div>
-                
+
 			</div>
 		</div>
-		
+
 		<!-- Footer Bottom -->
-		<div class="auto-container">				
+		<div class="auto-container">
             <div class="footer-bottom">
             	<div class="copyright">Copyright By<a href="#">Template_path</a> - 2020</div>
 			</div>
 		</div>
 	</footer>
-	
+
 </div>
 <!--End pagewrapper-->
 

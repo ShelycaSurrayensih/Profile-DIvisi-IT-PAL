@@ -32,8 +32,8 @@
     <div class="loader-wrap style-two">
         <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
         <div class="layer layer-one"><span class="overlay"></span></div>
-        <div class="layer layer-two"><span class="overlay"></span></div>        
-        <div class="layer layer-three"><span class="overlay"></span></div>        
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
     </div>
 
     <!-- Main Header -->
@@ -52,7 +52,7 @@
                     <div class="top-middile">
                         <div class="text">Welcome To Information Technology Division (PT PAL)</div>
                     </div>
-    
+
                     <div class="top-right">
                         <!-- <div class="language">
                             <form action="#" class="language-switcher">
@@ -93,7 +93,7 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href={{route('department.index')}}>Home</a></li>
                                     <li class="dropdown"><a href="#">Visi & Misi</a>
                                         <ul>
                                             <li><a href="visi.html">Visi</a></li>
@@ -103,9 +103,9 @@
                                     <li><a href={{ route("about.aboutus")}}>About Us</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
-                                            <li><a href="services-1.html">Services One</a></li>
-                                            <li><a href="services-2.html">Services Two</a></li>
-                                            <li><a href="services-details.html">Services Details</a></li>
+                                            <li><a href="{{route('Services.Departement')}}">Departement</a></li>
+                                            <li><a href="services-2.html">Hot Issue</a></li>
+                                            <li><a href="services-details.html">Tugas & Tanggung Jawab</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">Gallery</a>
@@ -127,7 +127,7 @@
                                             <li><a href="careers.html">Careers</a></li>
                                             <li><a href="team.html">Team</a></li>
                                             <li><a href="team-details.html">Team Details</a></li>
-                                            
+
                                             <li class="dropdown"><a href="shop.html">Shop</a>
                                                 <ul>
                                                     <li><a href="shop.html">Products</a></li>
@@ -140,13 +140,13 @@
                                             <li><a href="404.html">404</a></li>
                                         </ul>
                                     </li>
-                                    
+
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
                         <!-- Main Menu End-->
-                        
+
                         <!-- Link Btn-->
                         <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><img src="assets/images/bumn.png" alt=""></a></div>
                         <!-- <div class="logo-box">
@@ -179,7 +179,7 @@
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
             <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
-            
+
             <nav class="menu-box">
                 <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
@@ -197,7 +197,7 @@
         </div><!-- End Mobile Menu -->
     </header>
     <!-- End Main Header -->
-    
+
     <!--Search Popup-->
     <div id="search-popup" class="search-popup">
         <div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
@@ -222,7 +222,7 @@
                     <li><a href="#">Plan</a></li>
                 </ul>
             </div>
-            
+
         </div>
     </div>
 
@@ -308,7 +308,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- About Section Two -->
     <section class="about-section-two">
         <div class="auto-container">
@@ -385,7 +385,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!--Column-->
                     <div class="column counter-column col-xl-3 col-lg-6">
                         <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
@@ -398,12 +398,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     </section>
-    
+
 
     <!-- Statistic Section -->
     <section class="statistic-section">
@@ -446,22 +446,22 @@
                     <!-- Contact Form-->
                     <div class="contact-form">
                         <form method="post" action="http://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
-                            <div class="row clearfix">                                    
+                            <div class="row clearfix">
                                 <div class="col-md-12 form-group">
                                     <input type="text" name="username" placeholder="Enter name here......" required="">
                                     <i class="fas fa-user"></i>
                                 </div>
-                                
+
                                 <div class="col-md-12 form-group">
                                     <input type="email" name="email" placeholder="Enter email here......" required="">
                                     <i class="fas fa-envelope"></i>
                                 </div>
-        
+
                                 <div class="col-md-12 form-group">
                                     <textarea name="message" placeholder="Enter message here......"></textarea>
                                     <i class="fas fa-edit"></i>
                                 </div>
-        
+
                                 <div class="col-md-12 form-group">
                                     <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Get In Touch</span></button>
                                 </div>
@@ -819,14 +819,14 @@
             </div>
         </div>
     </section>
-    
+
 	<!-- Main Footer -->
     <footer class="main-footer">
     	<div class="auto-container">
         	<!--Widgets Section-->
             <div class="widgets-section">
             	<div class="row clearfix">
-                	
+
                     <!--Column-->
                     <div class="column col-lg-4">
 						<div class="footer-widget logo-widget">
@@ -844,7 +844,7 @@
                             </div>
 						</div>
 					</div>
-					
+
 					<!--Column-->
                     <div class="column col-lg-4">
 						<div class="footer-widget links-widget">
@@ -854,7 +854,7 @@
                                     <div class="col-md-6">
                                         <ul>
                                             <li><a href="#">Home</a></li>
-                                            <li><a href="#">About</a></li>
+                                            <li><a href="{{ route("about.aboutus")}}">About</a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">Portfolio</a></li>
                                             <li><a href="#">Pricing</a></li>
@@ -870,10 +870,10 @@
                                         </ul>
                                     </div>
                                 </div>
-							</div>	
+							</div>
 						</div>
 					</div>
-					
+
 					<!--Column-->
                     <div class="column col-lg-4">
 						<div class="footer-widget instagram-widget">
@@ -917,23 +917,23 @@
                                         <div class="overlay-link"><a href="assets/images/gallery/gallery-9.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                 </div><!-- /.gallery-wrapper -->
-                            </div>	
+                            </div>
 						</div>
 					</div>
-					
+
 				</div>
-                
+
 			</div>
 		</div>
-		
+
 		<!-- Footer Bottom -->
-		<div class="auto-container">				
+		<div class="auto-container">
             <div class="footer-bottom">
             	<div class="copyright">Copyright By<a href="#">Template_path</a> - 2020</div>
 			</div>
 		</div>
 	</footer>
-	
+
 </div>
 <!--End pagewrapper-->
 

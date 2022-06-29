@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/', [DepartmentController::class, 'index'])->name('department.index');
 Route::get('about-us', [AboutController::class, 'index'])->name('about.aboutus');
-
+Route::get('departement', [ServiceController::class, 'index'])->name('Services.Departement');
 // Route::get('/', function () {
 //     return view('welcome');
 // });
