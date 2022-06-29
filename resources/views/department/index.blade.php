@@ -100,7 +100,7 @@
                                             <li><a href="misi.html">Misi</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href={{ route("about.aboutus")}}>About Us</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
                                             <li><a href="services-1.html">Services One</a></li>
