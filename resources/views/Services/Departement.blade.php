@@ -94,7 +94,12 @@
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="{{route('department.index')}}">Home</a></li>
-                                    <li><a href="{{route('visimisi.visi')}}">Visi & Misi</a></li>
+                                    <li class="dropdown"><a href="#">Visi & Misi</a>
+                                        <ul>
+                                            <li><a href="visi.html">Visi</a></li>
+                                            <li><a href="misi.html">Misi</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href={{ route("about.aboutus")}}>About Us</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
@@ -243,7 +248,10 @@
         <div class="auto-container">
             <div class="row">
                 <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
+                {{-- <div class="service-block-one col-lg-2">
+                
+                </div> --}}
+                <div class="service-block-one col-lg-4 offset-2">
                     <div class="inner-box">
                         <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
                         <h3>DEPARTEMEN INFRASTRUKTUR DAN HARDWARE</h3>

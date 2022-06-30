@@ -258,7 +258,7 @@
         <div class="auto-container">
             <div class="wrapper-box">
                 <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 offset-2">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/sinergi.png">
@@ -351,20 +351,20 @@
             <div class="fact-counter-two">
                 <div class="row">
                     <!--Column-->
-                    <div class="column counter-column col-xl-3 col-lg-6">
+                    <div class="column counter-column col-xl-4 col-lg-6">
                         <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="content">
                                 <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="90">0</span><span>%</span>
+                                    <span class="count-text" data-speed="3000" data-stop="4.0">0</span>
                                 </div>
-                                <div class="counter-title">Business Monitoring</div>
+                                <div class="counter-title">ITML</div>
                             </div>
                         </div>
                     </div>
 
                     <!--Column-->
-                    <div class="column counter-column col-xl-3 col-lg-6">
+                    {{-- <div class="column counter-column col-xl-3 col-lg-6">
                         <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="content">
                                 <div class="icon"><img src="assets/images/icons/icon-13.png" alt=""></div>
@@ -374,17 +374,17 @@
                                 <div class="counter-title">Business Monitoring</div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <!--Column-->
-                    <div class="column counter-column col-xl-3 col-lg-6">
+                    <div class="column counter-column col-xl-4 col-lg-6">
                         <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="content">
                                 <div class="icon"><img src="assets/images/icons/icon-14.png" alt=""></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="33">0</span><span>%</span>
+                                    <span class="count-text" data-speed="3000" data-stop="3.5">0</span>
                                 </div>
-                                <div class="counter-title">Business Monitoring</div>
+                                <div class="counter-title">INDI 4.0</div>
                             </div>
                         </div>
                     </div>
@@ -397,7 +397,7 @@
                                 <div class="count-outer count-box">
                                     <span class="count-text" data-speed="3000" data-stop="42">0</span><span>%</span>
                                 </div>
-                                <div class="counter-title">Business Monitoring</div>
+                                <div class="counter-title">Rating Helpdesk</div>
                             </div>
                         </div>
                     </div>
