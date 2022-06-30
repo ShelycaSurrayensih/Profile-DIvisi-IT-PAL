@@ -240,8 +240,11 @@
 
     <!-- Services Section Three -->
     <section class="services-section-three style-two">
+        {{-- <div class="auto-container">
 
+        </div> --}}
         <div class="auto-container">
+            <h1 class="text-center text-uppercase font-weight-bold">Hot Issue</h1>
             <div class="row">
                 <!-- Services Block One -->
 
@@ -249,7 +252,8 @@
                     <div class="inner-box">
                         <img src="assets/images/hotissue/HI1.png">
                         <h3>Project schedulling masih manual</h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
+                        <br>
+                        <br>
                     </div>
                 </div>
                  <!-- Services Block One -->
@@ -276,12 +280,18 @@
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="auto-container">
+            <h1 class="text-center text-uppercase font-weight-bold">Hope</h1>
+            <div class="row">
                 <!-- Services Block One -->
                 <div class="service-block-one col-lg-3">
                     <div class="inner-box">
                         <img src="assets/images/hotissue/Hope1.png">
                         <h3>Project scheduling sudah terintegrasi</h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
+                        <br>
                     </div>
                 </div>
                 <!-- Services Block One -->
