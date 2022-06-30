@@ -231,7 +231,7 @@
             <h1>Hot Issue & Hopes</h1>
             <ul class="bread-crumb clearfix">
                 <li><a href="{{route('department.index')}}">Home</a></li>
-                <li><a href="">Services</a></li>
+                <li class="active">Services</li>
             </ul>
         </div>
 

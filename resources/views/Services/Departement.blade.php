@@ -230,7 +230,7 @@
             <h1>Departement Divisi IT</h1>
             <ul class="bread-crumb clearfix">
                 <li><a href="{{route('department.index')}}">Home</a></li>
-                <li><a href="{{route('Services.Departement')}}">Services</li>
+                <li class="active">Services</li>
             </ul>
         </div>
 

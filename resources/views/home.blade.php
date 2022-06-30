@@ -231,7 +231,7 @@
 				<div class="auto-container">
 					<div class="content-box">
                         <h3>Divisi Teknologi Informasi</h3>
-						<h2>PT PAL Indonesia <br>-- Persero --</h2>
+						<h2>PT PAL Indonesia</h2>
 						<div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
 					</div>
 				</div>
@@ -244,7 +244,7 @@
 				<div class="auto-container">
 					<div class="content-box">
                         <h3>Divisi Teknologi Informasi</h3>
-						<h2>PT PAL Indonesia <br>-- Persero --</h2>
+						<h2>PT PAL Indonesia </h2>
                         <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
                     </div>
 				</div>
