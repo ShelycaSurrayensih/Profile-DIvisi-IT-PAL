@@ -93,13 +93,13 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li><a href={{route('department.index')}}>Home</a></li>
-                                    <li><a href="{{route('visimisi.visi')}}">Visi & Misi</a></li>
+                                    <li><a href={{route("department.index")}}>Home</a></li>
+                                    <li><a href={{route("visimisi.visi")}}>Visi & Misi</a></li>
                                     <li><a href={{ route("about.aboutus")}}>About Us</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
-                                            <li><a href="{{route('Services.Departement')}}">Departement</a></li>
-                                            <li><a href="services-2.html">Hot Issue</a></li>
+                                            <li><a href={{route("Services.Departement")}}>Departement</a></li>
+                                            <li><a href={{route("Services.hotissue")}}>Hot Issue</a></li>
                                             <li><a href="services-details.html">Tugas & Tanggung Jawab</a></li>
                                         </ul>
                                     </li>

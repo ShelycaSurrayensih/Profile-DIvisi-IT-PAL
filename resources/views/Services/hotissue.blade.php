@@ -153,6 +153,7 @@
         </div>
         <!--End Header Upper-->
 
+
         <!-- Sticky Header  -->
         <div class="sticky-header">
             <div class="auto-container clearfix">
@@ -227,10 +228,10 @@
         <div class="bottom-rotten-curve alternate"></div>
 
         <div class="auto-container">
-            <h1>Departement Divisi IT</h1>
+            <h1>Hot Issue & Hopes</h1>
             <ul class="bread-crumb clearfix">
                 <li><a href="{{route('department.index')}}">Home</a></li>
-                <li><a href="{{route('Services.Departement')}}">Services</li>
+                <li><a href="">Services</a></li>
             </ul>
         </div>
 
@@ -243,56 +244,70 @@
         <div class="auto-container">
             <div class="row">
                 <!-- Services Block One -->
-                {{-- <div class="service-block-one col-lg-2">
 
-                </div> --}}
-                <div class="service-block-one col-lg-4 offset-2">
+                <div class="service-block-one col-lg-3">
                     <div class="inner-box">
                         <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
-                        <h3>DEPARTEMEN INFRASTRUKTUR DAN HARDWARE</h3>
+                        <h3>Project schedulling masih manual</h3>
+                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
+                    </div>
+                </div>
+                 <!-- Services Block One -->
+                 <div class="service-block-one col-lg-3">
+                    <div class="inner-box">
+                        <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
+                        <h3>Infrastruktur jaringan digital di area produksi kurang memadai</h3>
+                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
+                    </div>
+                </div>
+                 <!-- Services Block One -->
+                 <div class="service-block-one col-lg-3">
+                    <div class="inner-box">
+                        <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
+                        <h3>Fasilitas & peralatan produksi belum terkomputerisasi</h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
                 </div>
                 <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
+                <div class="service-block-one col-lg-3">
                     <div class="inner-box">
                         <div class="icon"><span class="flaticon-money"></span><span class="round-shape"></span></div>
-                        <h3>DEPARTEMEN PENGEMBANGAN APLIKASI DAN INTEGRASI</h3>
+                        <h3>Pemenuhan persyaratan sistem manajemen Divisi TI masih rendah</h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
                 </div>
-                {{-- <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
+                <!-- Services Block One -->
+                <div class="service-block-one col-lg-3">
                     <div class="inner-box">
                         <div class="icon"><span class="flaticon-assets"></span><span class="round-shape"></span></div>
-                        <h3>Property Planning</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                        <h3>Project scheduling sudah terintegrasi</h3>
+                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
                 </div>
                 <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
+                <div class="service-block-one col-lg-3">
                     <div class="inner-box">
                         <div class="icon"><span class="flaticon-world"></span><span class="round-shape"></span></div>
-                        <h3>Transport & Export</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                        <h3>Tersedia jaringan digital yang memadai</h3>
+                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
                 </div>
                 <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
+                <div class="service-block-one col-lg-3">
                     <div class="inner-box">
                         <div class="icon"><span class="flaticon-money-1"></span><span class="round-shape"></span></div>
-                        <h3>Saving Tax</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                        <h3>Fasilitas produksi sudah terkomputerisasi</h3>
+                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
                 </div>
                 <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
+                <div class="service-block-one col-lg-3">
                     <div class="inner-box">
                         <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
-                        <h3>Growth Business</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                        <h3>Sistem manajemen Divisi TI sesuai strandard</h3>
+                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
-                </div> --}}
+                </div>
             </div>
         </div>
     </section>
@@ -841,8 +856,8 @@
                                     <div class="col-md-6">
                                         <ul>
                                             <li><a href="#">Home</a></li>
-                                            <li><a href="{{ route("about.aboutus")}}">About</a></li>
-                                            <li><a href="">Services</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Services</a></li>
                                             <li><a href="#">Portfolio</a></li>
                                             <li><a href="#">Pricing</a></li>
                                             <li><a href="#">Contact</a></li>
