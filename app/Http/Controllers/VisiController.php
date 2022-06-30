@@ -9,7 +9,7 @@ class VisiController extends Controller
 {
     public function index(){
         $visis = Visi::index();
-        return view('visi.visimisi', ['visis' => Visi::index()]);
+        return view('visimisi.visi', ['visis' => Visi::index()]);
     }
   
 }
