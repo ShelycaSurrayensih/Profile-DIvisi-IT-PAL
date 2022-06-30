@@ -306,38 +306,41 @@
 
     <!-- About Section Two -->
     <section class="about-section-two">
-        <div class="auto-container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <div class="sec-title">
-                            <div class="sub-title">About Us</div>
-                            <h2>We Work With <br>You To Address</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                        </div>
-                        <div class="author-info">
-                            <div class="wrapper-box">
-                                <h2>Rosalina D. William</h2>
-                                <div class="designation">Founder</div>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
+            <div class="auto-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            <div class="sec-title">
+                                <div class="sub-title">Profil Divisi Teknologi Informasi PT PAL Indonesia</div>
+                                <div class="text">PT PAL INDONESIA (PERSERO) sudah lebih dari -+30 tahun berpengalaman dalam bidang Rancang Bangun Kapal (Kapal Komersial, Kapal Perang dan Kapal Khusus) dan Rekayasa umum.<br><br>
+
+                                    Rancang bangun kapal mencakup berbagai jenis kapal ; Kapal angkutan/muatan curah sampai dengan 50.000 DWT, Kapal Penumpang sampai diatas 500 penumpang, Tanker sampai dengan 30.000 LTDW, Kapal Kontainer sampai sampai 1,600 TEU'S, Kapal Patroli Cepat sampai 57 meter, Tug Boat dan Kapal Pemukat sampai dengan 60 GrossTon. Sebagai tambahan, PT PAL INDONESIA (PERSERO) telah banyak berhasil memproduksi Floating Pier untuk pemeliharaan tentang segala kapal yang tertentu.<br><br>
+
+                                    PT PAL INDONESIA (PERSERO) telah menerapkan NAPA/CadMatic software untuk meningkatkan kemampuan design dan produksi pembuatan kapal perusahaan melakukan autoimmunisasi dan efisiensi. Dan PAL INDONESIA melakukan share dengan perusahaan yang dominan untuk pasar pembuatan kapal negeri.<br></div>
                             </div>
-                            <div class="signature"><img src="assets/images/resource/signature-2.png" alt=""></div>
+                            <div class="author-info">
+                                <div class="wrapper-box">
+                                    <h2>Rosalina D. William</h2>
+                                    <div class="designation">Founder</div>
+                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
+                                </div>
+                                <div class="signature"><img src="assets/images/resource/signature-2.png" alt=""></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <div class="image-one">
-                            <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-10.jpg" alt="">
+                    <div class="col-lg-6">
+                        <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            <div class="image-one">
+                                <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-10.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     <!-- Funfacts Section -->
-    <section class="funfacts-section" style="background-image: url(assets/images/background/image-5.jpg);">
+    <section class="funfacts-section" style="background-image: url(assets/images/background/image-19.jpg);">
         <div class="auto-container">
             <!-- Fact Counter -->
             <div class="fact-counter-two">

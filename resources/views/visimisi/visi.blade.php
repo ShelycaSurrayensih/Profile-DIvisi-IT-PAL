@@ -258,7 +258,7 @@
         <div class="auto-container">
             <div class="wrapper-box">
                 <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 offset-2">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/sinergi.png">
@@ -314,129 +314,38 @@
 
     <!-- About Section Two -->
     <section class="about-section-two">
-        <div class="auto-container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <div class="sec-title">
-                            <div class="sub-title">About Us</div>
-                            <h2>We Work With <br>You To Address</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                        </div>
-                        <div class="author-info">
-                            <div class="wrapper-box">
-                                <h2>Rosalina D. William</h2>
-                                <div class="designation">Founder</div>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
+            <div class="auto-container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            <div class="sec-title">
+                                <div class="sub-title">Profil Divisi Teknologi Informasi PT PAL Indonesia</div>
+                                <div class="text">PT PAL INDONESIA (PERSERO) sudah lebih dari -+30 tahun berpengalaman dalam bidang Rancang Bangun Kapal (Kapal Komersial, Kapal Perang dan Kapal Khusus) dan Rekayasa umum.<br><br>
+
+                                    Rancang bangun kapal mencakup berbagai jenis kapal ; Kapal angkutan/muatan curah sampai dengan 50.000 DWT, Kapal Penumpang sampai diatas 500 penumpang, Tanker sampai dengan 30.000 LTDW, Kapal Kontainer sampai sampai 1,600 TEU'S, Kapal Patroli Cepat sampai 57 meter, Tug Boat dan Kapal Pemukat sampai dengan 60 GrossTon. Sebagai tambahan, PT PAL INDONESIA (PERSERO) telah banyak berhasil memproduksi Floating Pier untuk pemeliharaan tentang segala kapal yang tertentu.<br><br>
+
+                                    PT PAL INDONESIA (PERSERO) telah menerapkan NAPA/CadMatic software untuk meningkatkan kemampuan design dan produksi pembuatan kapal perusahaan melakukan autoimmunisasi dan efisiensi. Dan PAL INDONESIA melakukan share dengan perusahaan yang dominan untuk pasar pembuatan kapal negeri.<br></div>
                             </div>
-                            <div class="signature"><img src="assets/images/resource/signature-2.png" alt=""></div>
+                            <div class="author-info">
+                                <div class="wrapper-box">
+                                    <h2>Rosalina D. William</h2>
+                                    <div class="designation">Founder</div>
+                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
+                                </div>
+                                <div class="signature"><img src="assets/images/resource/signature-2.png" alt=""></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <div class="image-one">
-                            <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-10.jpg" alt="">
+                    <div class="col-lg-6">
+                        <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                            <div class="image-one">
+                                <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-10.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Funfacts Section -->
-    <section class="funfacts-section" style="background-image: url(assets/images/background/image-5.jpg);">
-        <div class="auto-container">
-            <!-- Fact Counter -->
-            <div class="fact-counter-two">
-                <div class="row">
-                    <!--Column-->
-                    <div class="column counter-column col-xl-3 col-lg-6">
-                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="90">0</span><span>%</span>
-                                </div>
-                                <div class="counter-title">Business Monitoring</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="column counter-column col-xl-3 col-lg-6">
-                        <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="icon"><img src="assets/images/icons/icon-13.png" alt=""></div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="71">0</span><span>%</span>
-                                </div>
-                                <div class="counter-title">Business Monitoring</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="column counter-column col-xl-3 col-lg-6">
-                        <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="icon"><img src="assets/images/icons/icon-14.png" alt=""></div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="33">0</span><span>%</span>
-                                </div>
-                                <div class="counter-title">Business Monitoring</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="column counter-column col-xl-3 col-lg-6">
-                        <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-                            <div class="content">
-                                <div class="icon"><img src="assets/images/icons/icon-15.png" alt=""></div>
-                                <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="42">0</span><span>%</span>
-                                </div>
-                                <div class="counter-title">Business Monitoring</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Statistic Section -->
-    <section class="statistic-section">
-        <div class="auto-container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="graph"><img src="assets/images/resource/graph.png" alt=""></div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="sec-title">
-                        <div class="sub-title">Our Startegy</div>
-                        <h2>Get Done With <br> Us Your Project</h2>
-                    </div>
-                    <div class="progress-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <h5>Business Planing</h5>
-                        <div class="bar">
-                            <div class="bar-inner count-bar" data-percent="74%"><div class="count-text">74%</div></div>
-                        </div>
-                    </div>
-                    <div class="progress-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <h5>Business Planing</h5>
-                        <div class="bar">
-                            <div class="bar-inner count-bar" data-percent="64%"><div class="count-text">64%</div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
+        </section>
 
     <!-- Gallery Section -->
     <section class="gallery-section">
@@ -588,173 +497,6 @@
                                 <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
                                 <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonial Section -->
-    <section class="testimonial-section" style="background-image: url(assets/images/background/image-7.jpg);">
-        <div class="auto-container">
-            <div class="sec-title">
-                <div class="sub-title">Testimonials</div>
-                <h2>Clients Feedback</h2>
-            </div>
-            <div class="row">
-                <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "2" } , "1000":{ "items" : "3" }}}'>
-                    <div class="slide-item">
-                        <!-- Testimonial-block -->
-                        <div class="testimonial-block">
-                            <div class="inner-box">
-                                <div class="icon"><span class="fal fa-star"></span></div>
-                                <div class="quote"><span class="fal fa-quote-left"></span></div>
-                                <h4>Design Quality</h4>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </div>
-                            </div>
-                            <div class="author-info">
-                                <div class="thumb"><img src="assets/images/resource/thumb-1.jpg" alt=""></div>
-                                <h4>Alexer Valvin</h4>
-                                <div class="designation">Founder, Coxer IT</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <!-- Testimonial-block -->
-                        <div class="testimonial-block">
-                            <div class="inner-box">
-                                <div class="icon"><span class="fal fa-star"></span></div>
-                                <div class="quote"><span class="fal fa-quote-left"></span></div>
-                                <h4>Design Quality</h4>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </div>
-                            </div>
-                            <div class="author-info">
-                                <div class="thumb"><img src="assets/images/resource/thumb-2.jpg" alt=""></div>
-                                <h4>Hilix Darwin Kalia</h4>
-                                <div class="designation">Founder, Coxer IT</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <!-- Testimonial-block -->
-                        <div class="testimonial-block">
-                            <div class="inner-box">
-                                <div class="icon"><span class="fal fa-star"></span></div>
-                                <div class="quote"><span class="fal fa-quote-left"></span></div>
-                                <h4>Design Quality</h4>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </div>
-                            </div>
-                            <div class="author-info">
-                                <div class="thumb"><img src="assets/images/resource/thumb-3.jpg" alt=""></div>
-                                <h4>Kilbar D. Baldos</h4>
-                                <div class="designation">Founder, Coxer IT</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <!-- Testimonial-block -->
-                        <div class="testimonial-block">
-                            <div class="inner-box">
-                                <div class="icon"><span class="fal fa-star"></span></div>
-                                <div class="quote"><span class="fal fa-quote-left"></span></div>
-                                <h4>Design Quality</h4>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </div>
-                            </div>
-                            <div class="author-info">
-                                <div class="thumb"><img src="assets/images/resource/thumb-1.jpg" alt=""></div>
-                                <h4>Alexer Valvin</h4>
-                                <div class="designation">Founder, Coxer IT</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <!-- Testimonial-block -->
-                        <div class="testimonial-block">
-                            <div class="inner-box">
-                                <div class="icon"><span class="fal fa-star"></span></div>
-                                <div class="quote"><span class="fal fa-quote-left"></span></div>
-                                <h4>Design Quality</h4>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </div>
-                            </div>
-                            <div class="author-info">
-                                <div class="thumb"><img src="assets/images/resource/thumb-2.jpg" alt=""></div>
-                                <h4>Hilix Darwin Kalia</h4>
-                                <div class="designation">Founder, Coxer IT</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-item">
-                        <!-- Testimonial-block -->
-                        <div class="testimonial-block">
-                            <div class="inner-box">
-                                <div class="icon"><span class="fal fa-star"></span></div>
-                                <div class="quote"><span class="fal fa-quote-left"></span></div>
-                                <h4>Design Quality</h4>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </div>
-                            </div>
-                            <div class="author-info">
-                                <div class="thumb"><img src="assets/images/resource/thumb-3.jpg" alt=""></div>
-                                <h4>Kilbar D. Baldos</h4>
-                                <div class="designation">Founder, Coxer IT</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- News Section -->
-    <section class="news-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">News</div>
-                <h2>News From Resource</h2>
-            </div>
-            <div class="row">
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <div class="inner-box">
-                        <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-1.jpg" alt=""></a></div>
-                        <div class="lower-content">
-                            <div class="category">Business</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>24th March 2020</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">UX is best solution for your <br>business & make noise.</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <div class="inner-box">
-                        <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-2.jpg" alt=""></a></div>
-                        <div class="lower-content">
-                            <div class="category">Business</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>26th March 2020</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">Business consultant is involved in the planning.</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- News Block One -->
-                <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <div class="inner-box">
-                        <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-3.jpg" alt=""></a></div>
-                        <div class="lower-content">
-                            <div class="category">Business</div>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-calendar-alt"></i>28th March 2020</a></li>
-                                <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                            </ul>
-                            <h3><a href="blog-details.html">Business consultant is a professional who analyzes.</a></h3>
-                            <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
                         </div>
                     </div>
                 </div>
