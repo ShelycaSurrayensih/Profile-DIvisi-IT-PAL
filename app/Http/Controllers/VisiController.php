@@ -11,5 +11,5 @@ class VisiController extends Controller
         $visis = Visi::index();
         return view('visimisi.visi', ['visis' => Visi::index()]);
     }
-  
+
 }
