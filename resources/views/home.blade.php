@@ -119,7 +119,7 @@
                                     </li>
                                     <li class="dropdown"><a href="#">Pages</a>
                                         <ul>
-                                            <li><a href="careers.html">Careers</a></li>
+                                        <li><a href="{{route('structure.structurediv')}}">Structure</a></li>
                                             <li><a href="team.html">Team</a></li>
                                             <li><a href="team-details.html">Team Details</a></li>
 

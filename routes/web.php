@@ -6,6 +6,7 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\VisiController;
 use App\Http\Controllers\HotissueController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\StructureController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,6 +25,7 @@ Route::get('about-us', [AboutController::class, 'index'])->name('about.aboutus')
 Route::get('departement', [ServiceController::class, 'index'])->name('Services.Departement');
 Route::get('visi', [VisiController::class, 'index'])->name('visimisi.visi');
 Route::get('hotissue', [HotissueController::class, 'index'])->name('Services.hotissue');
+Route::get('structure', [StructureController::class, 'index'])->name('structure.structurediv');
 // Route::get('/', function () {
 //     return view('welcome');
 // });
