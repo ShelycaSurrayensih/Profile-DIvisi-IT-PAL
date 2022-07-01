@@ -67,9 +67,9 @@
                         <ul class="social-links clearfix">
                             <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                             <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                            <li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
                             <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
-                            <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -177,11 +177,11 @@
                 <!--Social Links-->
                 <div class="social-links">
                     <ul class="clearfix">
-                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="https://twitter.com/ptpal_indonesia"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="https://www.facebook.com/HumasPTPAL/"><span class="fab fa-facebook-square"></span></a></li>
                         <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                        <li><a href="https://www.instagram.com/ptpal_indonesia/"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w"><span class="fab fa-youtube"></span></a></li>
                     </ul>
                 </div>
             </nav>

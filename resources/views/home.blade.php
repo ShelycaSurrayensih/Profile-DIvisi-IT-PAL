@@ -67,9 +67,9 @@
                         <ul class="social-links clearfix">
                             <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                             <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                            <li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
                             <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
-                            <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -184,8 +184,8 @@
 						<li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
 						<li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-square"></span></a></li>
 						<li><a href="#" target="_blank"><span class="fab fa-pinterest-p"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+						<li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
 					</ul>
                 </div>
             </nav>
@@ -591,10 +591,10 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <div class="sub-title">Intro Video</div>
-                <h2>Our Latest Insights <br>& Overview.</h2>
+                <h2>PT PAL <br>Indonesia.</h2>
             </div>
             <div class="default-video-box text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-                <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link lightbox-image video-fancybox ripple"><span class="fas fa-play"></span></a>
+                <a href="https://youtu.be/IBJekRxSt0o" class="overlay-link lightbox-image video-fancybox ripple"><span class="fas fa-play"></span></a>
             </div>
         </div>
     </section>
@@ -618,7 +618,7 @@
                                 <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -634,7 +634,7 @@
                                 <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -650,7 +650,7 @@
                                 <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -845,7 +845,7 @@
                                     <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                     <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                     <li><a href="#" target="_blank"><span class="fab fa-vimeo-v"></span></a></li>
-                                    <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                                    <li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
                                 </ul>
                             </div>
 						</div>

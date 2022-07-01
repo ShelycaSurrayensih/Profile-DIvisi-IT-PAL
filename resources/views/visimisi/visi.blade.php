@@ -67,9 +67,9 @@
                         <ul class="social-links clearfix">
                             <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                             <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                            <li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
                             <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
-                            <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -178,8 +178,8 @@
 						<li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
 						<li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-square"></span></a></li>
 						<li><a href="#" target="_blank"><span class="fab fa-pinterest-p"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+						<li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
 					</ul>
                 </div>
             </nav>
@@ -313,13 +313,25 @@
                     <div class="col-lg-6">
                         <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="sec-title">
-                                <div class="sub-title">Profil Divisi Teknologi Informasi PT PAL Indonesia</div>
-                                <div class="text">PT PAL INDONESIA (PERSERO) sudah lebih dari -+30 tahun berpengalaman dalam bidang Rancang Bangun Kapal (Kapal Komersial, Kapal Perang dan Kapal Khusus) dan Rekayasa umum.<br><br>
-
-                                    Rancang bangun kapal mencakup berbagai jenis kapal ; Kapal angkutan/muatan curah sampai dengan 50.000 DWT, Kapal Penumpang sampai diatas 500 penumpang, Tanker sampai dengan 30.000 LTDW, Kapal Kontainer sampai sampai 1,600 TEU'S, Kapal Patroli Cepat sampai 57 meter, Tug Boat dan Kapal Pemukat sampai dengan 60 GrossTon. Sebagai tambahan, PT PAL INDONESIA (PERSERO) telah banyak berhasil memproduksi Floating Pier untuk pemeliharaan tentang segala kapal yang tertentu.<br><br>
-
-                                    PT PAL INDONESIA (PERSERO) telah menerapkan NAPA/CadMatic software untuk meningkatkan kemampuan design dan produksi pembuatan kapal perusahaan melakukan autoimmunisasi dan efisiensi. Dan PAL INDONESIA melakukan share dengan perusahaan yang dominan untuk pasar pembuatan kapal negeri.<br></div>
+                                <div class="sub-title">Visi :</div>
+                                <div class="text">
+                                    Menjadi Penggerak Dibidang Teknologi Untuk Mendukung Proses Bisnis Perusahaan.<br>
+                                </div>
                             </div>
+                            <div class="sec-title">
+                                <div class="sub-title">Misi :</div>
+                                <div class="text">
+                                    1. Kami adalah penyedia solusi teknologi terintegrasi yang handal dan berkualitas.<br>
+                                    2. Kami adalah penyedia layanan teknologi yang sesuai dengan standard yang berlaku.<br>
+                                    3. Kami berkomitmen melakukan transformasi digital pada sektor bisnis perusahaan.<br>
+                                </div>
+                            </div>
+                            <div class="sec-title">
+                                <div class="sub-title">Tujuan :</div>
+                                <div class="text">
+                                Teknologi Informasi (TI) sebagai Bisnis Driver pada Tahun 2025.<br>
+                                </div>
+                            </div><br><br><br>
                             <div class="author-info">
                                 <div class="wrapper-box">
                                     <h2>Rosalina D. William</h2>
@@ -430,10 +442,10 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <div class="sub-title">Intro Video</div>
-                <h2>Our Latest Insights <br>& Overview.</h2>
+                <h2>PT PAL <br>Indonesia.</h2>
             </div>
             <div class="default-video-box text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-                <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link lightbox-image video-fancybox ripple"><span class="fas fa-play"></span></a>
+                <a href="https://youtu.be/IBJekRxSt0o" class="overlay-link lightbox-image video-fancybox ripple"><span class="fas fa-play"></span></a>
             </div>
         </div>
     </section>
@@ -457,7 +469,7 @@
                                 <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -473,7 +485,7 @@
                                 <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -489,7 +501,7 @@
                                 <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -517,7 +529,7 @@
                                     <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                     <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                     <li><a href="#" target="_blank"><span class="fab fa-vimeo-v"></span></a></li>
-                                    <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                                    <li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
                                 </ul>
                             </div>
 						</div>
