@@ -23,6 +23,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<style>
+    h2 {
+      text-shadow: 2px 2px #ffffff;
+    }
+    </style>
 </head>
 
 <body>
@@ -579,10 +584,11 @@
     </section>
 
     <!-- Video Section -->
-    <section class="video-section style-two" style="background-image: url(assets/images/background/image-6.jpg);">
+    <section class="video-section style-two" style="background-image: url(assets/images/background/image-20.jpg);">
         <div class="auto-container">
             <div class="sec-title text-center">
                 <div class="sub-title">Intro Video</div>
+
                 <h2>Our Latest Insights <br>& Overview.</h2>
             </div>
             <div class="default-video-box text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
