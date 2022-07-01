@@ -103,13 +103,7 @@
                                             <li><a href="services-details.html">Tugas & Tanggung Jawab</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Gallery</a>
-                                        <ul>
-                                            <li><a href="portfolio-1.html">Portfolio One</a></li>
-                                            <li><a href="portfolio-2.html">Portfolio Two</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href={{ route("galeri.galeri")}}>Galeri</a></li>
                                     <li class="dropdown"><a href="#">News</a>
                                         <ul>
                                             <li><a href="blog-grid.html">Blog Grid</a></li>
@@ -159,7 +153,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.html" title=""><img src="assets/images/sticky-logo.png" alt="" title=""></a>
+                    <a href="index.html" title=""><img src="assets/images/sticky-logo-2.png" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
@@ -170,6 +164,7 @@
                 </div>
             </div>
         </div><!-- End Sticky Menu -->
+
 
         <!-- Mobile Menu  -->
         <div class="mobile-menu">

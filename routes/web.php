@@ -7,6 +7,7 @@ use App\Http\Controllers\VisiController;
 use App\Http\Controllers\HotissueController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\StructureController;
+use App\Http\Controllers\GaleriController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +27,7 @@ Route::get('departement', [ServiceController::class, 'index'])->name('Services.D
 Route::get('visi', [VisiController::class, 'index'])->name('visimisi.visi');
 Route::get('hotissue', [HotissueController::class, 'index'])->name('Services.hotissue');
 Route::get('structure', [StructureController::class, 'index'])->name('structure.structurediv');
+Route::get('galeri', [GaleriController::class, 'index'])->name('galeri.galeri');
 // Route::get('/', function () {
 //     return view('welcome');
 // });
