@@ -103,7 +103,7 @@
                                             <li><a href="services-details.html">Tugas & Tanggung Jawab</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href={{ route("galeri.galeri")}}>Galeri</a></li>
+                                    <li><a href={{ route("galeri.galeri")}}>Gallery</a></li>
                                     <li class="dropdown"><a href="#">News</a>
                                         <ul>
                                             <li><a href="blog-grid.html">Blog Grid</a></li>
@@ -164,45 +164,6 @@
             </div>
         </div><!-- End Sticky Menu -->
 
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
-
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-				<!--Social Links-->
-				<div class="social-links">
-					<ul class="clearfix">
-						<li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
-						<li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-square"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fab fa-pinterest-p"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
-					</ul>
-                </div>
-            </nav>
-        </div><!-- End Mobile Menu -->
-    </header>
-    <!-- End Main Header -->
-
-        <!-- Sticky Header  -->
-        <div class="sticky-header">
-            <div class="auto-container clearfix">
-                <!--Logo-->
-                <div class="logo pull-left">
-                    <a href="index.html" title=""><img src="assets/images/sticky-logo.png" alt="" title=""></a>
-                </div>
-                <!--Right Col-->
-                <div class="pull-right">
-                    <!-- Main Menu -->
-                    <nav class="main-menu clearfix">
-                        <!--Keep This Empty / Menu will come through Javascript-->
-                    </nav><!-- Main Menu End-->
-                </div>
-            </div>
-        </div><!-- End Sticky Menu -->
 
         <!-- Mobile Menu  -->
         <div class="mobile-menu">
@@ -257,294 +218,198 @@
 
     <!-- Page Banner Section -->
     <section class="page-banner">
-     <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
+        <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
         <div class="bottom-rotten-curve alternate"></div>
 
         <div class="auto-container">
-            <h1>About Us</h1>
+            <h1>Gallery</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="{{route('department.index')}}">Home</a></li>
-                <li class="active">About Us</li>
+                <li><a href={{route("department.index")}}>Home</a></li>
+                <li class="active">Gallery</li>
             </ul>
         </div>
 
     </section>
+    <!--End Banner Section -->
 
-    <!-- History Section -->
-    <section class="history-section">
-        <div class="auto-container">
-            <div class="sec-title text-center light">
-                <div class="sub-title">Divisi Teknologi</div>
-                <h2>Program Kerja</h2>
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="sortable-masonry">
+
+            <div class="auto-container">
+                <!--Filter-->
+                <div class="filters text-center">
+                    <ul class="filter-tabs filter-btns">
+                        <li class="active filter" data-role="button" data-filter=".all"><span>Seminar</span></li>
+                        <li class="filter" data-role="button" data-filter=".category-1"><span>Project</span></li>
+                        <li class="filter" data-role="button" data-filter=".category-2"><span>Kegiatan Divisi</span></li>
+                    </ul>
+                </div>
             </div>
-            <ul class="nav nav-tabs tab-btn-style-one" role="tablist">
-                <li class="nav-item"><a class="nav-link active" id="tab-one-area" data-toggle="tab" href="#tab-one" role="tab" aria-controls="tab-one" aria-selected="true">2022</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" id="tab-two-area" data-toggle="tab" href="#tab-two" role="tab" aria-controls="tab-two" aria-selected="false"> 2023</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" id="tab-three-area" data-toggle="tab" href="#tab-three" role="tab" aria-controls="tab-three" aria-selected="false">2024</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" id="tab-four-area" data-toggle="tab" href="#tab-four" role="tab" aria-controls="tab-four" aria-selected="false">2025</a>
-                </li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div class="tab-pane fadeInUp animated active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="content pl-lg-4">
-                                <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
-                                    <h2>Quick Win</h2>
-                                </div>
-                                <div class="text">
-                                1. Dashboard performance management mobile (HP Android + Tablet)<br>
-                                2. Data akuisisi (CCTV,  Sensor, Barcode)<br>
-                                3. Upgrade infrastruktur jaringan digital 4.0 di area produksi<br>
-                                4. Sertifikasi ISO 27001<br>
-                                5. ERP IM 4.0 tahap 1 & 2
-                                </div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
+            <div class="auto-container">
+                <div class="items-container row">
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-10.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-10.jpg" class="zoom-btn"><span>+</span></a></div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fadeInUp animated" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="content pl-lg-4">
-                                <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
-                                    <h2>Just Proved Our Selves <br>For Great Works.</h2>
-                                </div>
-                                <div class="text">
-                                1. ITML skor 3,6 <br>
-                                2. INDI 4.0 skor 3,0 <br>
-                                3. Dashboard management<br>
-                                4. Upgrade data center tier-3<br>
-                                5. CRM (Customer Relationship Management)<br>
-                                6. Audit management<br>
-                                7. Big Data<br>
-                                8. Predictive Analysis<br>
-                                9. Security architecture<br>
-                                10. Komputerisasi fasilitas & peralatan produksi tahap 1<br>
-                                11. ERP IM 4.0 tahap 3
-                                </div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-4">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-11.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-11.jpg" class="zoom-btn"><span>+</span></a></div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fadeInUp animated" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="content pl-lg-4">
-                                <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
-                                      <h2>Just Proved Our Selves <br>For Great Works.</h2>
-                                </div>
-                                <div class="text">
-                                1. Big data (lanjutan) <br>
-                                2. ITML skor 4,0<br>
-                                3. INDI 4.0 skor 3,5<br>
-                                4. Dashboard Management (lanjutan)<br>
-                                5. Predictive analysis (lanjutan)<br>
-                                6. Audit management (lanjutan)<br>
-                                7. E-Research management<br>
-                                8. Security architecture (advanced)<br>
-                                9. Komputerisasi fasilitas & peralatan produksi tahap 2
-                                </div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-1 category-4">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-12.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-12.jpg" class="zoom-btn"><span>+</span></a></div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fadeInUp animated" id="tab-four" role="tabpanel" aria-labelledby="tab-four">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="content pl-lg-4">
-                                <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
-                                    <h2>Just Proved Our Selves <br>For Great Works.</h2>
-                                </div>
-                                <div class="text">
-                                1. Big data (lanjutan) <br>
-                                2. ITML skor 4,1<br>
-                                3. INDI 4.0 skor 3,6<br>
-                                4. Dashboard Management (lanjutan)<br>
-                                5. Komputerisasi fasilitas & peralatan produksi tahap 3
-                                </div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-13.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-13.jpg" class="zoom-btn"><span>+</span></a></div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fadeInUp animated" id="tab-five" role="tabpanel" aria-labelledby="tab-five">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="content pl-lg-4">
-                                <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
-                                    <h2>Just Proved Our Selves <br>For Great Works.</h2>
-                                </div>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2 category-5">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-14.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-14.jpg" class="zoom-btn"><span>+</span></a></div>
                             </div>
                         </div>
                     </div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-1 category-4">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-15.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-15.jpg" class="zoom-btn"><span>+</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-16.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-16.jpg" class="zoom-btn"><span>+</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2 category-5">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-17.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-17.jpg" class="zoom-btn"><span>+</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2 category-5">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-31.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-31.jpg" class="zoom-btn"><span>+</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-1 category-4">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-32.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-32.jpg" class="zoom-btn"><span>+</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-33.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-33.jpg" class="zoom-btn"><span>+</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Block One -->
+                    <div class="col-lg-3 col-md-6 gallery-block-one all category-3 category-2 category-5">
+                        <div class="inner-box">
+                            <div class="image">
+                                <img src="assets/images/gallery/gallery-34.jpg" alt="">
+                            </div>
+                            <div class="caption-title">
+                                {{-- <h5>Finance</h5> --}}
+                                <h3><a href="#">Miranda Hilix Bar</a></h3>
+                                <div class="view-project"><a data-fancybox="example gallery" href="assets/images/gallery/gallery-34.jpg" class="zoom-btn"><span>+</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End block -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section class="team-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">Our Team</div>
-                <h2>Leadership Team</h2>
-            </div>
-            <div class="row">
-                                <!-- Team Block One -->
-                <div class="col-lg-4 team-block-one">
-                    <div class="inner-box">
-                        <div class="image"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/team-1.jpg" alt=""></div>
-                        <div class="content">
-                            <div class="designation">Founder</div>
-                            <h3>Rosalina D. William</h3>
-                            <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team Block One -->
-                <div class="col-lg-4 team-block-one">
-                    <div class="inner-box">
-                        <div class="image"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/team-2.jpg" alt=""></div>
-                        <div class="content">
-                            <div class="designation">CEO</div>
-                            <h3>Velavos H. DesuJa</h3>
-                            <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team Block One -->
-                <div class="col-lg-4 team-block-one">
-                    <div class="inner-box">
-                        <div class="image"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/team-3.jpg" alt=""></div>
-                        <div class="content">
-                            <div class="designation">Developer</div>
-                            <h3>Abdur Rahman J.</h3>
-                            <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section Four -->
-    <section class="services-section-four">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">Features</div>
-                <h2>Core Features</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="icon-box">
-                        <div class="icon"><img src="assets/images/icons/icon-3.png" alt=""></div>
-                        <h2>Capital Market</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="icon-box">
-                        <div class="icon"><img src="assets/images/icons/icon-21.png" alt=""></div>
-                        <h2>Finance Division</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="icon-box">
-                        <div class="icon"><img src="assets/images/icons/icon-4.png" alt=""></div>
-                        <h2>Insurance & Planning</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="icon-box">
-                        <div class="icon"><img src="assets/images/icons/icon-22.png" alt=""></div>
-                        <h2>Family Case</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="icon-box">
-                        <div class="icon"><img src="assets/images/icons/icon-5.png" alt=""></div>
-                        <h2>Financial Strategy</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="icon-box">
-                        <div class="icon"><img src="assets/images/icons/icon-23.png" alt=""></div>
-                        <h2>Financial Planning</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sponsors Section -->
-    <section class="sponsors-section">
-        <div class="auto-container">
-            <!--Sponsors Carousel-->
-            <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "3" } , "992":{ "items" : "4" }, "1200":{ "items" : "5" }}}'>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-1.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-2.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-3.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-4.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-5.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-1.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-2.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-3.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-4.png" alt=""></a></figure></div>
-                <div class="slide-item"><figure class="image-box"><a href="#"><img src="assets/images/resource/client-5.png" alt=""></a></figure></div>
-            </div>
-        </div>
-    </section>
 
 	<!-- Main Footer -->
     <footer class="main-footer">
@@ -683,5 +548,5 @@
 
 </body>
 
-<!-- Mirrored from azim.commonsupport.com/Finandox/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jun 2022 07:25:07 GMT -->
+<!-- Mirrored from azim.commonsupport.com/Finandox/portfolio-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jun 2022 07:25:24 GMT -->
 </html>
