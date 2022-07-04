@@ -6759,18 +6759,18 @@ img.lazy-image.loaded {
 	display: inline;
 }
 
-/* Careers Section */
+/* structures Section */
 
-.careers-section {
+.structures-section {
 	position: relative;
 	padding: 120px 0 80px;
 }
 
-.career-block {
+.structure-block {
 	position: relative;
 }
 
-.career-block .inner-box {
+.structure-block .inner-box {
 	position: relative;
 	border: 2px solid #ebebeb;
 	padding: 40px 50px;
@@ -6779,7 +6779,7 @@ img.lazy-image.loaded {
 	margin-bottom: 30px;
 }
 
-.career-block .time {
+.structure-block .time {
 	position: relative;
 	padding: 6.5px 20px;
 	background: #222;
@@ -6793,14 +6793,14 @@ img.lazy-image.loaded {
 	margin-bottom: 3px;
 }
 
-.career-block h3 {
+.structure-block h3 {
 	position: relative;
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 7px;
 }
 
-.career-block .text {
+.structure-block .text {
 	position: relative;
 	border-bottom: 1px solid #ebebeb;
 	padding-bottom: 20px;
