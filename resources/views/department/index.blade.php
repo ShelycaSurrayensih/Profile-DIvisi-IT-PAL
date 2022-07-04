@@ -569,18 +569,16 @@
     </section>
 
     <!-- Video Section -->
-    <section class="video-section style-two" style="background-image: url(assets/images/background/image-20 .jpg);">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">Intro Video</div>
-
-                <h2>PT PAL <br>Indonesia.</h2>
-            </div>
-            <div class="default-video-box text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-                <a href="https://youtu.be/IBJekRxSt0o" class="overlay-link lightbox-image video-fancybox ripple"><span class="fas fa-play"></span></a>
-            </div>
-        </div>
-    </section>
+    <section class="video-section style-two" style="background-image: url(assets/images/background/image-21.jpg);">
+            <div class="auto-container">
+                <div class="sec-title text-center">
+                    <div class="sub-title">Intro Video</div>
+                </div>
+                <div class="default-video-box text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <a href="https://youtu.be/IBJekRxSt0o" class="overlay-link lightbox-image video-fancybox ripple"><span class="fas fa-play"></span></a>
+                </div>
+            </div><br><br><br><br><br>
+        </section>
 
     <!-- Team Section -->
     <section class="team-section">
@@ -590,6 +588,54 @@
                 <h2>Leadership Team</h2>
             </div>
             <div class="row">
+                <!-- Team Block One -->
+                <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <div class="inner-box">
+                        <div class="image"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/team-1.jpg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Founder</div>
+                            <h3>Rosalina D. William</h3>
+                            <ul class="social-links">
+                                <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Block One -->
+                <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <div class="inner-box">
+                        <div class="image"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/team-2.jpg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">CEO</div>
+                            <h3>Velavos H. DesuJa</h3>
+                            <ul class="social-links">
+                                <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Block One -->
+                <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                    <div class="inner-box">
+                        <div class="image"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/team-3.jpg" alt=""></div>
+                        <div class="content">
+                            <div class="designation">Developer</div>
+                            <h3>Abdur Rahman J.</h3>
+                            <ul class="social-links">
+                                <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#" target="_blank"><span class="fab fa-behance"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <!-- Team Block One -->
                 <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="inner-box">

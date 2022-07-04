@@ -350,18 +350,6 @@
             </div>
         </section>
 
-        <!-- Video Section -->
-        <section class="video-section style-two" style="background-image: url(assets/images/background/image-21.jpg);">
-            <div class="auto-container">
-                <div class="sec-title text-center">
-                    <div class="sub-title">Intro Video</div>
-                </div>
-                <div class="default-video-box text-center wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <a href="https://youtu.be/IBJekRxSt0o" class="overlay-link lightbox-image video-fancybox ripple"><span class="fas fa-play"></span></a>
-                </div>
-            </div><br><br><br><br><br>
-        </section>
-
         <!-- Gallery Section -->
         <section class="gallery-section">
             <div class="auto-container">
