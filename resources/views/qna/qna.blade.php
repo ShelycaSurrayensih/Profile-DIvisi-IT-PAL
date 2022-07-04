@@ -169,7 +169,6 @@
             </div>
         </div><!-- End Sticky Menu -->
 
-
         <!-- Mobile Menu  -->
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>
@@ -227,95 +226,125 @@
         <div class="bottom-rotten-curve alternate"></div>
 
         <div class="auto-container">
-            <h1>Hot Issue & Hopes</h1>
+            <h1>Qna</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="{{route('department.index')}}">Home</a></li>
-                <li class="active">Services</li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Qna</li>
             </ul>
         </div>
 
     </section>
     <!--End Banner Section -->
 
-    <!-- Services Section Three -->
-    <section class="services-section-three style-two">
-        {{-- <div class="auto-container">
-
-        </div> --}}
+    <!-- Faq Section -->
+    <section class="faq-section">
         <div class="auto-container">
-            <h1 class="text-center text-uppercase font-weight-bold">Hot Issue</h1>
             <div class="row">
-                <!-- Services Block One -->
+                <div class="col-lg-5">
+                    <div class="content mb-5 mr-lg-5">
+                        <div class="sec-title">
+                            <div class="sub-title">FREQUENTLY ASKED QUESTION</div>
+                            <h2>Got Any Questions?</h2>
+                            <div class="text">Veniam quis nostrud exercitation ullamco laboris nist  aute irure dolor in reprehenderit in voluptate velit esse nulla pariatur excepteur sint occaecat aboris nisi ut aliquip ex ea consequat uis aute.</div>
+                        </div>
+                        <div class="link-btn">
+                            <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Get More Help</span></a>
+                        </div>
+                    </div>
 
-                <div class="service-block-one col-lg-3">
-                    <div class="inner-box">
-                        <img src="assets/images/hotissue/HI1.png">
-                        <h3>Project schedulling masih manual</h3>
-                        <br>
-                        <br>
-                    </div>
                 </div>
-                 <!-- Services Block One -->
-                 <div class="service-block-one col-lg-3">
-                    <div class="inner-box">
-                        <img src="assets/images/hotissue/HI2.png">
-                        <h3>Infrastruktur jaringan digital di area produksi kurang memadai</h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
-                    </div>
-                </div>
-                 <!-- Services Block One -->
-                 <div class="service-block-one col-lg-3">
-                    <div class="inner-box">
-                        <img src="assets/images/hotissue/HI3.png">
-                        <h3>Fasilitas & peralatan produksi belum terkomputerisasi</h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
-                    </div>
-                </div>
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-3">
-                    <div class="inner-box">
-                        <img src="assets/images/hotissue/HI4.png">
-                        <h3>Pemenuhan persyaratan sistem manajemen Divisi TI masih rendah</h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
+                <div class="col-lg-7">
+                    <ul class="accordion-box mb-30">
+                        <!--Accordion Block-->
+                        <li class="accordion block">
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon_plus fas fa-angle-right"></span> <span class="icon icon_minus fas fa-angle-down"></span></div>How to analyze marketing strategies?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
-        <div class="auto-container">
-            <h1 class="text-center text-uppercase font-weight-bold">Hopes</h1>
-            <div class="row">
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-3">
-                    <div class="inner-box">
-                        <img src="assets/images/hotissue/Hope1.png">
-                        <h3>Project scheduling sudah terintegrasi</h3>
-                        <br>
-                    </div>
-                </div>
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-3">
-                    <div class="inner-box">
-                        <img src="assets/images/hotissue/Hope2.png">
-                        <h3>Tersedia jaringan digital yang memadai</h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
-                    </div>
-                </div>
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-3">
-                    <div class="inner-box">
-                        <img src="assets/images/hotissue/Hope3.png">
-                        <h3>Fasilitas produksi sudah terkomputerisasi</h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
-                    </div>
-                </div>
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-3">
-                    <div class="inner-box">
-                        <img src="assets/images/hotissue/Hope3.png">
-                        <h3>Sistem manajemen Divisi TI sesuai strandard</h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
-                    </div>
+                        <!--Accordion Block-->
+                        <li class="accordion block">
+                            <div class="acc-btn active"><div class="icon-outer"><span class="icon icon_plus fas fa-angle-right"></span> <span class="icon icon_minus fas fa-angle-down"></span></div>What are latest updates and how to get it?</div>
+                            <div class="acc-content current">
+                                <div class="content">
+                                    <div class="text">Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--Accordion Block-->
+                        <li class="accordion block">
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon_plus fas fa-angle-right"></span> <span class="icon icon_minus fas fa-angle-down"></span></div>How can I customize projects to add members?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--Accordion Block-->
+                        <li class="accordion block">
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon_plus fas fa-angle-right"></span> <span class="icon icon_minus fas fa-angle-down"></span></div>Why you respond so much late?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--Accordion Block-->
+                        <li class="accordion block">
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon_plus fas fa-angle-right"></span> <span class="icon icon_minus fas fa-angle-down"></span></div>How to analyze marketing strategies?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--Accordion Block-->
+                        <li class="accordion block">
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon_plus fas fa-angle-right"></span> <span class="icon icon_minus fas fa-angle-down"></span></div>What are latest updates and how to get it?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--Accordion Block-->
+                        <li class="accordion block">
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon_plus fas fa-angle-right"></span> <span class="icon icon_minus fas fa-angle-down"></span></div>How can I customize projects to add members?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--Accordion Block-->
+                        <li class="accordion block">
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon_plus fas fa-angle-right"></span> <span class="icon icon_minus fas fa-angle-down"></span></div>Why you respond so much late?</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">Nostrud exercitation ullamco laboris nisi ut aliquip aute irure dolor indy reprehenderit in voluptate velit esse cillum dole Veniam quis nul pariatur excepteur sint nulla ipsum occaecat.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- End Block -->
+
+                    </ul>
                 </div>
             </div>
         </div>
@@ -354,11 +383,10 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <ul>
-                                            <li><a href={{route("department.index")}}>Home</a></li>
-                                            <li><a href={{route("visimisi.visi")}}>Visi & Misi</a></li>
-                                            <li><a href={{ route("about.aboutus")}}>About</a></li>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About</a></li>
                                             <li><a href="#">Services</a></li>
-                                            <li><a href={{ route("galeri.galeri")}}>Gallery</a></li>
+                                            <li><a href="#">Portfolio</a></li>
                                             <li><a href="#">Pricing</a></li>
                                             <li><a href="#">Contact</a></li>
                                         </ul>
@@ -458,5 +486,5 @@
 
 </body>
 
-<!-- Mirrored from azim.commonsupport.com/Finandox/services-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jun 2022 07:25:14 GMT -->
+<!-- Mirrored from azim.commonsupport.com/Finandox/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Jun 2022 07:25:50 GMT -->
 </html>

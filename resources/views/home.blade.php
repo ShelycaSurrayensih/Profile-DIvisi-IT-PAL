@@ -23,6 +23,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<style>
+    h2 {
+      text-shadow: 2px 2px #ffffff;
+    }
+    </style>
 </head>
 
 <body>
@@ -44,7 +49,7 @@
 				<div class="inner">
                     <div class="top-left">
                         <ul class="contact-info">
-                            <li><a href="mailto:divti@pal.co.id"><i class="far fa-envelope"></i>divti@pal.co.id</a></li>
+                            <li><a href="mailto:mailto:divti@pal.co.id"><i class="far fa-envelope"></i>divti@pal.co.id</a></li>
                             <li><i class="far fa-phone"></i> ext.3520</li>
                         </ul>
                     </div>
@@ -93,23 +98,17 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li><a href="home.html">Home</a></li>
-                                    <li><a href="{{route('visimisi.visi')}}">Visi & Misi</a></li>
-                                      <li><a href={{ route("about.aboutus")}}>About Us</a></li>
+                                    <li><a href={{route("department.index")}}>Home</a></li>
+                                    <li><a href={{route("visimisi.visi")}}>Visi & Misi</a></li>
+                                    <li><a href={{ route("about.aboutus")}}>About Us</a></li>
                                     <li class="dropdown"><a href="#">Services</a>
                                         <ul>
-                                            <li><a href="{{route('Services.Departement')}}">Departement</a></li>
-                                            <li><a href="services-2.html">Hot Issue</a></li>
+                                            <li><a href={{route("Services.Departement")}}>Departement</a></li>
+                                            <li><a href={{route("Services.hotissue")}}>Hot Issue</a></li>
                                             <li><a href="services-details.html">Tugas & Tanggung Jawab</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Gallery</a>
-                                        <ul>
-                                            <li><a href="portfolio-1.html">Portfolio One</a></li>
-                                            <li><a href="portfolio-2.html">Portfolio Two</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href={{ route("galeri.galeri")}}>Galeri</a></li>
                                     <li class="dropdown"><a href="#">News</a>
                                         <ul>
                                             <li><a href="blog-grid.html">Blog Grid</a></li>
@@ -119,24 +118,24 @@
                                     </li>
                                     <li class="dropdown"><a href="#">Pages</a>
                                         <ul>
-                                        <li><a href="{{route('structure.structurediv')}}">Structure</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
+                                            <li><a href={{route('structure.structurediv')}}>Structure</a></li>
+                                            {{-- <li><a href="team.html">Team</a></li>
+                                            <li><a href="team-details.html">Team Details</a></li> --}}
 
-                                            <li class="dropdown"><a href="shop.html">Shop</a>
+                                            {{-- <li class="dropdown"><a href="shop.html">Shop</a>
                                                 <ul>
                                                     <li><a href="shop.html">Products</a></li>
                                                     <li><a href="product-details.html">Product Details</a></li>
                                                     <li><a href="shopping-cart.html">Shopping Cart</a></li>
                                                     <li><a href="checkout.html">Checkout</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="faq.html">Faq's</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            </li> --}}
+                                            <li><a href={{route('qna.qna')}}>Qna</a></li>
+                                            {{-- <li><a href="404.html">404</a></li> --}}
                                         </ul>
                                     </li>
 
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href={{route("contact.contacts")}}>Contact</a></li>
                                 </ul>
                             </div>
                         </nav>

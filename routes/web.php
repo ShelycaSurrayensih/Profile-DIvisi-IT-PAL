@@ -9,6 +9,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\StructureController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\QnaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,6 +31,7 @@ Route::get('hotissue', [HotissueController::class, 'index'])->name('Services.hot
 Route::get('structure', [StructureController::class, 'index'])->name('structure.structurediv');
 Route::get('galeri', [GaleriController::class, 'index'])->name('galeri.galeri');
 Route::get('contact', [ContactController::class, 'index'])->name('contact.contacts');
+Route::get('qna', [QnaController::class, 'index'])->name('qna.qna');
 
 // Route::get('/', function () {
 //     return view('welcome');
