@@ -2769,7 +2769,7 @@ img {
 }
 
 .sec-title.light h2 {
-	color: #fff;
+	color: black
 }
 
 .sec-title.text-right .sub-title:before {
@@ -6513,7 +6513,7 @@ img.lazy-image.loaded {
 .history-section {
 	position: relative;
 	padding: 120px 0 90px;
-	background-color: #282828;
+	background-color: white;
 }
 
 .history-section .tab-content .sec-title h2 {
@@ -6526,7 +6526,7 @@ img.lazy-image.loaded {
 }
 
 .history-section .tab-content .text {
-	color: #fff;
+	color:black
 	margin-bottom: 35px;
 }
 
@@ -6559,7 +6559,7 @@ img.lazy-image.loaded {
 }
 
 .history-section .sec-title .sub-title {
-	color: #fff;
+	color: black;
 	-webkit-text-fill-color: inherit;
 }
 
