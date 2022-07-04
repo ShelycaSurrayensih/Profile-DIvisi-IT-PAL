@@ -23,11 +23,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<style>
-    h2 {
-      text-shadow: 2px 2px #ffffff;
-    }
-    </style>
 </head>
 
 <body>
@@ -72,9 +67,9 @@
                         <ul class="social-links clearfix">
                             <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                             <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                            <li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-instagram"></span></a></li>
                             <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-youtube"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -118,24 +113,24 @@
                                     </li>
                                     <li class="dropdown"><a href="#">Pages</a>
                                         <ul>
-                                            <li><a href={{route('structure.structurediv')}}>Structure</a></li>
-                                            {{-- <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li> --}}
+                                            <li><a href="{{route('structure.structurediv')}}">Structure</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="team-details.html">Team Details</a></li>
 
-                                            {{-- <li class="dropdown"><a href="shop.html">Shop</a>
+                                            <li class="dropdown"><a href="shop.html">Shop</a>
                                                 <ul>
                                                     <li><a href="shop.html">Products</a></li>
                                                     <li><a href="product-details.html">Product Details</a></li>
                                                     <li><a href="shopping-cart.html">Shopping Cart</a></li>
                                                     <li><a href="checkout.html">Checkout</a></li>
                                                 </ul>
-                                            </li> --}}
-                                            <li><a href={{route('qna.qna')}}>Qna</a></li>
-                                            {{-- <li><a href="404.html">404</a></li> --}}
+                                            </li>
+                                            <li><a href="faq.html">Faq's</a></li>
+                                            <li><a href="404.html">404</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href={{route("contact.contacts")}}>Contact</a></li>
+                                    <li><a href="{{route("contact.contacts")}}">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -167,7 +162,8 @@
                     </nav><!-- Main Menu End-->
                 </div>
             </div>
-        </div><!-- End Sticky Menu -->
+        </div>
+        <!-- End Sticky Menu -->
 
 
         <!-- Mobile Menu  -->
@@ -237,7 +233,7 @@
     </section>
     <!--End Banner Section -->
     <!-- Map Section -->
-    <section class="map-section">
+    {{-- <section class="map-section">
         <div class="map-column">
             <div class="map-canvas"
                 data-zoom="12"
@@ -250,10 +246,10 @@
                 data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- Contact Section Two -->
-    <section class="contact-section-two">
+    <section class="contact-section-two" style="margin-top: 200px;">
         <div class="auto-container">
             <div class="contact-info-area">
                 <div class="contact-info">
