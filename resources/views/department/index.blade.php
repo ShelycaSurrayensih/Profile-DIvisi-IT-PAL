@@ -65,7 +65,23 @@
         <div class="auto-container">
             <div class="wrapper-box">
                 <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                <div class="col-lg-1 col-md-2 col-sm-6 col-xs-6 col-6">
+                        <!-- <div class="feature-block-one">
+                            <div class="inner-box">
+                                <img src="assets/images/sinergi.png">
+                                <h5>Sinergi</h5>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-1 col-md-2 col-sm-6 col-xs-6 col-6">
+                        <!-- <div class="feature-block-one">
+                            <div class="inner-box">
+                                <img src="assets/images/sinergi.png">
+                                <h5>Sinergi</h5>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/sinergi.png">
@@ -73,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/conversation.png">
@@ -81,7 +97,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/adaptation.png">
@@ -89,7 +105,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/product-development.png">
@@ -118,11 +134,11 @@
                             </div>
                             <div class="author-info">
                                 <div class="wrapper-box">
-                                    <h2>Rosalina D. William</h2>
-                                    <div class="designation">Founder</div>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
+                                    <h2>Aris Mulyono</h2>
+                                    <div class="designation">Kepala Divisi Teknologi Informasi</div>
+                                    <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div> -->
                                 </div>
-                                <div class="signature"><img src="assets/images/resource/signature-2.png" alt=""></div>
+                                <!-- <div class="signature"><img src="assets/images/resource/signature-2.png" alt=""></div> -->
                             </div>
                         </div>
                     </div>
@@ -144,7 +160,7 @@
             <div class="fact-counter-two">
                 <div class="row">
                     <!--Column-->
-                    <div class="column counter-column col-xl-4 col-lg-6">
+                    <div class="column counter-column col-xl-3 col-lg-6">
                         <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="content">
                                 <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
@@ -157,23 +173,23 @@
                     </div>
 
                     <!--Column-->
-                    {{-- <div class="column counter-column col-xl-3 col-lg-6">
+                    <div class="column counter-column col-xl-3 col-lg-6">
                         <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="content">
                                 <div class="icon"><img src="assets/images/icons/icon-13.png" alt=""></div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="3000" data-stop="71">0</span><span>%</span>
+                                    <span class="count-text">ISO</span>
                                 </div>
-                                <div class="counter-title">Business Monitoring</div>
+                                <div class="counter-title">27001:2018</div>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
 
                     <!--Column-->
-                    <div class="column counter-column col-xl-4 col-lg-6">
+                    <div class="column counter-column col-xl-3 col-lg-6">
                         <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="content">
-                                <div class="icon"><img src="assets/images/icons/icon-14.png" alt=""></div>
+                                <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
                                 <div class="count-outer count-box">
                                     <span class="count-text" data-speed="3000" data-stop="3.5">0</span>
                                 </div>

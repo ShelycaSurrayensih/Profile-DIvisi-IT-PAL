@@ -51,65 +51,65 @@
 
         <!-- Feature Section -->
         <section class="feature-section">
-            <div class="auto-container">
-                <div class="wrapper-box">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 offset-2">
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <img src="assets/images/sinergi.png">
-                                    <h5>Sinergi</h5>
-                                </div>
+        <div class="auto-container">
+            <div class="wrapper-box">
+                <div class="row">
+                <div class="col-lg-1 col-md-2 col-sm-6 col-xs-6 col-6">
+                        <!-- <div class="feature-block-one">
+                            <div class="inner-box">
+                                <img src="assets/images/sinergi.png">
+                                <h5>Sinergi</h5>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    {{-- img src="assets/images/conversation.png" alt="" --}}
-                                    <img src="assets/images/conversation.png">
-                                    <h5>Interaktif</h5>
-                                </div>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-1 col-md-2 col-sm-6 col-xs-6 col-6">
+                        <!-- <div class="feature-block-one">
+                            <div class="inner-box">
+                                <img src="assets/images/sinergi.png">
+                                <h5>Sinergi</h5>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <img src="assets/images/adaptation.png">
-                                    <h5>Adaptif</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
-                            <div class="feature-block-one">
-                                <div class="inner-box">
-                                    <img src="assets/images/product-development.png">
-                                    <h5>Produktif</h5>
-                                </div>
-                            </div>
-                        </div>
-                        {{-- <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                        </div> -->
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-money-1"></span></div>
-                                <h5>Insurance</h5>
+                                <img src="assets/images/sinergi.png">
+                                <h5>Sinergi</h5>
                             </div>
                         </div>
-                    </div>  --}}
-                        {{-- <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
-                                <div class="icon"><span class="flaticon-notebook"></span></div>
-                                <h5>Criminal Case</h5>
+                                <img src="assets/images/conversation.png">
+                                <h5>Interaktif</h5>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                        <div class="feature-block-one">
+                            <div class="inner-box">
+                                <img src="assets/images/adaptation.png">
+                                <h5>Adaptif</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                        <div class="feature-block-one">
+                            <div class="inner-box">
+                                <img src="assets/images/product-development.png">
+                                <h5>Produktif</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
         <!-- About Section Two -->
         <section class="about-section-two">
+            <div class="thumb"  align="center"><img src="assets/images/VisiMisi.jpg" alt=""></div>
             <div class="auto-container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
