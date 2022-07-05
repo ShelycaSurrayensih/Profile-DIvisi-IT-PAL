@@ -70,8 +70,8 @@
                                 <div class="icon"><span class="flaticon-email-6"></span></div>
                                 <h3>Email Address</h3>
                                 <ul>
-                                    <li><a href="mailto:info@webmail.com">info@webmail.com</a></li>
-                                    <li><a href="mailto:info@webmail.com">jobs@exampleco.com</a></li>
+                                    <li><a href="mailto:divti@pal.co.id">divti@pal.co.id</a></li>
+                                    <li><br><br></li>
                                 </ul>
                             </div>
                         </div>
@@ -80,8 +80,8 @@
                                 <div class="icon"><span class="flaticon-call-1"></span></div>
                                 <h3>Phone Number</h3>
                                 <ul>
-                                    <li><a href="tel:+8976765654654">+897 676 5654 654</a></li>
-                                    <li><a href="tel:+908(097)56476576">+908(097) 564 765 76</a></li>
+                                    <li><a href="tel:3520">ext.3520</a></li>
+                                    <li><br><br></li>
                                 </ul>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                                 <div class="icon"><span class="flaticon-location"></span></div>
                                 <h3>Office Address</h3>
                                 <ul>
-                                    <li>12/A, Romania City Town Hall <br>New Joursey, UK</li>
+                                    <li><a href="https://goo.gl/maps/u1vZyt35DoDqvaqTA">QPWV+5HG, Jalan Ujung, Ujung, Kec. Semampir, Kota SBY, Jawa Timur 60155</a></li>
                                 </ul>
                             </div>
                         </div>

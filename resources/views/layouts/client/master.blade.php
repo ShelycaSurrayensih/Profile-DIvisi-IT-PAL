@@ -16,7 +16,11 @@
         <!-- Responsive File -->
         <link href="assets/css/responsive.css" rel="stylesheet">
         <!-- Color File -->
+        <link href="assets/css/color.css" rel="stylesheet">
         <link href="assets/css/color-2.css" rel="stylesheet">
+        <link href="assets/css/color-3.css" rel="stylesheet">
+        <!--  RTL Style -->
+        <link href="assets/css/rtl-home.css" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;display=swap" rel="stylesheet">
 

@@ -65,7 +65,7 @@
         <div class="auto-container">
             <div class="wrapper-box">
                 <div class="row">
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6 offset-2">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/sinergi.png">
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/conversation.png">
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/adaptation.png">
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-6">
                         <div class="feature-block-one">
                             <div class="inner-box">
                                 <img src="assets/images/product-development.png">
