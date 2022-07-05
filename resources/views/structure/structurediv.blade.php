@@ -48,55 +48,51 @@
 <!--Main Section -->
 <div class="container text-center">
     <div class="row">
-      <div class="col-12">Parent</div>
+        <div class="col-12">Divisi Teknologi Informasi</div>
     </div>
     <div class="row">
-      <div class="col-6 right-line"></div>
-      <div class="col-6"></div>
+        <div class="col-6 right-line"></div>
+        <div class="col-6"></div>
     </div>
     <div class="row">
-      <div class="col-3 right-line"></div>
-      <div class="col-3 right-line top-line"></div>
-      <div class="col-3 right-line top-line"></div>
-      <div class="col-3"></div>
+        <div class="col-3 right-line"></div>
+        <div class="col-3 top-line"></div>
+        <div class="col-3 right-line top-line"></div>
+        <div class="col-3"></div>
     </div>
     <div class="row">
-      <div class="col-2"></div>
-      <div class="col-2">Child</div>
-      <div class="col-4">Bigger Child</div>
-      <div class="col-2">Child</div>
-      <div class="col-2"></div>
+        <div class="col-6">Departemen Pengembangan Aplikasi & Integrasi</div>
+        <div class="col-6">Departemen Infrastruktur & Hardware</div>
     </div>
     <div class="row">
-      <div class="col-6 right-line"></div>
-      <div class="col-6"></div>
+        <div class="col-3 right-line"></div>
+        <div class="col-6 right-line"></div>
     </div>
     <div class="row">
-      <div class="col-3 p-0">
-        <div class="halved right-line"></div>
-        <div class="halved top-line"></div>
-      </div>
-      <div class="col-3 p-0">
-        <div class="halved right-line top-line"></div>
-        <div class="halved top-line"></div>
-      </div>
-      <div class="col-3 p-0">
-        <div class="halved right-line top-line"></div>
-        <div class="halved top-line"></div>
-      </div>
-      <div class="col-3 p-0">
-        <div class="halved right-line top-line"></div>
-        <div class="halved"></div>
-      </div>
+        <div class="col-3 p-0">
+            <div class="halved right-line"></div>
+            <div class="halved top-line"></div>
+        </div>
+        <div class="col-3 p-0">
+            <div class="halved right-line top-line"></div>
+        </div>
+        <div class="col-3 p-0">
+            <div class="halved right-line"></div>
+            <div class="halved top-line"></div>
+        </div>
+        <div class="col-3 p-0">
+            <div class="halved right-line top-line"></div>
+            <div class="halved"></div>
+        </div>
     </div>
     <div class="row">
-      <div class="col-3">GrandChild</div>
-      <div class="col-3">GrandChild</div>
-      <div class="col-3">GrandChild</div>
-      <div class="col-3">GrandChild</div>
+        <div class="col-3">Biro Pengembangan Aplikasi & Integrasi</div>
+        <div class="col-3">Biro Penelitian, Pengembangan, & Knowledge Management</div>
+        <div class="col-3">Biro Pengelolaan Sistem Aplikasi & Helpdesk Service</div>
+        <div class="col-3">Biro Jaringan & Hardware</div>
     </div>
-  </div>
-  <br>
-  <br>
+</div>
+<br>
+<br>
 <!--End Main Section -->
 @endsection
