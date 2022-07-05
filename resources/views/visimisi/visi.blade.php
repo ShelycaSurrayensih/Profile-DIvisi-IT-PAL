@@ -31,29 +31,20 @@
         <!-- Banner Section -->
         <section class="banner-section style-two">
             <div class="banner-carousel theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-                <!-- Slide Item -->
-                <div class="slide-item">
-                    <div class="image-layer lazy-image" data-bg="url('assets/images/main-slider/2.jpg')"></div>
+                <!-- Page Banner Section -->
+                <section class="page-banner">
+                    <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
+                    <div class="bottom-rotten-curve alternate"></div>
 
                     <div class="auto-container">
-                        <div class="content-box">
-                            <h3>Divisi Teknologi Informasi</h3>
-                            <h2>PT PAL Indonesia</h2>
-                        </div>
+                        <h1>Visi - Misi - Tujuan</h1>
+                        <ul class="bread-crumb clearfix">
+                            <li><a href="{{route('department.index')}}">Home</a></li>
+                            <li class="active">Visi Misi</li>
+                        </ul>
                     </div>
-                </div>
 
-                <!-- Slide Item -->
-                <div class="slide-item">
-                    <div class="image-layer lazy-image" data-bg="url('assets/images/main-slider/6.jpg')"></div>
-
-                    <div class="auto-container">
-                        <div class="content-box">
-                            <h3>Divisi Teknologi Informasi</h3>
-                            <h2>PT PAL Indonesia</h2>
-                        </div>
-                    </div>
-                </div>
+                </section>
             </div>
         </section>
         <!--End Banner Section -->
