@@ -338,7 +338,7 @@
                     <div class="col-lg-6">
                         <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="image-one">
-                                <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-10.jpg" alt="">
+                                <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/image-16.jpg" alt="">
                             </div>
                         </div>
                     </div>
