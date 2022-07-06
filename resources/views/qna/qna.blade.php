@@ -56,7 +56,7 @@
                             <div class="text">Veniam quis nostrud exercitation ullamco laboris nist  aute irure dolor in reprehenderit in voluptate velit esse nulla pariatur excepteur sint occaecat aboris nisi ut aliquip ex ea consequat uis aute.</div>
                         </div>
                         <div class="link-btn">
-                            <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Get More Help</span></a>
+                            <a href="https://helpdesk.pal.co.id/" class="theme-btn btn-style-one"><span class="btn-title">Get More Help</span></a>
                         </div>
                     </div>
 
