@@ -94,7 +94,7 @@
 .sidebar-wrapper .price-ranger .ui-slider .ui-slider-range,
 .sidebar-wrapper .price-ranger .ui-slider-handle:before,
 .history-section .tab-btn-style-one .nav-item .nav-link.active,
-.product-tab-box .tab-btns .tab-btn.active-btn span, 
+.product-tab-box .tab-btns .tab-btn.active-btn span,
 .product-tab-box .tab-btns .tab-btn:hover span,
 .related-product .owl-theme .owl-nav .owl-prev:hover:before,
 .related-product .owl-theme .owl-nav .owl-next:hover:before,
@@ -113,7 +113,7 @@
 .tab-btn-style-one .nav-item .nav-link.active,
 .service-block-one .icon .round-shape:after,
 .sticky-header .main-menu .navigation > li.current-menu-item > a {
-	background-color: #64a547;
+	background-color: #00428d;
 }
 
 .btn-style-one .btn-title:before {
@@ -146,7 +146,7 @@
 .testimonial-section.style-two .owl-theme .owl-nav .owl-next:hover:before,
 .welcome-block-one:nth-child(1) .inner-box .read-more a:hover,
 .welcome-block-one:nth-child(3) .inner-box .read-more a:hover {
-	color: #64a547;
+	color: #00428d;
 }
 
 .welcome-block-one:nth-child(2) .inner-box .read-more a:hover {

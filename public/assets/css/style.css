@@ -51,17 +51,17 @@ font-family: 'Roboto', sans-serif;
  ***/
 
 .right-line {
-   border-right: 5px #ccc solid;
+   border-right: 5px rgb(0, 0, 0) solid;
    height:2em
 }
 
 .left-line {
-	border-left: 5px #ccc solid;
+	border-left: 5px rgb(0, 0, 0) solid;
 	height:2em
  }
 
 .top-line {
-   border-top: 5px #ccc solid;
+   border-top: 5px rgb(0, 0, 0) solid;
 }
 
 .halved {
