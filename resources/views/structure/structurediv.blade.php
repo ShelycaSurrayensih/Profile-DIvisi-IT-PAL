@@ -68,8 +68,18 @@
         <div class="col-3"></div>
     </div>
     <div class="row">
-        <div class="col-6">Departemen Pengembangan Aplikasi & Integrasi</div>
-        <div class="col-6">Departemen Infrastruktur & Hardware</div>
+        <div class="col-6">
+            <div class="level-2 rectangle">
+                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
+                Departemen Pengembangan Aplikasi & Integrasi
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="level-2 rectangle">
+                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
+                Departemen Infrastruktur & Hardware<br><br>
+            </div>
+        </div>
     </div>
     <div class="row">
         <div class="col-3 right-line"></div>
@@ -93,10 +103,30 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-3">Biro Pengembangan Aplikasi & Integrasi</div>
-        <div class="col-3">Biro Penelitian, Pengembangan, & Knowledge Management</div>
-        <div class="col-3">Biro Pengelolaan Sistem Aplikasi & Helpdesk Service</div>
-        <div class="col-3">Biro Jaringan & Hardware</div>
+        <div class="col-3">
+            <div class="level-3 rectangle">
+                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
+                Biro Pengembangan Aplikasi & Integrasi<br><br><br>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="level-3 rectangle">
+                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
+                Biro Penelitian, Pengembangan, & Knowledge Management
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="level-3 rectangle">
+                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
+                Biro Pengelolaan Sistem Aplikasi & Helpdesk Service<br><br>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="level-3 rectangle">
+                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
+                Biro Jaringan & Hardware<br><br><br>
+            </div>
+        </div>
     </div>
 </div>
 <br>

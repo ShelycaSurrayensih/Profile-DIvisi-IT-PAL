@@ -87,6 +87,16 @@ font-family: 'Roboto', sans-serif;
    background: var(--level-1);
 }
 
+.level-2 {
+    width: 40%;
+    margin: 0 auto 5px;
+    background: var(--level-2);
+}
+.level-3 {
+    width: 80%;
+    margin: 0 auto 5px;
+    background: var(--level-3);
+}
 body {
 	font-size: 16px;
 	color: #282828;
