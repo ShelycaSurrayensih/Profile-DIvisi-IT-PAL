@@ -90,7 +90,7 @@
                                 <div class="icon"><span class="flaticon-location"></span></div>
                                 <h3>Office Address</h3>
                                 <ul>
-                                    <li><a href="https://goo.gl/maps/u1vZyt35DoDqvaqTA">QPWV+5HG, Jalan Ujung, Ujung, Kec. Semampir, Kota SBY, Jawa Timur 60155</a></li>
+                                    <li><a href="https://goo.gl/maps/u1vZyt35DoDqvaqTA" target="_blank">PT PAL Indonesia (persero) <br> Jl. Ujung Surabaya <br> Surabaya 60155 Indonesia</a></li>
                                 </ul>
                             </div>
                         </div>

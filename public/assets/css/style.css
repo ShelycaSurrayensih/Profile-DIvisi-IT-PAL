@@ -68,6 +68,24 @@ font-family: 'Roboto', sans-serif;
    width: 50%;
    float:left;
 }
+/* rectangle */
+:root {
+    --level-1: #8dccad;
+    --level-2: #f5cc7f;
+    --level-3: #7b9fe0;
+    --level-4: #f27c8d;
+    --black: black;
+}
+.rectangle {
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+.level-1 {
+   width: 20%;
+   margin: 0 auto 5px;
+   background: var(--level-1);
+}
 
 body {
 	font-size: 16px;

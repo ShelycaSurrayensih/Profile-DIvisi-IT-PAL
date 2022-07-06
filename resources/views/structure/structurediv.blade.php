@@ -46,9 +46,16 @@
 <!--End Banner Section -->
 
 <!--Main Section -->
+<br>
+<br>
 <div class="container text-center">
     <div class="row">
-        <div class="col-12">Divisi Teknologi Informasi</div>
+        <div class="col-12">
+            <div class="level-1 rectangle">
+                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
+                Divisi Teknologi Informasi
+            </div>
+        </div>
     </div>
     <div class="row">
         <div class="col-6 right-line"></div>
