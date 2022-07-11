@@ -49,85 +49,12 @@
 <br>
 <br>
 <div class="container text-center">
-    <div class="row">
-        <div class="col-12">
-            <div class="level-1 rectangle">
-                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
-                Divisi Teknologi Informasi
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6 right-line"></div>
-        <div class="col-6"></div>
-    </div>
-    <div class="row">
-        <div class="col-3 right-line"></div>
-        <div class="col-3 top-line"></div>
-        <div class="col-3 right-line top-line"></div>
-        <div class="col-3"></div>
-    </div>
-    <div class="row">
-        <div class="col-6">
-            <div class="level-2 rectangle">
-                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
-                Departemen Pengembangan Aplikasi & Integrasi
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="level-2 rectangle">
-                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
-                Departemen Infrastruktur & Hardware<br><br>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-3 right-line"></div>
-        <div class="col-6 right-line"></div>
-    </div>
-    <div class="row">
-        <div class="col-3 p-0">
-            <div class="halved right-line"></div>
-            <div class="halved top-line"></div>
-        </div>
-        <div class="col-3 p-0">
-            <div class="halved right-line top-line"></div>
-        </div>
-        <div class="col-3 p-0">
-            <div class="halved right-line"></div>
-            <div class="halved top-line"></div>
-        </div>
-        <div class="col-3 p-0">
-            <div class="halved right-line top-line"></div>
-            <div class="halved"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-3">
-            <div class="level-3 rectangle">
-                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
-                Biro Pengembangan Aplikasi & Integrasi<br><br><br>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="level-3 rectangle">
-                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
-                Biro Penelitian, Pengembangan, & Knowledge Management
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="level-3 rectangle">
-                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
-                Biro Pengelolaan Sistem Aplikasi & Helpdesk Service<br><br>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="level-3 rectangle">
-                <img src="assets/images/gallery/gallery-10.jpg" alt=""><br>
-                Biro Jaringan & Hardware<br><br><br>
-            </div>
-        </div>
-    </div>
+    <h2>Struktur Organisasi</h2>
+    <img src="assets/images/gallery/gallery-36.png" alt="">
+</div>
+<div class="container text-center">
+    <h2>Informasi Jabatan</h2>
+    <br><br><img src="assets/images/gallery/gallery-35.png" alt="">
 </div>
 <br>
 <br>

@@ -70,12 +70,12 @@ font-family: 'Roboto', sans-serif;
 }
 /* rectangle */
 :root {
-    --level-1: #8dccad;
-    --level-2: #f5cc7f;
-    --level-3: #7b9fe0;
-    --level-4: #f27c8d;
-    --black: black;
-}
+	--level-1: #9abcf1;
+	--level-2: #5b89e0;
+	--level-3: #45b4cd;
+	--level-4: #1d9ce0;
+	--black: rgb(5, 4, 4);
+  }
 .rectangle {
     position: relative;
     padding: 20px;
