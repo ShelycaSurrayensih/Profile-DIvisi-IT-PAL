@@ -30,6 +30,7 @@ Route::get('departement', [ServiceController::class, 'index'])->name('Services.D
 Route::get('visi', [VisiController::class, 'index'])->name('visimisi.visi');
 Route::get('hotissue', [HotissueController::class, 'index'])->name('Services.hotissue');
 Route::get('sharing', [SharingController::class, 'index'])->name('Services.sharing');
+Route::get('sharing/detail/{id}', [SharingController::class, 'show'])->name('detail');
 Route::get('structure', [StructureController::class, 'index'])->name('structure.structurediv');
 Route::get('galeri', [GaleriController::class, 'index'])->name('galeri.galeri');
 Route::get('contact', [ContactController::class, 'index'])->name('contact.contacts');

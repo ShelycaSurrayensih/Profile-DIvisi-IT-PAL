@@ -9,7 +9,13 @@ class SharingController extends Controller
 {
     public function index()
     {
-        $sharings = Sharing::index();
-        return view('Services.sharing', ['sharing' => Sharing::index()]);
+        $sharings = Sharing::orderByDesc('created_at')->limit(3)->get();
+        return view('Services.sharing', compact('sharings'));
+    }
+
+    public function show($id)
+    {
+        $sharings = Sharing::where('id', $id)->first();
+        return view('Services.detail', ['sharings' => $sharings]);
     }
 }

@@ -15,8 +15,9 @@ class CreateSharingsTable extends Migration
     {
         Schema::create('sharings', function (Blueprint $table) {
             $table->id();
-            $table->string("question");
-            $table->string("answer");
+            $table->string("judul");
+            $table->string("description");
+            $table->date('tanggal_dibuat');
             $table->timestamps();
         });
     }

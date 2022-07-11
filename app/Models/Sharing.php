@@ -9,13 +9,14 @@ class Sharing extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'question',
-        'answer',
+        'judul',
+        'description',
+        'tanggal_dibuat'
     ];
 
     public static function index()
     {
-        return Structure::all();
+        return Sharing::all();
     }
 
 }
