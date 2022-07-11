@@ -61,7 +61,7 @@
                                     <ul>
                                         <li><a href={{route("Services.Departement")}}>Departement</a></li>
                                         <li><a href={{route("Services.hotissue")}}>Hot Issue</a></li>
-                                        <li><a href="services-details.html">Tugas & Tanggung Jawab</a></li>
+                                        <li><a href={{route("Services.tugastanggungjawab")}}>Tugas & Tanggung Jawab</a></li>
                                         <li><a href={{route("Services.sharing")}}>Sharing Knowledge</a></li>
                                         <li><a href="https://portal.pal.co.id/">Layanan TI</a></li>
                                     </ul>
