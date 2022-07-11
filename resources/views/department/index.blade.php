@@ -145,7 +145,8 @@
             <div class="col-lg-6">
                 <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="image-one">
-                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/Aris-2.jpg" alt="">
+                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" 
+                        style="height: 700px!important;width: 500px!important;" data-src="assets/images/resource/Aris-5.png" alt="">
                     </div>
                 </div>
             </div>
