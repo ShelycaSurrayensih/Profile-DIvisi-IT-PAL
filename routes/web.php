@@ -9,9 +9,15 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\StructureController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FungsidihController;
+use App\Http\Controllers\FungsidpaController;
+use App\Http\Controllers\KedudukandihController;
+use App\Http\Controllers\KedudukandpaController;
 use App\Http\Controllers\QnaController;
 use App\Http\Controllers\SharingController;
 use App\Http\Controllers\TugasController;
+use App\Http\Controllers\TugasdihController;
+use App\Http\Controllers\TugasdpaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,6 +42,12 @@ Route::get('galeri', [GaleriController::class, 'index'])->name('galeri.galeri');
 Route::get('contact', [ContactController::class, 'index'])->name('contact.contacts');
 Route::get('qna', [QnaController::class, 'index'])->name('qna.qna');
 Route::get('tugas', [TugasController::class, 'index'])->name('Services.tugastanggungjawab');
+Route::get('fungsidih', [FungsidihController::class, 'index'])->name('Services.fungsidih');
+Route::get('fungsidpa', [FungsidpaController::class, 'index'])->name('Services.fungsidpa');
+Route::get('kedudukandih', [KedudukandihController::class, 'index'])->name('Services.kedudukandih');
+Route::get('kedudukandpa', [KedudukandpaController::class, 'index'])->name('Services.kedudukandpa');
+Route::get('tugasdih', [TugasdihController::class, 'index'])->name('Services.tugasdih');
+Route::get('tugasdpa', [TugasdpaController::class, 'index'])->name('Services.tugasdpa');
 // Route::get('/', function () {
 //     return view('welcome');
 // });
