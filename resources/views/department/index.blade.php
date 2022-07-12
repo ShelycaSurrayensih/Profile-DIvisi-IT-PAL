@@ -145,7 +145,7 @@
             <div class="col-lg-6">
                 <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="image-one">
-                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" 
+                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png"
                         style="height: 700px!important;width: 500px!important;" data-src="assets/images/resource/Aris-5.png" alt="">
                     </div>
                 </div>
@@ -160,7 +160,7 @@
         <div class="sec-title text-center">
             <div class="sub-title">Divisi Teknologi Informasi</div>
             <h2>ROADMAP</h2>
-            <div class="thumb"  align="center"><img src="assets/images/MapRoad.jpg" alt=""></div>
+            <div class="thumb" align="center"><img src="assets/images/MapRoad.jpg" alt=""></div>
         </div>
     </div>
 </section>
@@ -177,9 +177,9 @@
                         <div class="content">
                             <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
                             <div class="count-outer count-box">
-                                <span class="count-text" data-speed="3000" data-stop="4.0">0</span>
+                                <span class="count-text">ITML</span>
                             </div>
-                            <div class="counter-title">ITML</div>
+                            <div class="counter-title">4.0</div>
                         </div>
                     </div>
                 </div>
@@ -203,9 +203,9 @@
                         <div class="content">
                             <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
                             <div class="count-outer count-box">
-                                <span class="count-text" data-speed="3000" data-stop="3.5">0</span>
+                                <span class="count-text">INDI</span>
                             </div>
-                            <div class="counter-title">INDI 4.0</div>
+                            <div class="counter-title">3.5</div>
                         </div>
                     </div>
                 </div>
@@ -216,9 +216,9 @@
                         <div class="content">
                             <div class="icon"><img src="assets/images/icons/icon-15.png" alt=""></div>
                             <div class="count-outer count-box">
-                                <span class="count-text" data-speed="3000" data-stop="42">0</span><span>%</span>
+                                <span class="count-text">Helpdesk</span>
                             </div>
-                            <div class="counter-title">Rating Helpdesk</div>
+                            <div class="counter-title">42%</div>
                         </div>
                     </div>
                 </div>

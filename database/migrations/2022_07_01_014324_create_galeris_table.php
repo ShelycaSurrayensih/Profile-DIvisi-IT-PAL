@@ -14,8 +14,9 @@ class CreateGalerisTable extends Migration
     public function up()
     {
         Schema::create('galeris', function (Blueprint $table) {
-            $table->id();
+            $table->id()->autoIncrement();
             $table->string('nama_kegiatan', 100)->nullable();
+            $table->string('kategori', 50)->nullable();
             $table->string('gambar',50)->nullable();
             $table->timestamps();
         });

@@ -53,18 +53,18 @@
                 {{-- <div class="service-block-one col-lg-2">
 
                 </div> --}}
-                <div class="service-block-one col-lg-4 offset-2">
+                <div class="service-block-one col-lg-6">
                     <div class="inner-box">
-                        <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
-                        <h3><a href={{route("Services.kedudukandih")}}>DEPARTEMEN INFRASTRUKTUR DAN HARDWARE</a></h3>
+                        <div><img src="assets/images/cpu.png"></div><br>
+                        <h3><a href={{route("Services.kedudukandih")}} style="color: black">DEPARTEMEN INFRASTRUKTUR DAN HARDWARE</a></h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
                 </div>
                 <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
+                <div class="service-block-one col-lg-6">
                     <div class="inner-box">
-                        <div class="icon"><span class="flaticon-money"></span><span class="round-shape"></span></div>
-                        <h3><a href={{route("Services.kedudukandpa")}}>DEPARTEMEN PENGEMBANGAN APLIKASI DAN INTEGRASI</a></h3>
+                        <div><img src="assets/images/devops.png"></div><br>
+                        <h3><a href={{route("Services.kedudukandpa")}} style="color: black">DEPARTEMEN PENGEMBANGAN APLIKASI DAN INTEGRASI</a></h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
                 </div>
