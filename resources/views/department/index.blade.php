@@ -177,9 +177,9 @@
                         <div class="content">
                             <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
                             <div class="count-outer count-box">
-                                <span class="count-text">ITML</span>
+                                <span class="count-text" data-speed="3000" data-stop="4.0">0</span>
                             </div>
-                            <div class="counter-title">4.0</div>
+                            <div class="counter-title">ITML</div>
                         </div>
                     </div>
                 </div>
@@ -203,9 +203,9 @@
                         <div class="content">
                             <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
                             <div class="count-outer count-box">
-                                <span class="count-text">INDI</span>
+                                <span class="count-text" data-speed="3000" data-stop="3.5">0</span>
                             </div>
-                            <div class="counter-title">3.5</div>
+                            <div class="counter-title">INDI 4.0</div>
                         </div>
                     </div>
                 </div>
@@ -216,9 +216,9 @@
                         <div class="content">
                             <div class="icon"><img src="assets/images/icons/icon-15.png" alt=""></div>
                             <div class="count-outer count-box">
-                                <span class="count-text">Helpdesk</span>
+                                <span class="count-text" data-speed="3000" data-stop="42">0</span><span>%</span>
                             </div>
-                            <div class="counter-title">42%</div>
+                            <div class="counter-title">Rating Helpdesk</div>
                         </div>
                     </div>
                 </div>
