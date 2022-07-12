@@ -45,7 +45,7 @@
                 <div class="nav-outer clearfix">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="/"><img src="assets/images/logo-2.png" alt=""></a></div>
+                        <div class="logo"><a href="/"><img src="{{asset('assets/images/logo-2.png')}}" alt=""></a></div>
                     </div>
                     <!--Mobile Navigation Toggler-->
                     <div class="mobile-nav-toggler"><span class="icon fal fa-bars"></span></div>
@@ -61,12 +61,19 @@
                                     <ul>
                                         <li><a href={{route("Services.Departement")}}>Departement</a></li>
                                         <li><a href={{route("Services.hotissue")}}>Hot Issue</a></li>
-                                        <li><a href={{route("Services.tugastanggungjawab")}}>Tugas & Tanggung Jawab</a></li>
+                                        <li><a href="services-details.html">Tugas & Tanggung Jawab</a></li>
                                         <li><a href={{route("Services.sharing")}}>Sharing Knowledge</a></li>
                                         <li><a href="https://portal.pal.co.id/">Layanan TI</a></li>
                                     </ul>
                                 </li>
                                 <li><a href={{ route("galeri.galeri")}}>Galeri</a></li>
+                                <li class="dropdown"><a href="#">News</a>
+                                    <ul>
+                                        <li><a href="blog-grid.html">Blog Grid</a></li>
+                                        <li><a href="blog-standard.html">Blog Standard</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
                                 <li class="dropdown"><a href="#">Pages</a>
                                     <ul>
                                         <li><a href={{route('structure.structurediv')}}>Structure</a></li>
@@ -93,9 +100,9 @@
                     <!-- Main Menu End-->
 
                     <!-- Link Btn-->
-                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><img src="assets/images/bumn.png" alt=""></a></div>
+                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><img src="{{ asset('assets/images/bumn.png')}}" alt=""></a></div>
                     <!-- <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="assets/images/logo-2.png" alt=""></a></div>
+                        <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo-2.png')}}" alt=""></a></div>
                     </div> -->
                 </div>
             </div>
@@ -108,7 +115,7 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="/" title=""><img src="assets/images/sticky-logo-2.png" alt="" title=""></a>
+                <a href="/" title=""><img src="{{ asset('assets/images/sticky-logo-2.png')}}" alt="" title=""></a>
             </div>
             <!--Right Col-->
             <div class="pull-right">
@@ -127,7 +134,7 @@
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="/"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="/"><img src="{{asset('assets/images/logo-2.png)')}}" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <!--Social Links-->
             <div class="social-links">
