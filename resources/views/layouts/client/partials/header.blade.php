@@ -93,7 +93,7 @@
                     <!-- Main Menu End-->
 
                     <!-- Link Btn-->
-                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><img src="{{ asset('assets/images/bumn.png')}}" alt=""></a></div>
+                    <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><img src="{{ asset('assets/images/bumn4.png')}}" alt=""></a></div>
                     <!-- <div class="logo-box">
                         <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo-2.png')}}" alt=""></a></div>
                     </div> -->
