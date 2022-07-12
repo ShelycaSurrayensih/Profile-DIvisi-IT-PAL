@@ -67,13 +67,6 @@
                                     </ul>
                                 </li>
                                 <li><a href={{ route("galeri.galeri")}}>Galeri</a></li>
-                                <li class="dropdown"><a href="#">News</a>
-                                    <ul>
-                                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                                        <li><a href="blog-standard.html">Blog Standard</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
                                 <li class="dropdown"><a href="#">Pages</a>
                                     <ul>
                                         <li><a href={{route('structure.structurediv')}}>Structure</a></li>
