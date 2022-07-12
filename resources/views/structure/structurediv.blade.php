@@ -51,8 +51,7 @@
 <div class="container text-center">
     <h2>Struktur Organisasi</h2>
     <img src="assets/images/gallery/gallery-35.png" alt="">
-</div>
-<div class="container text-center">
+
     <h2>Informasi Jabatan</h2>
     <img src="assets/images/gallery/gallery-36.png" alt="">
 </div>
