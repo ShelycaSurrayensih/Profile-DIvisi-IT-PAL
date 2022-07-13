@@ -56,7 +56,8 @@
                             <ul class="navigation clearfix">
                                 <li><a href={{route("department.index")}}>Home</a></li>
                                 <li><a href={{route("visimisi.visi")}}>Visi & Misi</a></li>
-                                <li><a href={{ route("about.aboutus")}}>About Us</a></li>
+                                        <li><a href={{ route("about.aboutus")}}>About Us</a></li>
+                                         <li><a href={{route('structure.structurediv')}}>Structure</a></li>
                                 <li class="dropdown"><a href="#">Services</a>
                                     <ul>
                                         <li><a href={{route("Services.Departement")}}>Departement</a></li>
@@ -66,26 +67,9 @@
                                         <li><a href="https://portal.pal.co.id/">Layanan TI</a></li>
                                     </ul>
                                 </li>
-                                <li><a href={{ route("galeri.galeri")}}>Galeri</a></li>
-                                <li class="dropdown"><a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href={{route('structure.structurediv')}}>Structure</a></li>
-                                        {{-- <li><a href="team.html">Team</a></li>
-                                        <li><a href="team-details.html">Team Details</a></li> --}}
+                                <li><a href={{ route("galeri.galeri")}}>Gallery</a></li>
 
-                                        {{-- <li class="dropdown"><a href="shop.html">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Products</a></li>
-                                                <li><a href="product-details.html">Product Details</a></li>
-                                                <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
-                                        </li> --}}
                                         <li><a href={{route('qna.qna')}}>Qna</a></li>
-                                        {{-- <li><a href="404.html">404</a></li> --}}
-                                    </ul>
-                                </li>
-
                                 <li><a href={{route("contact.contacts")}}>Contact</a></li>
                             </ul>
                         </div>
