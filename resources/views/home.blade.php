@@ -325,8 +325,8 @@
                     <div class="col-lg-6">
                         <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="sec-title">
-                                <div class="sub-title">Profil Divisi Teknologi Informasi PT PAL Indonesia</div>
-                                <div class="text">PT PAL INDONESIA (PERSERO) sudah lebih dari -+30 tahun berpengalaman dalam bidang Rancang Bangun Kapal (Kapal Komersial, Kapal Perang dan Kapal Khusus) dan Rekayasa umum.<br><br>
+                                <div class="sub-title" style="font-size: 25px!important">Profil Divisi Teknologi Informasi PT PAL Indonesia</div>
+                                <div class="text" style="font-size: 18px!important">PT PAL INDONESIA (PERSERO) sudah lebih dari -+30 tahun berpengalaman dalam bidang Rancang Bangun Kapal (Kapal Komersial, Kapal Perang dan Kapal Khusus) dan Rekayasa umum.<br><br>
 
                                     Rancang bangun kapal mencakup berbagai jenis kapal ; Kapal angkutan/muatan curah sampai dengan 50.000 DWT, Kapal Penumpang sampai diatas 500 penumpang, Tanker sampai dengan 30.000 LTDW, Kapal Kontainer sampai sampai 1,600 TEU'S, Kapal Patroli Cepat sampai 57 meter, Tug Boat dan Kapal Pemukat sampai dengan 60 GrossTon. Sebagai tambahan, PT PAL INDONESIA (PERSERO) telah banyak berhasil memproduksi Floating Pier untuk pemeliharaan tentang segala kapal yang tertentu.<br><br>
 
@@ -346,7 +346,7 @@
                         <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="image-one">
                                 <div class="lazy-image owl-lazy img-home" src="assets/images/resource/image-spacer-for-validation.png"
-                                style="height: 700px!important;width: 500px!important;" data-src="assets/images/resource/Aris-5.png" alt="">
+                                style="height: 800px!important;width: 600px!important;" data-src="assets/images/resource/Aris-5.png" alt="">
                             </div>
                         </div>
                     </div>
