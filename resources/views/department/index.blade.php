@@ -39,7 +39,7 @@
                 <div class="content-box">
                     <h3>Divisi Teknologi Informasi</h3>
                     <h2>PT PAL Indonesia </h2>
-                    <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
+
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
                 <div class="content-box">
                     <h3>Divisi Teknologi Informasi</h3>
                     <h2>PT PAL Indonesia</h2>
-                    <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
+
                 </div>
             </div>
         </div>
@@ -146,7 +146,7 @@
                 <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="image-one">
                         <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png"
-                        style="height: 700px!important;width: 500px!important;" data-src="assets/images/resource/Aris-5.png" alt="">
+                        style="height: 500px!important;width: 300px!important;" data-src="assets/images/resource/Aris-5.png" alt="">
                     </div>
                 </div>
             </div>
@@ -229,100 +229,7 @@
 </section>
 
 
-<!-- Statistic Section -->
-<section class="statistic-section">
-    <div class="auto-container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="graph"><img src="assets/images/resource/graph.png" alt=""></div>
-            </div>
-            <div class="col-lg-6">
-                <div class="sec-title">
-                    <div class="sub-title">Our Startegy</div>
-                    <h2>Get Done With <br> Us Your Project</h2>
-                </div>
-                <div class="progress-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <h5>Business Planing</h5>
-                    <div class="bar">
-                        <div class="bar-inner count-bar" data-percent="74%">
-                            <div class="count-text">74%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <h5>Business Planing</h5>
-                    <div class="bar">
-                        <div class="bar-inner count-bar" data-percent="64%">
-                            <div class="count-text">64%</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Services Section Two -->
-<section class="services-section-two">
-    <div class="auto-container">
-        <div class="wrapper-box">
-            <div class="left-column" style="background-image: url(assets/images/background/image-8.jpg);">
-                <div class="sec-title light">
-                    <div class="sub-title">Get In Touch</div>
-                    <h2>Get Us Here Or <br> Share Details</h2>
-                </div>
-                <!-- Contact Form-->
-                <div class="contact-form">
-                    <form method="post" action="http://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
-                        <div class="row clearfix">
-                            <div class="col-md-12 form-group">
-                                <input type="text" name="username" placeholder="Enter name here......" required="">
-                                <i class="fas fa-user"></i>
-                            </div>
-
-                            <div class="col-md-12 form-group">
-                                <input type="email" name="email" placeholder="Enter email here......" required="">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-
-                            <div class="col-md-12 form-group">
-                                <textarea name="message" placeholder="Enter message here......"></textarea>
-                                <i class="fas fa-edit"></i>
-                            </div>
-
-                            <div class="col-md-12 form-group">
-                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Get In Touch</span></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="right-column">
-                <div class="services-content">
-                    <div class="sec-title">
-                        <div class="sub-title">Our Services</div>
-                        <h2>What Actually We <br>Do Here.</h2>
-                    </div>
-                    <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <div class="icon"><img src="assets/images/icons/icon-16.png" alt=""></div>
-                        <h2>Capital Market</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                    <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <div class="icon"><img src="assets/images/icons/icon-17.png" alt=""></div>
-                        <h2>Insurance & Planning</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                    <div class="icon-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                        <div class="icon"><img src="assets/images/icons/icon-18.png" alt=""></div>
-                        <h2>Financial Strategy</h2>
-                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Video Section -->
 <section class="video-section style-two" style="background-image: url(assets/images/background/image-21.jpg);">
@@ -336,60 +243,4 @@
     </div><br><br><br><br><br>
 </section>
 
-<!-- News Section -->
-<section class="news-section">
-    <div class="auto-container">
-        <div class="sec-title text-center">
-            <div class="sub-title">News</div>
-            <h2>News From Resource</h2>
-        </div>
-        <div class="row">
-            <!-- News Block One -->
-            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                <div class="inner-box">
-                    <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-1.jpg" alt=""></a></div>
-                    <div class="lower-content">
-                        <div class="category">Business</div>
-                        <ul class="post-meta">
-                            <li><a href="#"><i class="far fa-calendar-alt"></i>24th March 2020</a></li>
-                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                        </ul>
-                        <h3><a href="blog-details.html">UX is best solution for your <br>business & make noise.</a></h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
-                    </div>
-                </div>
-            </div>
-            <!-- News Block One -->
-            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                <div class="inner-box">
-                    <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-2.jpg" alt=""></a></div>
-                    <div class="lower-content">
-                        <div class="category">Business</div>
-                        <ul class="post-meta">
-                            <li><a href="#"><i class="far fa-calendar-alt"></i>26th March 2020</a></li>
-                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                        </ul>
-                        <h3><a href="blog-details.html">Business consultant is involved in the planning.</a></h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
-                    </div>
-                </div>
-            </div>
-            <!-- News Block One -->
-            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                <div class="inner-box">
-                    <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-3.jpg" alt=""></a></div>
-                    <div class="lower-content">
-                        <div class="category">Business</div>
-                        <ul class="post-meta">
-                            <li><a href="#"><i class="far fa-calendar-alt"></i>28th March 2020</a></li>
-                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                        </ul>
-                        <h3><a href="blog-details.html">Business consultant is a professional who analyzes.</a></h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 @endsection

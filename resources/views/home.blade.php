@@ -231,17 +231,17 @@
         <section class="banner-section style-two">
             <div class="banner-carousel theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
                 <!-- Slide Item -->
-                <div class="slide-item">
+                {{-- <div class="slide-item">
                     <div class="image-layer lazy-image" data-bg="url('assets/images/main-slider/2.jpg')"></div>
 
                     <div class="auto-container">
                         <div class="content-box">
                             <h3>Divisi Teknologi Informasi</h3>
                             <h2>PT PAL Indonesia</h2>
-                            <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
+
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Slide Item -->
                 <div class="slide-item">
@@ -251,7 +251,7 @@
                         <div class="content-box">
                             <h3>Divisi Teknologi Informasi</h3>
                             <h2>PT PAL Indonesia </h2>
-                            <div class="btn-box"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></a><a href="#" class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></a></div>
+
                         </div>
                     </div>
                 </div>
@@ -345,7 +345,7 @@
                     <div class="col-lg-6">
                         <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="image-one">
-                                <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" 
+                                <div class="lazy-image owl-lazy img-home" src="assets/images/resource/image-spacer-for-validation.png"
                                 style="height: 700px!important;width: 500px!important;" data-src="assets/images/resource/Aris-5.png" alt="">
                             </div>
                         </div>

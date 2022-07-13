@@ -33,20 +33,17 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul>
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Portfolio</a></li>
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                    <li><a href={{route("department.index")}}>Home</a></li>
+                                    <li><a href={{route("visimisi.visi")}}>Visi & Misi</a></li>
+                                    <li><a href={{ route("about.aboutus")}}>About Us</a></li>
+                                    <li class="dropdown"><a href="#">Services</a>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Press Release</a></li>
-                                        <li><a href="#">Case Study</a></li>
-                                        <li><a href="#">Terms</a></li>
+                                        <li><a href={{ route("galeri.galeri")}}>Galeri</a></li>
+                                        <li class="dropdown"><a href="#">Pages</a>
+                                        <li><a href={{route("contact.contacts")}}>Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -109,7 +106,7 @@
     <!-- Footer Bottom -->
     <div class="auto-container">
         <div class="footer-bottom">
-            <div class="copyright">Copyright By<a href="#">Template_path</a> - 2020</div>
+            <div class="copyright">Copyright By<a href="#"> Mahasiswa Polinema</a> - 2022</div>
         </div>
     </div>
 </footer>
