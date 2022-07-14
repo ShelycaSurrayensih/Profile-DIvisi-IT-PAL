@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AgalleryController;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\VisiController;
@@ -49,6 +51,11 @@ Route::get('kedudukandih', [KedudukandihController::class, 'index'])->name('Serv
 Route::get('kedudukandpa', [KedudukandpaController::class, 'index'])->name('Services.kedudukandpa');
 Route::get('tugasdih', [TugasdihController::class, 'index'])->name('Services.tugasdih');
 Route::get('tugasdpa', [TugasdpaController::class, 'index'])->name('Services.tugasdpa');
+Route::get('admin', [AdminController::class, 'index'])->name('admin.index');
+Route::get('/admin/gallery/', [AgalleryController::class, 'index'])->name('admin.gallery');
+Route::get('/admin/sharing/', [AgalleryController::class, 'index'])->name('admin.sharing');
+Route::get('/admin/user/', [AgalleryController::class, 'index'])->name('admin.user');
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
