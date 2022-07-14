@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -18,5 +19,9 @@ class Sharing extends Model
     {
         return Sharing::all();
     }
+    // public static function store(Request $request)
+    // {
+    //     Sharing::store($request->all());
+    // }
 
 }

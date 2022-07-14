@@ -8,10 +8,10 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="d-flex align-items-center">
-                                <h4 class="card-title">Tambah Knowledge</h4>
+                                <h4 class="card-title">Tambah Sharing & Knowledge</h4>
                                 <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addRowModal">
                                     <i class="fa fa-plus"></i>
-                                    Add Row
+                                    Tambah Data
                                 </button>
                             </div>
                         </div>
@@ -23,9 +23,9 @@
                                         <div class="modal-header no-bd">
                                             <h5 class="modal-title">
                                                 <span class="fw-mediumbold">
-                                                New</span>
+                                                Tambah</span>
                                                 <span class="fw-light">
-                                                    Row
+                                                    Data
                                                 </span>
                                             </h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -33,33 +33,33 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <p class="small">Create a new row using this form, make sure you fill them all</p>
-                                            <form>
+                                            <p class="small">Tambahkan data baru</p>
+                                            <form action="{{ route('Asharing.store') }}" method="POST" enctype="multipart/form-data">
                                                 <div class="row">
                                                     <div class="col-sm-12">
                                                         <div class="form-group form-group-default">
                                                             <label>Judul</label>
-                                                            <input id="addName" type="text" class="form-control" placeholder="fill name">
+                                                            <input id="judul" type="text" class="form-control" placeholder="Masukkan Judul">
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6 pr-0">
+                                                    <div class="col-sm-12">
                                                         <div class="form-group form-group-default">
-                                                            <label>Text</label>
-                                                            <input id="addPosition" type="text" class="form-control" placeholder="fill position">
+                                                            <label>Deskripsi</label>
+                                                            <input id="description" type="text" class="form-control" placeholder="Description">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-group form-group-default">
-                                                            <label>Gambar</label>
-                                                            <input id="addOffice" type="text" class="form-control" placeholder="fill office">
+                                                            <label>Tanggal Dibuat</label>
+                                                            <input id="tanggal_dibuat" type="date" class="form-control" placeholder="Tanggal">
                                                         </div>
                                                     </div>
                                                 </div>
+                                                 <div class="modal-footer no-bd">
+                                                    <button type="submit" id="addRowButton" class="btn btn-primary">Tambahkan</button>
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                </div>
                                             </form>
-                                        </div>
-                                        <div class="modal-footer no-bd">
-                                            <button type="button" id="addRowButton" class="btn btn-primary">Add</button>
-                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -70,20 +70,32 @@
                                     <thead>
                                         <tr>
                                             <th>Judul</th>
-                                            <th>Text</th>
-                                            <th>Gambar</th>
+                                            <th>Description</th>
                                             <th style="width: 10%">Action</th>
                                         </tr>
                                     </thead>
-                                    {{-- <tfoot>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </tfoot> --}}
+                    
                                     <tbody>
+                                     @foreach($sharings as $s)
+                                            <tr>
+                                                <td class="text-center">{{ $loop->iteration }}</td>
+                                                <td class="text-center">{{ $s->judul }}</td>
+                                                <td class="text-center">{{ $s->description }}</td>
+                                                
+                                                <td class="text-center">
+                                                    {{--  <a href="{{ route('products.edit', $p->id) }}" class="btn btn-primary"><i class="fa fa-edit"></i>Edit</a>
+                                                    <a href="{{ route('products.show', $p->id) }}" class="btn btn-primary"><i class="fa fa-edit">Detail</i></a>  --}}
+                                                    <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i>Edit</a>
+                                                    <a href="#" class="btn btn-primary"><i class="fa fa-edit">Detail</i></a>
+                                                    <form action="{{ route('Asharing.destroy', $s->id) }}" method="POST" class="d-inline">
+                                                        @csrf
+                                                        @method('DELETE')
+                                                        <button type="submit" class="btn btn-danger"><i class="fa fa-trash"></i>
+                                                            Delete</a>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        @endforeach
                                         <tr>
                                             <td>Tiger Nixon</td>
                                             <td>System Architect</td>

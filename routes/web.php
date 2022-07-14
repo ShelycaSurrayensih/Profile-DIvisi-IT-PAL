@@ -56,6 +56,8 @@ Route::get('tugasdpa', [TugasdpaController::class, 'index'])->name('Services.tug
 Route::get('admin', [AdminController::class, 'index'])->name('admin.index');
 Route::get('/admin/gallery/', [AgalleryController::class, 'index'])->name('admin.gallery');
 Route::get('/admin/sharing/', [AsharingController::class, 'index'])->name('admin.sharing');
+Route::post('/admin/sharing/', [AsharingController::class, 'store'])->name('Asharing.store');
+Route::get('/admin/sharing/{id}/destroy', [SharingController::class, 'destroy'])->name('Asharing.destroy');
 Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
 
 // Route::get('/', function () {

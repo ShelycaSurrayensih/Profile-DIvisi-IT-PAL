@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Sharing;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class SharingController extends Controller
 {
@@ -18,4 +19,5 @@ class SharingController extends Controller
         $sharings = Sharing::where('id', $id)->first();
         return view('Services.detail', ['sharings' => $sharings]);
     }
+
 }
