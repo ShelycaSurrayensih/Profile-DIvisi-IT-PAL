@@ -325,7 +325,7 @@
                     <div class="col-lg-6">
                         <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                             <div class="sec-title">
-                                <div class="sub-title" style="font-size: 25px!important">Profil Divisi Teknologi Informasi PT PAL Indonesia</div>
+                                <div class="sub-title" style="font-size: 24px!important">Profil Divisi Teknologi Informasi PT PAL Indonesia</div>
                                 <div class="text" style="font-size: 18px!important">PT PAL INDONESIA (PERSERO) sudah lebih dari -+30 tahun berpengalaman dalam bidang Rancang Bangun Kapal (Kapal Komersial, Kapal Perang dan Kapal Khusus) dan Rekayasa umum.<br><br>
 
                                     Rancang bangun kapal mencakup berbagai jenis kapal ; Kapal angkutan/muatan curah sampai dengan 50.000 DWT, Kapal Penumpang sampai diatas 500 penumpang, Tanker sampai dengan 30.000 LTDW, Kapal Kontainer sampai sampai 1,600 TEU'S, Kapal Patroli Cepat sampai 57 meter, Tug Boat dan Kapal Pemukat sampai dengan 60 GrossTon. Sebagai tambahan, PT PAL INDONESIA (PERSERO) telah banyak berhasil memproduksi Floating Pier untuk pemeliharaan tentang segala kapal yang tertentu.<br><br>

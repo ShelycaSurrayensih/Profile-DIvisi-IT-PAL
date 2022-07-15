@@ -71,7 +71,7 @@
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">
                                 <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
+                                    <div class="sub-title">Divisi Teknologi Informasi</div>
                                     <h2>Quick Win</h2>
                                 </div>
                                 <div class="text">
@@ -94,8 +94,8 @@
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">
                                 <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
-                                    <h2>Just Proved Our Selves <br>For Great Works.</h2>
+                                    <div class="sub-title">Divisi Teknologi Informasi</div>
+                                    <h2>Program Kerja <br>2023.</h2>
                                 </div>
                                 <div class="text">
                                 1. ITML skor 3,6 <br>
@@ -123,8 +123,8 @@
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">
                                 <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
-                                      <h2>Just Proved Our Selves <br>For Great Works.</h2>
+                                    <div class="sub-title">Divisi Teknologi Informasi</div>
+                                      <h2>Program Kerja <br>2024.</h2>
                                 </div>
                                 <div class="text">
                                 1. Big data (lanjutan) <br>
@@ -150,8 +150,8 @@
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">
                                 <div class="sec-title light">
-                                    <div class="sub-title">Get Rewards</div>
-                                    <h2>Just Proved Our Selves <br>For Great Works.</h2>
+                                    <div class="sub-title">Divisi Teknologi Informasi</div>
+                                    <h2>Program Kerja <br>2025.</h2>
                                 </div>
                                 <div class="text">
                                 1. Big data (lanjutan) <br>
