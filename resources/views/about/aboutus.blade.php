@@ -81,7 +81,6 @@
                                 4. Sertifikasi ISO 27001<br>
                                 5. ERP IM 4.0 tahap 1 & 2
                                 </div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -110,7 +109,6 @@
                                 10. Komputerisasi fasilitas & peralatan produksi tahap 1<br>
                                 11. ERP IM 4.0 tahap 3
                                 </div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -137,7 +135,6 @@
                                 8. Security architecture (advanced)<br>
                                 9. Komputerisasi fasilitas & peralatan produksi tahap 2
                                 </div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -160,7 +157,6 @@
                                 4. Dashboard Management (lanjutan)<br>
                                 5. Komputerisasi fasilitas & peralatan produksi tahap 3
                                 </div>
-                                <div class="link-btn"><a href="#" class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></a></div>
                             </div>
                         </div>
                     </div>
