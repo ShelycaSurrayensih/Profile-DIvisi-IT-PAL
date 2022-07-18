@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 class AsharingController extends Controller
 {
     public function index(){
-        return view('admin.sharing');
+        $sharings = Sharing::all();
+        return view('admin.sharing', ['sharing' => $sharings]);
     }
 
     public function store(Request $request)
@@ -23,7 +24,7 @@ class AsharingController extends Controller
             'description' => $request->description,
             'tanggal_dibuat' => $request->tanggal_dibuat,
         ]);
-        return redirect()->route('admin.sharing');
+        return redirect()->back('admin.sharing');
     }
 
     public function edit(Sharing $sharings)
