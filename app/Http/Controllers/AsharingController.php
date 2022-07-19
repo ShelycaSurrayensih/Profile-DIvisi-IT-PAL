@@ -51,9 +51,9 @@ class AsharingController extends Controller
 
 
 
-    public function destroy(Sharing $sharings)
+    public function destroy($id)
     {
-        $sharings->delete();
+        Sharing::find($id)->delete();
         // Alert::toast('Product berhasil dihapus.', 'success');
         return redirect()->route('admin.sharing')->with('success','Data berhasil Dihapus');
     }
