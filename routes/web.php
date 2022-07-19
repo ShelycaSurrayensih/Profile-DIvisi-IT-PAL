@@ -22,6 +22,7 @@ use App\Http\Controllers\SharingController;
 use App\Http\Controllers\TugasController;
 use App\Http\Controllers\TugasdihController;
 use App\Http\Controllers\TugasdpaController;
+use App\Http\Controllers\KategoriController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -59,7 +60,6 @@ Route::get('/admin/sharing/', [AsharingController::class, 'index'])->name('admin
 Route::post('/admin/sharing/', [AsharingController::class, 'store'])->name('Asharing.store');
 Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->name('Asharing.destroy');
 Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/admin/kategori/', [KategoriController::class, 'index'])->name('admin.kategori');
+Route::post('/admin/kategori/', [KategoriController::class, 'store'])->name('kategori.store');
+Route::get('/admin/kategori/{id}', [KategoriController::class, 'destroy'])->name('Kategori.destroy');

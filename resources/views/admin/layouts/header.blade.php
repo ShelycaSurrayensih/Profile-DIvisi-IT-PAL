@@ -95,6 +95,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href={{route("admin.kategori")}}>
+                        <p>Kategori</p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href={{route("admin.user")}}>
                         <p>User</p>
                     </a>

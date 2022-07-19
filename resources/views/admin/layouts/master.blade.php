@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Atlantis Lite - Bootstrap 4 Admin Dashboard</title>
+	<title>Admin Divisi Teknologi</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-	<link rel="icon" href="{{asset('assets/images/admin/icon.ico')}}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon-pal.png') }}" type="image/x-icon">
 
 	<!-- Fonts and icons -->
 	<script src="{{asset('assets/js/admin/plugin/webfont/webfont.min.js')}}"></script>
