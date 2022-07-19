@@ -34,19 +34,17 @@
                                 <div class="col-md-6">
                                     <ul>
                                         <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Portfolio</a></li>
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Visi Misi</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Structure</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Press Release</a></li>
-                                        <li><a href="#">Case Study</a></li>
-                                        <li><a href="#">Terms</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Qna</a></li>
+                                        <li><a href="#">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>

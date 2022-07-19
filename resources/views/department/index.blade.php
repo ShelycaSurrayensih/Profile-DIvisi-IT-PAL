@@ -228,9 +228,6 @@
     </div>
 </section>
 
-
-
-
 <!-- Video Section -->
 <section class="video-section style-two" style="background-image: url(assets/images/background/image-21.jpg);">
     <div class="auto-container">

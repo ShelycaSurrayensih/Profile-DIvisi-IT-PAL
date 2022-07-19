@@ -29,7 +29,7 @@
                         <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                         <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                         <li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                        <li><a href="https://id.linkedin.com/company/pt-pal-indonesia" target="_blank"><span class="fab fa-linkedin"></span></a></li>
                         <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                     </ul>
                 </div>

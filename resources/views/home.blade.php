@@ -76,7 +76,7 @@
                                 <li><a href="https://www.facebook.com/HumasPTPAL/" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="https://twitter.com/ptpal_indonesia" target="_blank"><span class="fab fa-twitter"></span></a></li>
                                 <li><a href="https://www.instagram.com/ptpal_indonesia/" target="_blank"><span class="fab fa-instagram"></span></a></li>
-                                <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                                <li><a href="https://id.linkedin.com/company/pt-pal-indonesia" target="_blank"><span class="fab fa-linkedin"></span></a></li>
                                 <li><a href="https://www.youtube.com/channel/UCe-18Eak4NoI34ts2_vLZ6w" target="_blank"><span class="fab fa-youtube"></span></a></li>
                             </ul>
                         </div>
@@ -929,19 +929,17 @@
                                         <div class="col-md-6">
                                             <ul>
                                                 <li><a href="#">Home</a></li>
-                                                <li><a href="#">About</a></li>
-                                                <li><a href="#">Services</a></li>
-                                                <li><a href="#">Portfolio</a></li>
-                                                <li><a href="#">Pricing</a></li>
-                                                <li><a href="#">Contact</a></li>
+                                                <li><a href="#">Visi Misi</a></li>
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Structure</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-md-6">
                                             <ul>
-                                                <li><a href="#">News</a></li>
-                                                <li><a href="#">Press Release</a></li>
-                                                <li><a href="#">Case Study</a></li>
-                                                <li><a href="#">Terms</a></li>
+                                                <li><a href="#">Services</a></li>
+                                                <li><a href="#">Gallery</a></li>
+                                                <li><a href="#">Qna</a></li>
+                                                <li><a href="#">Contact</a></li>
                                             </ul>
                                         </div>
                                     </div>
