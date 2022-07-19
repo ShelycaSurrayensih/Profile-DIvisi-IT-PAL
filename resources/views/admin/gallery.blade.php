@@ -66,8 +66,8 @@
                                                                 </div>
                                                             </div>
                                                         </div> --}}
-                                                        <div class="form-group">
-                                                            <strong>Gambar</strong>
+                                                        {{-- <div class="form-group"> --}}
+                                                            <label>Gambar</label>
                                                             <input type="file" name="gambar" class="form-control" placeholder="image">
                                                         </div>
                                                     </div>
