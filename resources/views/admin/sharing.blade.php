@@ -35,23 +35,24 @@
                                         <div class="modal-body">
                                             <p class="small">Tambahkan data baru</p>
                                             <form action="{{ route('Asharing.store') }}" method="POST" enctype="multipart/form-data">
+                                                @csrf
                                                 <div class="row">
                                                     <div class="col-sm-12">
                                                         <div class="form-group form-group-default">
                                                             <label>Judul</label>
-                                                            <input id="judul" type="text" class="form-control" placeholder="Masukkan Judul">
+                                                            <input id="judul" type="text" name="judul" class="form-control" placeholder="Masukkan Judul">
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-12">
                                                         <div class="form-group form-group-default">
                                                             <label>Deskripsi</label>
-                                                            <input id="description" type="text" class="form-control" placeholder="Description">
+                                                            <input id="description" type="text" name="description" class="form-control" placeholder="Description">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-group form-group-default">
                                                             <label>Tanggal Dibuat</label>
-                                                            <input id="tanggal_dibuat" type="date" class="form-control" placeholder="Tanggal">
+                                                            <input id="tanggal_dibuat" type="date" name="tanggal_dibuat" class="form-control" placeholder="Tanggal">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -75,13 +76,13 @@
                                             <th style="width: 30%">Action</th>
                                         </tr>
                                     </thead>
-                    
+
                                     <tbody>
                                      @foreach($sharing as $s)
                                             <tr>
                                                 <td class="text-center">{{ $loop->iteration }}</td>
                                                 <td class="text-center">{{ $s->judul }}</td>
-                                                <td class="text-center">{{ $s->description }}</td>                                                
+                                                <td class="text-center">{{ $s->description }}</td>
                                                 <td class="text-center">
                                                     {{--  <a href="{{ route('products.edit', $p->id) }}" class="btn btn-primary"><i class="fa fa-edit"></i>Edit</a>
                                                     <a href="{{ route('products.show', $p->id) }}" class="btn btn-primary"><i class="fa fa-edit">Detail</i></a>  --}}
@@ -90,8 +91,7 @@
                                                     <form action="{{ route('Asharing.destroy', $s->id) }}" method="POST" class="d-inline">
                                                         @csrf
                                                         @method('DELETE')
-                                                        <button type="submit" class="btn btn-danger"><i class="fa fa-trash"></i>
-                                                            Delete</a>
+                                                        <button type="submit" class="btn btn-danger" onclick="return confirm('Apa anda yakin menghapus data tersebut?')"><i class="fa fa-trash">Delete</i></a>
                                                     </form>
                                                 </td>
                                             </tr>
