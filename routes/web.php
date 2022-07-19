@@ -22,7 +22,6 @@ use App\Http\Controllers\SharingController;
 use App\Http\Controllers\TugasController;
 use App\Http\Controllers\TugasdihController;
 use App\Http\Controllers\TugasdpaController;
-use App\Http\Controllers\KategoriController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -56,10 +55,9 @@ Route::get('tugasdih', [TugasdihController::class, 'index'])->name('Services.tug
 Route::get('tugasdpa', [TugasdpaController::class, 'index'])->name('Services.tugasdpa');
 Route::get('admin', [AdminController::class, 'index'])->name('admin.index');
 Route::get('/admin/gallery/', [AgalleryController::class, 'index'])->name('admin.gallery');
+Route::post('/admin/gallery/', [AgalleryController::class, 'store'])->name('gallery.store');
+Route::delete('/admin/gallery/{id}', [AgalleryController::class, 'destroy'])->name('gallery.destroy');
 Route::get('/admin/sharing/', [AsharingController::class, 'index'])->name('admin.sharing');
 Route::post('/admin/sharing/', [AsharingController::class, 'store'])->name('Asharing.store');
 Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->name('Asharing.destroy');
 Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
-Route::get('/admin/kategori/', [KategoriController::class, 'index'])->name('admin.kategori');
-Route::post('/admin/kategori/', [KategoriController::class, 'store'])->name('kategori.store');
-Route::get('/admin/kategori/{id}', [KategoriController::class, 'destroy'])->name('Kategori.destroy');

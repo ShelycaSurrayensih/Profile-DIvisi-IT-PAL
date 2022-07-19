@@ -94,11 +94,11 @@
                         <p>Sharing & Knowledge</p>
                     </a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a href={{route("admin.kategori")}}>
                         <p>Kategori</p>
                     </a>
-                </li>
+                </li> --}}
                 <li class="nav-item">
                     <a href={{route("admin.user")}}>
                         <p>User</p>

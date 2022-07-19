@@ -10,6 +10,7 @@ class galeri extends Model
     use HasFactory;
     protected $fillable = [
         'nama_kegiatan',
+        'kategori',
         'gambar',
     ];
     public static function index()
