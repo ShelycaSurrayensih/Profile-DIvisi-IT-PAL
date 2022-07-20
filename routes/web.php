@@ -60,4 +60,6 @@ Route::delete('/admin/gallery/{id}', [AgalleryController::class, 'destroy'])->na
 Route::get('/admin/sharing/', [AsharingController::class, 'index'])->name('admin.sharing');
 Route::post('/admin/sharing/', [AsharingController::class, 'store'])->name('Asharing.store');
 Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->name('Asharing.destroy');
+Route::put('/admin/sharing/{id}', [AsharingController::class, 'update'])->name('Asharing.update');
+// Route::resource('sharing', App\Http\Controllers\AsharingController::class);
 Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');

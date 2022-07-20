@@ -42,9 +42,19 @@ class AsharingController extends Controller
     }
 
 
-    public function update(Request $request, Sharing $sharings)
+    public function update(Request $request, $id)
     {
-        //
+        Sharing::find($id)->update([
+            'judul'=>$request->judul,
+            'description'=>$request->description,
+        ]);
+        // $request->validate([
+        //     'judul'=>'required',
+        //     'description'=>'required',
+        // ]);
+        // $input = $request->all();
+        // $sharings->update($input);
+        return redirect()->route('admin.sharing')->with('success', 'Data Berhasil Diedit');
     }
 
 
