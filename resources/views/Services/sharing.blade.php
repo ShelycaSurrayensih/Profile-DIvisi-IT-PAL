@@ -57,7 +57,7 @@
                     <div class="inner-box">
                         <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-1.jpg" alt=""></a></div>
                         <div class="lower-content">
-                            <div class="category">Business</div>
+                            <div class="category">News</div>
                             <ul class="post-meta">
                                 <li><a href=""><i class="far fa-calendar-alt"></i>{{ $sharing->tanggal_dibuat}}</a></li>
                                 <li><a href=""><i class="far fa-user"></i>By Admin</a></li>
