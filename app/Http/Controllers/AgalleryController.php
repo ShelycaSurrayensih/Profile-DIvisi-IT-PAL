@@ -38,12 +38,6 @@ class AgalleryController extends Controller
         ]);
         $input = $request->all();
         $data = Galeri::create($input);
-        // if ($image = $request->file('gambar')) {
-        //     $destinationPath = 'image/';
-        //     $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
-        //     $image->move($destinationPath, $profileImage);
-        //     $input['image'] = "$profileImage";
-        // }
         if ($request->hasFile('gambar')) {
             $request->file('gambar')->move('images/', $request->file('gambar')->getClientOriginalName());
             $data->gambar = $request->file('gambar')->getClientOriginalName();
@@ -83,9 +77,24 @@ class AgalleryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, galeri $galeris)
+    public function update(Request $request, $id)
     {
-        //
+        Galeri::find($id)->update([
+            'nama_kegiatan'=>$request->nama_kegiatan,
+            'kategori'=>$request->kategori,
+            // 'gambar'=>$request->gambar,
+        ]);
+        $input = $request->all();
+        if ($image = $request->file('gambar')) {
+            $destinationPath = 'images/';
+            $profileImage = date('YmdHis').".".$image->getClientOriginalExtension();
+            $image->move($destinationPath, $profileImage);
+            $input['gambar'] = "$profileImage";
+        } else {
+            unset($input['gambar']);
+        }
+        Galeri::find($id)->update($input);
+        return redirect()->route('admin.gallery')->with('success', 'Data Berhasil Diedit');
     }
 
     /**
@@ -96,6 +105,8 @@ class AgalleryController extends Controller
      */
     public function destroy($id)
     {
+        $gambar = Galeri::find($id);
+        unlink("images/".$gambar->gambar);
         Galeri::find($id)->delete();
         // Alert::success('Success','kategori berhasil dihapus');
         return redirect()->route('admin.gallery')->with('Success','Data berhasil dihapus');

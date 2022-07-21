@@ -57,6 +57,7 @@ Route::get('admin', [AdminController::class, 'index'])->name('admin.index');
 Route::get('/admin/gallery/', [AgalleryController::class, 'index'])->name('admin.gallery');
 Route::post('/admin/gallery/', [AgalleryController::class, 'store'])->name('gallery.store');
 Route::delete('/admin/gallery/{id}', [AgalleryController::class, 'destroy'])->name('gallery.destroy');
+Route::put('/admin/gallery/{id}', [AgalleryController::class, 'update'])->name('Agallery.update');
 Route::get('/admin/sharing/', [AsharingController::class, 'index'])->name('admin.sharing');
 Route::post('/admin/sharing/', [AsharingController::class, 'store'])->name('Asharing.store');
 Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->name('Asharing.destroy');
