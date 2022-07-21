@@ -28,9 +28,9 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    @extends('admin.modals.modaledit')
+                                    @extends('admin.modals.modaldetail')
                                      @foreach($sharing as $s)
-                                        @extends('admin.modals.modaledit')
-                                        @extends('admin.modals.modaldetail')
                                             <tr>
                                                 <td class="text-center">{{ $loop->iteration }}</td>
                                                 <td class="text-center">{{ $s->judul }}</td>

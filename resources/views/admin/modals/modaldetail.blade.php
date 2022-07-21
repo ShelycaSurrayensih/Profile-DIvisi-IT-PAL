@@ -15,7 +15,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p class="small">Detail Data ID {{ $s->id }}</p>
+                    <p class="small">Detail Data ID {{ $loop->iteration }}</p>
                     {{-- <form action="{{ route('Asharing.index') }}" method="POST" enctype="multipart/form-data">
                     @csrf --}}
                     <div class="row">

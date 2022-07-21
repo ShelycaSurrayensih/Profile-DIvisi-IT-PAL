@@ -101,7 +101,7 @@
                                                 <td class="text-center">{{ $loop->iteration }}</td>
                                                 <td class="text-center">{{ $g->nama_kegiatan }}</td>
                                                 <td class="text-center">{{ $g->kategori}}</td>
-                                                <td><img src="/image/{{ $g->gambar}}" width="100px"></td>
+                                                <td><img src="{{asset('images/'.$g->gambar) }}" width="100px"></td>
                                                 <td class="text-center">
                                                     {{--  <a href="{{ route('products.edit', $p->id) }}" class="btn btn-primary"><i class="fa fa-edit"></i>Edit</a>
                                                     <a href="{{ route('products.show', $p->id) }}" class="btn btn-primary"><i class="fa fa-edit">Detail</i></a>  --}}

@@ -37,14 +37,19 @@ class AgalleryController extends Controller
             'gambar' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
         $input = $request->all();
-        if ($image = $request->file('gambar')) {
-            $destinationPath = 'image/';
-            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
-            $image->move($destinationPath, $profileImage);
-            $input['image'] = "$profileImage";
+        $data = Galeri::create($input);
+        // if ($image = $request->file('gambar')) {
+        //     $destinationPath = 'image/';
+        //     $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
+        //     $image->move($destinationPath, $profileImage);
+        //     $input['image'] = "$profileImage";
+        // }
+        if ($request->hasFile('gambar')) {
+            $request->file('gambar')->move('images/', $request->file('gambar')->getClientOriginalName());
+            $data->gambar = $request->file('gambar')->getClientOriginalName();
+            $data->save();
         }
 
-        Galeri::create($input);
         return redirect()->route('admin.gallery')->with('success', 'Data Berhasil Ditambahkan');
     }
 
