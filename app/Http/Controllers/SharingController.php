@@ -10,7 +10,7 @@ class SharingController extends Controller
 {
     public function index()
     {
-        $sharings = Sharing::orderByDesc('created_at')->limit(3)->get();
+        $sharings = Sharing::orderByDesc('created_at')->get();
         return view('Services.sharing', compact('sharings'));
     }
 
