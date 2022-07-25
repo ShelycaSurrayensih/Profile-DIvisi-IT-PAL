@@ -12,6 +12,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="thumb"  align="center"><img src="assets/images/VisiMisi.jpg" alt=""></div>
 			</div>
 		</div>
 @endsection
