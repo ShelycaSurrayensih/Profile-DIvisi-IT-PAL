@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AdepartmentController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AgalleryController;
 use App\Http\Controllers\AsharingController;
@@ -64,3 +65,6 @@ Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->na
 Route::put('/admin/sharing/{id}', [AsharingController::class, 'update'])->name('Asharing.update');
 // Route::resource('sharing', App\Http\Controllers\AsharingController::class);
 Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
+Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
+Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
+Route::delete('/admin/department/{id}', [AdepartmentController::class, 'index'])->name('department.destroy');
