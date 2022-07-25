@@ -67,4 +67,4 @@ Route::put('/admin/sharing/{id}', [AsharingController::class, 'update'])->name('
 Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
 Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
 Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
-Route::delete('/admin/department/{id}', [AdepartmentController::class, 'index'])->name('department.destroy');
+Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
