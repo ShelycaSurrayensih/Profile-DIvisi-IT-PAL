@@ -28,7 +28,12 @@
                         <div class="col-sm-12">
                             <div class="form-group form-group-default">
                                 <label>Kategori</label>
-                                <input id="kategori" type="text" name="kategori" class="form-control" placeholder="Masukkan Kategori">
+                                <select name="kategori" id="kategori" type="text" class="form-control" placeholder="Masukkan Kategori">
+                                    <option value="Seminar">Seminar</option>
+                                    <option value="Project">Project</option>
+                                    <option value="Kegiatan Divisi">Kegiatan Divisi</option>
+                                </select>
+                                {{-- <input id="kategori" type="text" name="kategori" class="form-control" placeholder="Masukkan Kategori"> --}}
                             </div>
                         </div>
                         <div class="col-sm-12">

@@ -61,7 +61,12 @@
                                                                     <div class="col-sm-12">
                                                                         <div class="form-group form-group-default">
                                                                             <label>Kategori</label>
-                                                                            <input id="kategori" type="text" name="kategori" value="{{ $g->kategori }}" class="form-control" placeholder="Masukkan Kategori">
+                                                                            <select name="kategori" id="kategori" type="text" class="form-control" placeholder="Masukkan Kategori">
+                                                                                <option value="Seminar" {{$g->kategori == 'Seminar' ? 'selected' : ''}}>Seminar</option>
+                                                                                <option value="Project" {{$g->kategori == 'Project' ? 'selected' : ''}}>Project</option>
+                                                                                <option value="Kegiatan Divisi" {{$g->kategori == 'Kegiatan Divisi' ? 'selected' : ''}}>Kegiatan Divisi</option>
+                                                                            </select>
+                                                                            {{-- <input id="kategori" type="text" name="kategori" value="{{ $g->kategori }}" class="form-control" placeholder="Masukkan Kategori"> --}}
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-md-6">
