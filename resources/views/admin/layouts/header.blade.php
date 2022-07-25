@@ -85,6 +85,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a href={{route("admin.department")}}>
+                        <p>Department</p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a href={{route("admin.gallery")}}>
                         <p>Gallery</p>
                     </a>
