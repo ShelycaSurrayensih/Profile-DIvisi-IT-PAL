@@ -15,7 +15,7 @@ class GaleriController extends Controller
     public function index()
     {
         $galeri = Galeri::index();
-        return view('galeri.galeri', ['galeris' => Galeri::index()]);
+        return view('galeri.galeri', ['galeris' => $galeri]);
     }
 
     /**

@@ -122,6 +122,7 @@
                                                                 <div class="col-md-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Gambar</label>
+                                                                        {{ $g->gambar }} <br>
                                                                         <img src="{{asset('images/'.$g->gambar)}}"  width="100px" alt="">
                                                                     </div>
                                                                 </div>
