@@ -1,29 +1,30 @@
 <?php
 
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\AdepartmentController;
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\AgalleryController;
-use App\Http\Controllers\AsharingController;
-use App\Http\Controllers\AuserController;
-use App\Http\Controllers\DepartmentController;
-use App\Http\Controllers\ServiceController;
-use App\Http\Controllers\VisiController;
-use App\Http\Controllers\HotissueController;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\QnaController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\StructureController;
+use App\Http\Controllers\VisiController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AuserController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\TugasController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\FungsidihController;
-use App\Http\Controllers\FungsidpaController;
-use App\Http\Controllers\KedudukandihController;
-use App\Http\Controllers\KedudukandpaController;
-use App\Http\Controllers\QnaController;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SharingController;
-use App\Http\Controllers\TugasController;
+use App\Http\Controllers\AgalleryController;
+use App\Http\Controllers\AsharingController;
+use App\Http\Controllers\HotissueController;
 use App\Http\Controllers\TugasdihController;
 use App\Http\Controllers\TugasdpaController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FungsidihController;
+use App\Http\Controllers\FungsidpaController;
+use App\Http\Controllers\StructureController;
+use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\AdepartmentController;
+use App\Http\Controllers\KedudukandihController;
+use App\Http\Controllers\KedudukandpaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -68,3 +69,4 @@ Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user'
 Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
 Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
 Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
+Route::get('login', [LoginController::class, 'index'])->name('admin.login');
