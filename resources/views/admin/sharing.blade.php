@@ -17,7 +17,6 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                @extends('admin.modals.modaladd')
                                 <div class="table-responsive">
                                     <table id="add-row" class="display table table-striped table-hover text-center">
                                         <thead>
