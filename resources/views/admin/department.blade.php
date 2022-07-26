@@ -1,6 +1,5 @@
 @extends('admin.layouts.master')
 @section('content')
-    <div class="main-panel">
         <div class="content">
             <div class="page-inner">
                 <div class="row">
@@ -148,7 +147,7 @@
                                                                                         class="col-form-label">Masukkan
                                                                                         kedudukan:</label>
                                                                                     <textarea class="form-control" id="kedudukan"></textarea>
-                                                                                </div>                       
+                                                                                </div>
                                                                             </div>
                                                                             <div
                                                                                 class="modal-footer border-top-0 d-flex justify-content-center">
@@ -182,7 +181,7 @@
                                                                                         class="col-form-label">Masukkan
                                                                                         organisasi:</label>
                                                                                     <textarea class="form-control" id="organisasi"></textarea>
-                                                                                </div>                       
+                                                                                </div>
                                                                             </div>
                                                                             <div
                                                                                 class="modal-footer border-top-0 d-flex justify-content-center">
@@ -216,7 +215,7 @@
                                                                                         class="col-form-label">Masukkan
                                                                                         fungsi:</label>
                                                                                     <textarea class="form-control" id="fungsi"></textarea>
-                                                                                </div>                       
+                                                                                </div>
                                                                             </div>
                                                                             <div
                                                                                 class="modal-footer border-top-0 d-flex justify-content-center">
@@ -250,7 +249,7 @@
                                                                                         class="col-form-label">Masukkan
                                                                                         tugas:</label>
                                                                                     <textarea class="form-control" id="tugas"></textarea>
-                                                                                </div>                                         
+                                                                                </div>
                                                                             </div>
                                                                             <div
                                                                                 class="modal-footer border-top-0 d-flex justify-content-center">
@@ -298,5 +297,4 @@
                 </div>
             </div>
         </div>
-    </div>
 @endsection

@@ -1,6 +1,5 @@
 @extends('admin.layouts.master')
 @section('content')
-    <div class="main-panel">
         <div class="content">
             <div class="page-inner">
                 <div class="row">
@@ -16,7 +15,7 @@
                                     </button>
                                 </div>
                             </div>
-                             @extends('admin.modals.modaladd')
+                             @include('admin.modals.modaladd')
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table id="add-row" class="display table table-striped table-hover text-center">
@@ -187,5 +186,4 @@
                 </div>
             </div>
         </div>
-    </div>
 @endsection

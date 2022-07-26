@@ -24,12 +24,14 @@
 </head>
 <body>
 	<div class="wrapper">
-		{{-- header --}}
         @include('admin.layouts.header')
-        @yield('content')
+        <div class="main-panel">
+            {{-- header --}}
+            @yield('content')
             {{-- footer --}}
             @include('admin.layouts.footer')
-		</div>
+	        {{-- </div> --}}
+        </div>
 	</div>
     <!--   Core JS Files   -->
     <script src="{{asset('assets/js/admin/core/jquery.3.2.1.min.js')}}"></script>

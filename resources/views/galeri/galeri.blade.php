@@ -1,113 +1,156 @@
-@extends('layouts.client.master')
+@extends('admin.layouts.master')
 @section('content')
-    <!--Search Popup-->
-    <div id="search-popup" class="search-popup">
-        <div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
-        <div class="popup-inner">
-            <div class="overlay-layer"></div>
-            <div class="search-form">
-                <form method="post" action="http://azim.commonsupport.com/Finandox/index.html">
-                    <div class="form-group">
-                        <fieldset>
-                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
-                            <input type="submit" value="Search Now!" class="theme-btn">
-                        </fieldset>
+        <div class="content">
+            <div class="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <h4 class="card-title">Tambah Galleri</h4>
+                                    <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addModal">
+                                        <i class="fa fa-plus"></i>
+                                        Tambah Data
+                                    </button>
+                                </div>
+                            </div>
+                            @include('admin.modals.addgallery')
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="add-row" class="display table table-striped table-hover text-center">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Nama Kegiatan</th>
+                                                <th>Kategori</th>
+                                                <th>Gambar</th>
+                                                <th style="width: 30%">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach ($galeri as $g)
+                                                <!--start modal edit-->
+                                                <div class="modal fade" id="editModal{{$g->$id}}" tabindex="-1" role="dialog" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div lass="modal-header no-bd">
+                                                                <h5 class="modal-title">
+                                                                    <span class="fw-mediumbold">
+                                                                        Edit Data
+                                                                    </span>
+                                                                </h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p class="small">Edit Data ID {{ $loop->iteration }}</p>
+                                                                <form action="{{ route('Agallery.update', $g->id)}}" method="POST" enctype="multipart/form-data">
+                                                                    @csrf
+                                                                    @method('PUT')
+                                                                    <div class="row">
+                                                                        <div class="col-sm-12">
+                                                                            <div class="form-group form-group-default">
+                                                                                <label>Judul</label>
+                                                                                <input id="nama_kegiatan" type="text" name="nama_kegiatan" value="{{ $g->nama_kegiatan }}" class="form-control" placeholder="Masukkan Nama kegiatan">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-12">
+                                                                            <div class="form-group form-group-default">
+                                                                                <label>Kategori</label>
+                                                                                <select name="kategori" id="kategori" type="text" class="form-control" placeholder="Masukkan Kategori">
+                                                                                    <option value="Seminar" {{$g->kategori == 'Seminar' ? 'selected' : ''}}>Seminar</option>
+                                                                                    <option value="Project" {{$g->kategori == 'Project' ? 'selected' : ''}}>Project</option>
+                                                                                    <option value="Kegiatan Divisi" {{$g->kategori == 'Kegiatan Divisi' ? 'selected' : ''}}>Kegiatan Divisi</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6">
+                                                                            <div class="form-group form-group-default">
+                                                                                <label>Gambar</label>
+                                                                                <input type="file" name="gambar" class="form-control" placeholder="image">
+                                                                            </div>
+                                                                            <img src="{{asset('images/'.$g->gambar)}}"  width="100px" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="modal-footer np-bd">
+                                                                        <button type="submit" id="editRowButton" class="btn btn-primary">Simpan</button>
+                                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--End Modal Edit-->
+
+                                                <!--Start Modal Detail-->
+                                                <div class="modal fade" id="detailModal{{ $g->id }}" tabindex="-1" role="dialog" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header no-bd">
+                                                                <h5 class="modal-title">
+                                                                    <span class="fw-mediumbold">
+                                                                        Details Data
+                                                                    </span>
+                                                                </h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p class="small">Detail Data ID {{ $loop->iteration }}</p>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group form-group-default">
+                                                                        <label>Nama Kegiatan</label>
+                                                                        {{ $g->nama_kegiatan }}
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                    <div class="form-group form-group-default">
+                                                                        <label>Kategori</label>
+                                                                        {{ $g->kategori }}
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group form-group-default">
+                                                                        <label>Gambar</label>
+                                                                        {{ $g->gambar }} <br>
+                                                                        <img src="{{asset('images/'.$g->gambar)}}"  width="100px" alt="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer no-bd">
+                                                                <button type="button" class="btn btn-danger"
+                                                                    data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--End Modal Detail-->
+                                                <tr>
+                                                    <td class="text-center">{{ $loop->iteration }}</td>
+                                                    <td class="text-center">{{ $g->nama_kegiatan }}</td>
+                                                    <td class="text-center">{{ $g->kategori }}</td>
+                                                    <td class="text-center"><img src="{{asset('images/'.$g->gambar) }}" width="100px"></td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-primary" data-toggle="modal" data-target="#editModal{{ $g->id }}"><i class="fa fa-edit">Edit</i></button>
+                                                        <button class="btn btn-info" data-toggle="modal" data-target="#detailModal{{ $g->id }}"><i class="fa fa-edit">Details</i></button>
+                                                        <form action="{{ route('gallery.destroy', $g->id) }}" method="POST" class="d-inline">
+                                                            @csrf
+                                                            @method('DELETE')
+                                                            <button type="submit" class="btn btn-danger" onclick="return confirm('Apa anda yakin menghapus data tersebut?')"><i class="fa fa-trash">Delete</i></a>
+                                                        </form>
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </form>
-                <br>
-                <h3>Recent Search Keywords</h3>
-                <ul class="recent-searches">
-                    <li><a href="#">Finance</a></li>
-                    <li><a href="#">Idea</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Growth</a></li>
-                    <li><a href="#">Plan</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Page Banner Section -->
-    <section class="page-banner">
-        <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
-        <div class="bottom-rotten-curve alternate"></div>
-
-        <div class="auto-container">
-            <h1>Gallery</h1>
-            <ul class="bread-crumb clearfix">
-                <li><a href={{route("department.index")}}>Home</a></li>
-                <li class="active">Gallery</li>
-            </ul>
-        </div>
-
-    </section>
-    <!--End Banner Section -->
-
-    <!-- Gallery Section -->
-    <section class="gallery-section">
-        <div class="sortable-masonry">
-            <div class="auto-container">
-                <!--Filter-->
-                <div class="filters text-center">
-                    <ul class="filter-tabs filter-btns">
-                        <li class="active filter" data-role="button" data-filter=".all"><span>Seminar</span></li>
-                        <li class="filter" data-role="button" data-filter=".category-1"><span>Project</span></li>
-                        <li class="filter" data-role="button" data-filter=".category-2"><span>Kegiatan Divisi</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="auto-container">
-                <div class="items-container row">
-                    <!-- Gallery Block One -->
-                    @foreach ($galeris as $gal)
-                        @if ($gal->kategori == 'Seminar')
-                            <div class="col-lg-3 col-md-6 gallery-block-one all">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="{{asset('images/'.$gal->gambar)}}" alt="" style="width: 370px; height:300px">
-                                    </div>
-                                    <div class="caption-title">
-                                        <h3><a href="#">{{ $gal->nama_kegiatan }}</a></h3>
-                                        <div class="view-project"><a data-fancybox="example gallery" href="{{asset('images/'.$gal->gambar)}}" class="zoom-btn"><span>+</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        @endif
-                    @endforeach
-                    @foreach ($galeris as $gal)
-                        @if ($gal->kategori == 'Project')
-                            <div class="col-lg-3 col-md-6 gallery-block-one category-1">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="{{asset('images/'.$gal->gambar)}}" alt="" style="width: 370px; height:300px">
-                                    </div>
-                                    <div class="caption-title">
-                                        <h3><a href="#">{{ $gal->nama_kegiatan }}</a></h3>
-                                        <div class="view-project"><a data-fancybox="example gallery" href="{{asset('images/'.$gal->gambar)}}" class="zoom-btn"><span>+</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        @endif
-                    @endforeach
-                    @foreach ($galeris as $gal)
-                        @if ($gal->kategori == 'Kegiatan Divisi')
-                            <div class="col-lg-3 col-md-6 gallery-block-one category-2">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <img src="{{asset('images/'.$gal->gambar)}}" alt="" style="width: 370px; height:300px">
-                                    </div>
-                                    <div class="caption-title">
-                                        <h3><a href="#">{{ $gal->nama_kegiatan }}</a></h3>
-                                        <div class="view-project"><a data-fancybox="example gallery" href="{{asset('images/'.$gal->gambar)}}" class="zoom-btn"><span>+</span></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        @endif
-                    @endforeach
-                    <!-- End block -->
                 </div>
             </div>
         </div>
-    </section>
 @endsection

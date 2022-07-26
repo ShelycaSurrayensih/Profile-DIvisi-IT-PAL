@@ -1,6 +1,5 @@
 @extends('admin.layouts.master')
 @section('content')
-		<div class="main-panel">
 			<div class="content">
 				<div class="panel-header bg-primary-gradient">
 					<div class="page-inner py-5">
@@ -12,7 +11,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="thumb"  align="center"><img src="assets/images/VisiMisi.jpg" alt=""></div>
+				<div class="thumb" align="center"><img src="assets/images/VisiMisi.jpg" alt=""></div>
 			</div>
-		</div>
 @endsection

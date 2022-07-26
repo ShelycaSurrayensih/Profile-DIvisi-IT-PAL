@@ -1,6 +1,5 @@
 @extends('admin.layouts.master')
 @section('content')
-<div class="main-panel">
     <div class="content">
         <div class="page-inner">
             <div class="row">
@@ -243,5 +242,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection
