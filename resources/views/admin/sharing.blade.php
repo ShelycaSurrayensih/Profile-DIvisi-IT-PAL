@@ -16,6 +16,7 @@
                                     </button>
                                 </div>
                             </div>
+                             @extends('admin.modals.modaladd')
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table id="add-row" class="display table table-striped table-hover text-center">

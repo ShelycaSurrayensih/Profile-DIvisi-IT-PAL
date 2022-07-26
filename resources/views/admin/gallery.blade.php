@@ -15,6 +15,7 @@
                                 </button>
                             </div>
                         </div>
+                        @extends('admin.modals.addgallery')
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table id="add-row" class="display table table-striped table-hover text-center" >
