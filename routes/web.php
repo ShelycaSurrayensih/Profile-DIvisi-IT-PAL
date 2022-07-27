@@ -1,30 +1,29 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\QnaController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\VisiController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AdepartmentController;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\AuserController;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\TugasController;
-use App\Http\Controllers\GaleriController;
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\ServiceController;
-use App\Http\Controllers\SharingController;
 use App\Http\Controllers\AgalleryController;
 use App\Http\Controllers\AsharingController;
+use App\Http\Controllers\AuserController;
+use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\VisiController;
 use App\Http\Controllers\HotissueController;
-use App\Http\Controllers\TugasdihController;
-use App\Http\Controllers\TugasdpaController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\StructureController;
+use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FungsidihController;
 use App\Http\Controllers\FungsidpaController;
-use App\Http\Controllers\StructureController;
-use App\Http\Controllers\DepartmentController;
-use App\Http\Controllers\AdepartmentController;
 use App\Http\Controllers\KedudukandihController;
 use App\Http\Controllers\KedudukandpaController;
+use App\Http\Controllers\QnaController;
+use App\Http\Controllers\SharingController;
+use App\Http\Controllers\TugasController;
+use App\Http\Controllers\TugasdihController;
+use App\Http\Controllers\TugasdpaController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -64,16 +63,7 @@ Route::get('/admin/sharing/', [AsharingController::class, 'index'])->name('admin
 Route::post('/admin/sharing/', [AsharingController::class, 'store'])->name('Asharing.store');
 Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->name('Asharing.destroy');
 Route::put('/admin/sharing/{id}', [AsharingController::class, 'update'])->name('Asharing.update');
-// Route::resource('sharing', App\Http\Controllers\AsharingController::class);
 Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
 Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
 Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
 Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
-Route::get('login', [LoginController::class, 'index'])->name('admin.login');
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
