@@ -48,6 +48,7 @@
                     <img src="{{asset('assets/images/admin/profile.jpg')}}" alt="..." class="avatar-img rounded-circle">
                 </div>
                 <div class="info">
+                    @if (Auth::check())
                     <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
                         <span>
                             Hizrian
@@ -60,22 +61,17 @@
                     <div class="collapse in" id="collapseExample">
                         <ul class="nav">
                             <li>
-                                <a href="#profile">
-                                    <span class="link-collapse">My Profile</span>
+                                <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                    <span class="link-collapse">Log Out</span>
                                 </a>
-                            </li>
-                            <li>
-                                <a href="#edit">
-                                    <span class="link-collapse">Edit Profile</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#settings">
-                                    <span class="link-collapse">Settings</span>
-                                </a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                                </form>
                             </li>
                         </ul>
                     </div>
+                    @endif
+
                 </div>
             </div>
             <ul class="nav nav-primary">
