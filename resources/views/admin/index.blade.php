@@ -11,6 +11,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="thumb" align="center"><img src="assets/images/VisiMisi.jpg" alt=""></div>
+				<div class="thumb" align="center"><img src="assets/images/background/image-22.jpg" alt="" style="height: 645px!important;width: 1630px!important;"></div>
 			</div>
 @endsection

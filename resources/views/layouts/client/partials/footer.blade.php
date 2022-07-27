@@ -107,7 +107,7 @@
     <!-- Footer Bottom -->
     <div class="auto-container">
         <div class="footer-bottom">
-            <div class="copyright">Copyright By<a href="{{route('admin.login')}}" target="_blank"> Mahasiswa Polinema</a> - 2022</div>
+            <div class="copyright">Copyright By<a href="{{route('admin.index')}}" target="_blank"> Mahasiswa Polinema</a> - 2022</div>
         </div>
     </div>
 </footer>
