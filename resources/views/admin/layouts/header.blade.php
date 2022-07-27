@@ -45,14 +45,14 @@
         <div class="sidebar-content">
             <div class="user">
                 <div class="avatar-sm float-left mr-2">
-                    <img src="{{asset('assets/images/admin/profile.jpg')}}" alt="..." class="avatar-img rounded-circle">
+                    <img src="{{asset('assets/images/admin/profile3.jpg')}}" alt="..." class="avatar-img rounded-circle">
                 </div>
                 <div class="info">
                     @if (Auth::check())
                     <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
                         <span>
-                            Hizrian
-                            <span class="user-level">Administrator</span>
+                            {{$user->name}}
+                            <span class="user-level">{{$user->email}}</span>
                             <span class="caret"></span>
                         </span>
                     </a>
