@@ -67,3 +67,7 @@ Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user'
 Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
 Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
 Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
