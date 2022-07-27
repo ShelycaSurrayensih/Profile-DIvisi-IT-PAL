@@ -70,3 +70,10 @@ Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name(
 Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
 Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
 Route::get('login', [LoginController::class, 'index'])->name('admin.login');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
