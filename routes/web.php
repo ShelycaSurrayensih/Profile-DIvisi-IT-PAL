@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QnaController;
-use App\Http\Controllers\HomeController;
+// use App\Http\Controllers\HomeController;
 use App\Http\Controllers\VisiController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AdminController;
@@ -77,4 +77,4 @@ Route::group(['middleware' => 'auth'], function () {
     Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
 });
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

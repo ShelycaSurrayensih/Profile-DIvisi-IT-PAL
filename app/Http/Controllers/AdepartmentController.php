@@ -11,8 +11,8 @@ class AdepartmentController extends Controller
     public function index()
     {
         $user = Auth::user();
-        $department = Adepartment::all();
-        return view('admin.department', compact('user', 'department'));
+        $adepartments = Adepartment::all();
+        return view('admin.department', compact('user', 'adepartments'));
     }
 
     public function store(Request $request)
