@@ -7,7 +7,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <div class="d-flex align-items-center">
-                                    <h4 class="card-title">Tambah Galleri</h4>
+                                    <h4 class="card-title">Tambah Gallery</h4>
                                     <button class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addModal">
                                         <i class="fa fa-plus"></i>
                                         Tambah Data
@@ -17,10 +17,10 @@
                             @include('admin.modals.addgallery')
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table id="add-row" class="display table table-striped table-hover text-center">
+                                    <table id="add-row" class="display table table-striped table-hover text-center" >
                                         <thead>
                                             <tr>
-                                                <th>No</th>
+                                                <th>No.</th>
                                                 <th>Nama Kegiatan</th>
                                                 <th>Kategori</th>
                                                 <th>Gambar</th>
@@ -28,12 +28,12 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach ($galeri as $g)
+                                            @foreach($galeri as $g)
                                                 <!--start modal edit-->
-                                                <div class="modal fade" id="editModal{{$g->$id}}" tabindex="-1" role="dialog" aria-hidden="true">
+                                                <div class="modal fade" id="editModal{{ $g->id }}" tabindex="-1" role="dialog" aria-hidden="true">
                                                     <div class="modal-dialog" role="document">
                                                         <div class="modal-content">
-                                                            <div lass="modal-header no-bd">
+                                                            <div class="modal-header no-bd">
                                                                 <h5 class="modal-title">
                                                                     <span class="fw-mediumbold">
                                                                         Edit Data
@@ -45,13 +45,14 @@
                                                             </div>
                                                             <div class="modal-body">
                                                                 <p class="small">Edit Data ID {{ $loop->iteration }}</p>
-                                                                <form action="{{ route('Agallery.update', $g->id)}}" method="POST" enctype="multipart/form-data">
+                                                                <form action="{{ route('Agallery.update', $g->id) }}"
+                                                                    method="POST" enctype="multipart/form-data">
                                                                     @csrf
                                                                     @method('PUT')
                                                                     <div class="row">
                                                                         <div class="col-sm-12">
                                                                             <div class="form-group form-group-default">
-                                                                                <label>Judul</label>
+                                                                                <label>Nama Kegiatan</label>
                                                                                 <input id="nama_kegiatan" type="text" name="nama_kegiatan" value="{{ $g->nama_kegiatan }}" class="form-control" placeholder="Masukkan Nama kegiatan">
                                                                             </div>
                                                                         </div>
@@ -63,9 +64,10 @@
                                                                                     <option value="Project" {{$g->kategori == 'Project' ? 'selected' : ''}}>Project</option>
                                                                                     <option value="Kegiatan Divisi" {{$g->kategori == 'Kegiatan Divisi' ? 'selected' : ''}}>Kegiatan Divisi</option>
                                                                                 </select>
+                                                                                {{-- <input id="kategori" type="text" name="kategori" value="{{ $g->kategori }}" class="form-control" placeholder="Masukkan Kategori"> --}}
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-6">
+                                                                        <div class="col-md-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label>Gambar</label>
                                                                                 <input type="file" name="gambar" class="form-control" placeholder="image">
@@ -73,9 +75,11 @@
                                                                             <img src="{{asset('images/'.$g->gambar)}}"  width="100px" alt="">
                                                                         </div>
                                                                     </div>
-                                                                    <div class="modal-footer np-bd">
-                                                                        <button type="submit" id="editRowButton" class="btn btn-primary">Simpan</button>
-                                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                                    <div class="modal-footer no-bd">
+                                                                        <button type="submit" id="editRowButton"
+                                                                            class="btn btn-primary">Simpan</button>
+                                                                        <button type="button" class="btn btn-danger"
+                                                                            data-dismiss="modal">Close</button>
                                                                     </div>
                                                                 </form>
                                                             </div>
@@ -84,7 +88,7 @@
                                                 </div>
                                                 <!--End Modal Edit-->
 
-                                                <!--Start Modal Detail-->
+                                                <!-- Modal Detail Data -->
                                                 <div class="modal fade" id="detailModal{{ $g->id }}" tabindex="-1" role="dialog" aria-hidden="true">
                                                     <div class="modal-dialog" role="document">
                                                         <div class="modal-content">
@@ -100,29 +104,31 @@
                                                             </div>
                                                             <div class="modal-body">
                                                                 <p class="small">Detail Data ID {{ $loop->iteration }}</p>
-                                                                <div class="col-sm-12">
-                                                                    <div class="form-group form-group-default">
-                                                                        <label>Nama Kegiatan</label>
-                                                                        {{ $g->nama_kegiatan }}
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group form-group-default">
+                                                                            <label>Nama Kegiatan</label>
+                                                                            {{ $g->nama_kegiatan }}
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group form-group-default">
+                                                                            <label>Kategori</label>
+                                                                            {{ $g->kategori }}
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group form-group-default">
+                                                                            <label>Gambar</label>
+                                                                            {{ $g->gambar }} <br>
+                                                                            <img src="{{asset('images/'.$g->gambar)}}"  width="100px" alt="">
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
-                                                                    <div class="form-group form-group-default">
-                                                                        <label>Kategori</label>
-                                                                        {{ $g->kategori }}
-                                                                    </div>
+                                                                <div class="modal-footer no-bd">
+                                                                    <button type="button" class="btn btn-danger"
+                                                                        data-dismiss="modal">Close</button>
                                                                 </div>
-                                                                <div class="col-md-6">
-                                                                    <div class="form-group form-group-default">
-                                                                        <label>Gambar</label>
-                                                                        {{ $g->gambar }} <br>
-                                                                        <img src="{{asset('images/'.$g->gambar)}}"  width="100px" alt="">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="modal-footer no-bd">
-                                                                <button type="button" class="btn btn-danger"
-                                                                    data-dismiss="modal">Close</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -131,7 +137,7 @@
                                                 <tr>
                                                     <td class="text-center">{{ $loop->iteration }}</td>
                                                     <td class="text-center">{{ $g->nama_kegiatan }}</td>
-                                                    <td class="text-center">{{ $g->kategori }}</td>
+                                                    <td class="text-center">{{ $g->kategori}}</td>
                                                     <td class="text-center"><img src="{{asset('images/'.$g->gambar) }}" width="100px"></td>
                                                     <td class="text-center">
                                                         <button class="btn btn-primary" data-toggle="modal" data-target="#editModal{{ $g->id }}"><i class="fa fa-edit">Edit</i></button>

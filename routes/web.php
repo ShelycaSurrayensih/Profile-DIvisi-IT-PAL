@@ -1,29 +1,30 @@
 <?php
 
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\AdepartmentController;
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\AgalleryController;
-use App\Http\Controllers\AsharingController;
-use App\Http\Controllers\AuserController;
-use App\Http\Controllers\DepartmentController;
-use App\Http\Controllers\ServiceController;
-use App\Http\Controllers\VisiController;
-use App\Http\Controllers\HotissueController;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\QnaController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\StructureController;
+use App\Http\Controllers\VisiController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AuserController;
+use App\Http\Controllers\TugasController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\FungsidihController;
-use App\Http\Controllers\FungsidpaController;
-use App\Http\Controllers\KedudukandihController;
-use App\Http\Controllers\KedudukandpaController;
-use App\Http\Controllers\QnaController;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SharingController;
-use App\Http\Controllers\TugasController;
+use App\Http\Controllers\AgalleryController;
+use App\Http\Controllers\AsharingController;
+use App\Http\Controllers\HotissueController;
 use App\Http\Controllers\TugasdihController;
 use App\Http\Controllers\TugasdpaController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FungsidihController;
+use App\Http\Controllers\FungsidpaController;
+use App\Http\Controllers\StructureController;
+use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\AdepartmentController;
+use App\Http\Controllers\KedudukandihController;
+use App\Http\Controllers\KedudukandpaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,18 +55,23 @@ Route::get('kedudukandih', [KedudukandihController::class, 'index'])->name('Serv
 Route::get('kedudukandpa', [KedudukandpaController::class, 'index'])->name('Services.kedudukandpa');
 Route::get('tugasdih', [TugasdihController::class, 'index'])->name('Services.tugasdih');
 Route::get('tugasdpa', [TugasdpaController::class, 'index'])->name('Services.tugasdpa');
-Route::get('admin', [AdminController::class, 'index'])->name('admin.index');
-Route::get('/admin/gallery/', [AgalleryController::class, 'index'])->name('admin.gallery');
-Route::post('/admin/gallery/', [AgalleryController::class, 'store'])->name('gallery.store');
-Route::delete('/admin/gallery/{id}', [AgalleryController::class, 'destroy'])->name('gallery.destroy');
-Route::put('/admin/gallery/{id}', [AgalleryController::class, 'update'])->name('Agallery.update');
-Route::get('/admin/sharing/', [AsharingController::class, 'index'])->name('admin.sharing');
-Route::post('/admin/sharing/', [AsharingController::class, 'store'])->name('Asharing.store');
-Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->name('Asharing.destroy');
-Route::put('/admin/sharing/{id}', [AsharingController::class, 'update'])->name('Asharing.update');
-// Route::resource('sharing', App\Http\Controllers\AsharingController::class);
-Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
-Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
-Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
-Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
-Route::put('/admin/department/{id}', [AdepartmentController::class, 'update'])->name('department.update');
+
+
+Auth::routes();
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('admin', [AdminController::class, 'index'])->name('admin.index');
+    Route::get('/admin/gallery/', [AgalleryController::class, 'index'])->name('admin.gallery');
+    Route::post('/admin/gallery/', [AgalleryController::class, 'store'])->name('gallery.store');
+    Route::delete('/admin/gallery/{id}', [AgalleryController::class, 'destroy'])->name('gallery.destroy');
+    Route::put('/admin/gallery/{id}', [AgalleryController::class, 'update'])->name('Agallery.update');
+    Route::get('/admin/sharing/', [AsharingController::class, 'index'])->name('admin.sharing');
+    Route::post('/admin/sharing/', [AsharingController::class, 'store'])->name('Asharing.store');
+    Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->name('Asharing.destroy');
+    Route::put('/admin/sharing/{id}', [AsharingController::class, 'update'])->name('Asharing.update');
+    Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
+    Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
+    Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
+    Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
+});
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

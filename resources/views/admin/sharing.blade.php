@@ -146,12 +146,8 @@
                                                     <td class="text-center">{{ $s->judul }}</td>
                                                     <td class="text-center">{{ $s->description }}</td>
                                                     <td class="text-center">
-                                                        {{-- <a href="{{ route('products.edit', $p->id) }}" class="btn btn-primary"><i class="fa fa-edit"></i>Edit</a>
-                                                    <a href="{{ route('products.show', $p->id) }}" class="btn btn-primary"><i class="fa fa-edit">Detail</i></a> --}}
                                                         <button class="btn btn-primary" data-toggle="modal" data-target="#editRowModal{{ $s->id }}"><i class="fa fa-edit">Edit</i></button>
                                                         <button class="btn btn-info" data-toggle="modal" data-target="#detailRowModal{{ $s->id }}"><i class="fa fa-edit">Details</i></button>
-                                                        {{-- <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i>Edit</a> --}}
-                                                        {{-- <a href="#" class="btn btn-primary"><i class="fa fa-edit">Detail</i></a> --}}
                                                         <form action="{{ route('Asharing.destroy', $s->id) }}"
                                                             method="POST" class="d-inline">
                                                             @csrf
