@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Models\Sharing;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AsharingController extends Controller
 {
     public function index(){
-        $sharings = Sharing::all();
-        return view('admin.sharing', ['sharing' => $sharings]);
+        $user = Auth::user();
+        $sharing = Sharing::all();
+        return view('admin.sharing', compact('user', 'sharing'));
     }
 
     public function store(Request $request)
@@ -22,17 +24,6 @@ class AsharingController extends Controller
         $input = $request->all();
         Sharing::create($input);
         return redirect()->route('admin.sharing')->with('success', 'Data Berhasil Ditambahkan');
-        // $request->validate([
-        //     'judul' => 'required',
-        //     'decription' => 'required',
-        //     'tanggal_dibuat' => 'required'
-        // ]);
-        // Sharing::create([
-        //     'judul' => $request->judul,
-        //     'description' => $request->description,
-        //     'tanggal_dibuat' => $request->tanggal_dibuat,
-        // ]);
-        // return redirect()->back('admin.sharing');
     }
 
     public function edit(Sharing $sharings)
@@ -48,12 +39,6 @@ class AsharingController extends Controller
             'judul'=>$request->judul,
             'description'=>$request->description,
         ]);
-        // $request->validate([
-        //     'judul'=>'required',
-        //     'description'=>'required',
-        // ]);
-        // $input = $request->all();
-        // $sharings->update($input);
         return redirect()->route('admin.sharing')->with('success', 'Data Berhasil Diedit');
     }
 

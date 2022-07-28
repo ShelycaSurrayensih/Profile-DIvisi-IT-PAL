@@ -4,13 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Models\Adepartment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AdepartmentController extends Controller
 {
     public function index()
     {
-        $adepartments = Adepartment::all();
-        return view('admin.department', ['department' => $adepartments]);
+        $user = Auth::user();
+        $department = Adepartment::all();
+        return view('admin.department', compact('user', 'department'));
     }
 
     public function store(Request $request)

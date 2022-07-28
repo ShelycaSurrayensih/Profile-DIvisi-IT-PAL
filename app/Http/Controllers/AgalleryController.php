@@ -4,13 +4,19 @@ namespace App\Http\Controllers;
 
 use App\Models\galeri;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AgalleryController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware(['auth', 'verified']);
+    }
     public function index()
     {
-        $galeris = Galeri::all();
-        return view('admin.gallery', ['galeri' => $galeris]);
+        $user = Auth::user();
+        $galeri = Galeri::all();
+        return view('admin.gallery', compact('user', 'galeri'));
     }
 
     /**
