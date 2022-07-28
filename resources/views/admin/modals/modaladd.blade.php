@@ -7,9 +7,6 @@
                     <span class="fw-mediumbold">
                         Tambah Data
                     </span>
-                    {{-- <span class="fw-light">
-                        Data
-                    </span> --}}
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>

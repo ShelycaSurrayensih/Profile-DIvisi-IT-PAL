@@ -4,16 +4,19 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class AuserController extends Controller
 {
+    public function __construct(){
+        $this->middleware('auth');
+    }
     public function index(){
         $user = Auth::user();
         $abc = User::all();
         //dd($user);
         return view('admin.user', compact('abc','user'));
     }
-
 
     public function store(Request $request)
     {
@@ -22,8 +25,13 @@ class AuserController extends Controller
             'email'=>'required',
             'password'=>'required',
         ]);
-        $input = $request->all();
-        User::create($input);
+        $user = new User;
+        $user->name = $request->get('name');
+        $user->email = $request->get('email');
+        $user->password = Hash::make($request->get('password'));
+        $user->save();
+        // $input = $request->all();
+        // User::create($input);
         return redirect()->route('admin.user')->with('success', 'Data Berhasil Ditambahkan');
     }
 
@@ -36,17 +44,24 @@ class AuserController extends Controller
 
     public function update(Request $request, $id)
     {
-        User::find($id)->update([
+        $request->validate([
             'name'=>'required',
             'email'=>'required',
             'password'=>'required',
         ]);
+        $user = Auth::user();
+        $user = User::find($id);
+        $user->name = $request->get('name');
+        $user->email = $request->get('email');
+        $user->password = Hash::make($request->get('password'));
+        $user->save();
+        // User::find($id)->update([
+        //     'name'=>'required',
+        //     'email'=>'required',
+        //     'password'=>'required',
+        // ]);
         return redirect()->route('admin.user')->with('success', 'Data Berhasil Diedit');
     }
-
-
-
-
 
     public function destroy($id)
     {
