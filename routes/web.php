@@ -69,6 +69,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::delete('/admin/sharing/{id}', [AsharingController::class, 'destroy'])->name('Asharing.destroy');
     Route::put('/admin/sharing/{id}', [AsharingController::class, 'update'])->name('Asharing.update');
     Route::get('/admin/user/', [AuserController::class, 'index'])->name('admin.user');
+    Route::post('/admin/user/', [AuserController::class, 'store'])->name('Auser.store');
+    Route::delete('/admin/user/{id}', [AuserController::class, 'destroy'])->name('Auser.destroy');
+    Route::put('/admin/user/{id}', [AuserController::class, 'update'])->name('Auser.update');
     Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
     Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
     Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
