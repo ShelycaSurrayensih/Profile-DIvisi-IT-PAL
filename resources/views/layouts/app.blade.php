@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Login</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -18,10 +18,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/admin/login.css') }}" rel="stylesheet">
+    <script src="{{asset('assets/js/admin/login.js')}}"></script>
+
 </head>
-<body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+<body class="login">
+    {{-- <div id="app"> --}}
+        {{-- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -73,11 +76,11 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> --}}
 
-        <main class="py-4">
+        {{-- <main class="py-4"> --}}
             @yield('content')
-        </main>
-    </div>
+        {{-- </main> --}}
+    {{-- </div> --}}
 </body>
 </html>
