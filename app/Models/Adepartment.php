@@ -9,7 +9,18 @@ class Adepartment extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'nama'
+        'nama',
+        'kedudukan',
+        'organisasi1',
+        'organisasi2',
+        'tugas1',
+        'tugas2',
+        'fungsi1',
+        'fungsi2',
+        'fungsi3',
+        'fungsi4',
+        'fungsi5',
+        'fungsi6',
     ];
 
     public static function index(){

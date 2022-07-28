@@ -9,7 +9,8 @@
                 <form method="post" action="http://azim.commonsupport.com/Finandox/index.html">
                     <div class="form-group">
                         <fieldset>
-                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                            <input type="search" class="form-control" name="search-input" value=""
+                                placeholder="Search Here" required>
                             <input type="submit" value="Search Now!" class="theme-btn">
                         </fieldset>
                     </div>
@@ -36,7 +37,7 @@
         <div class="auto-container">
             <h1>Departement Divisi IT</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href={{route("department.index")}}>Home</a></li>
+                <li><a href={{ route('department.index') }}>Home</a></li>
                 <li class="active">Services</li>
             </ul>
         </div>
@@ -49,57 +50,15 @@
 
         <div class="auto-container">
             <div class="row">
-                <!-- Services Block One -->
-                {{-- <div class="service-block-one col-lg-2">
-
-                </div> --}}
-                <div class="service-block-one col-lg-6">
-                    <div class="inner-box">
-                        <div><img src="assets/images/cpu.png"></div><br>
-                        <h3><a href={{route("Services.kedudukandih")}} style="color: black">DEPARTEMEN INFRASTRUKTUR DAN HARDWARE</a></h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
+                @foreach ($adepartments as $d)
+                    <div class="service-block-one col-lg-6">
+                        <div class="inner-box" style="height: 300px">
+                            <div><img src="assets/images/cpu.png"></div><br>
+                            <h3><a href={{ route('Services.kedudukandih') }} style="color: black">{{ $d->nama }}</a>
+                            </h3>
+                        </div>
                     </div>
-                </div>
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-6">
-                    <div class="inner-box">
-                        <div><img src="assets/images/devops.png"></div><br>
-                        <h3><a href={{route("Services.kedudukandpa")}} style="color: black">DEPARTEMEN PENGEMBANGAN APLIKASI DAN INTEGRASI</a></h3>
-                        {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
-                    </div>
-                </div>
-                {{-- <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
-                    <div class="inner-box">
-                        <div class="icon"><span class="flaticon-assets"></span><span class="round-shape"></span></div>
-                        <h3>Property Planning</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                    </div>
-                </div>
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
-                    <div class="inner-box">
-                        <div class="icon"><span class="flaticon-world"></span><span class="round-shape"></span></div>
-                        <h3>Transport & Export</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                    </div>
-                </div>
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
-                    <div class="inner-box">
-                        <div class="icon"><span class="flaticon-money-1"></span><span class="round-shape"></span></div>
-                        <h3>Saving Tax</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                    </div>
-                </div>
-                <!-- Services Block One -->
-                <div class="service-block-one col-lg-4">
-                    <div class="inner-box">
-                        <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
-                        <h3>Growth Business</h3>
-                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                    </div>
-                </div> --}}
+                @endforeach
             </div>
         </div>
     </section>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Adepartment;
 use App\Models\Service;
 use Illuminate\Http\Request;
 
@@ -14,8 +15,8 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        $services = Service::index();
-        return view('Services.Departement', ['services' => Service::index()]);
+        $adepartments = Adepartment::index();
+        return view('Services.Departement', ['adepartments' => Adepartment::index()]);
     }
 
     /**
