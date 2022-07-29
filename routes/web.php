@@ -75,6 +75,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/admin/department/', [AdepartmentController::class, 'index'])->name('admin.department');
     Route::post('/admin/department/', [AdepartmentController::class, 'store'])->name('department.store');
     Route::delete('/admin/department/{id}', [AdepartmentController::class, 'destroy'])->name('department.destroy');
+    Route::put('/admin/department/{id}', [AdepartmentController::class, 'update'])->name('department.update');
 });
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
