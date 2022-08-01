@@ -183,3 +183,5 @@
             </div>
         </div>
 @endsection
+
+{{ $sharing->links() }}

@@ -5,12 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\Sharing;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class AsharingController extends Controller
 {
     public function index(){
         $user = Auth::user();
         $sharing = Sharing::all();
+        $sharing = DB::table('sharings')->orderBy('id', 'desc')->cursorPaginate(10);
         return view('admin.sharing', compact('user', 'sharing'));
     }
 

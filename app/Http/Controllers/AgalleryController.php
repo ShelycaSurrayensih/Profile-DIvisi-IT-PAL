@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\galeri;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class AgalleryController extends Controller
 {
@@ -16,6 +17,7 @@ class AgalleryController extends Controller
     {
         $user = Auth::user();
         $galeri = Galeri::all();
+        $galeri = DB::table('galeris')->orderBy('id', 'desc')->cursorPaginate(10);
         return view('admin.gallery', compact('user', 'galeri'));
     }
 
