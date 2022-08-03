@@ -12,9 +12,8 @@
                             <div class="footer-logo">
                                 <a href="index.html"><img class="lazy-image" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{ asset('assets/images/footer-logo.png')}}" alt="" /></a>
                             </div>
-                            <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div>
+                            <div class="text">“Any fool can write code that a computer can understand. Good
+                                programmers write code that humans can understand.” – Martin Fowler</div>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -35,14 +34,14 @@
                                     <ul>
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">Visi Misi</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Structure</a></li>
+                                        <li><a href="#">Tentang</a></li>
+                                        <li><a href="#">Struktur</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Gallery</a></li>
+                                        <li><a href="#">Layanan</a></li>
+                                        <li><a href="#">Galeri</a></li>
                                         <li><a href="#">Qna</a></li>
                                         <li><a href="#">Contact</a></li>
                                     </ul>
@@ -55,7 +54,7 @@
                 <!--Column-->
                 <div class="column col-lg-4">
                     <div class="footer-widget instagram-widget">
-                        <h3>Photo Showcase</h3>
+                        <h3>Galeri Foto</h3>
                         <div class="inner-box">
                             <div class="wrapper-box">
                                 <div class="image">
