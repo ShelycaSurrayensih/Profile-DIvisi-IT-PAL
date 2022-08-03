@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="top-middile">
-                    <div class="text">Welcome To Information Technology Division (PT PAL)</div>
+                    <div class="text">Selamat Datang di Divisi Teknologi Informasi (PT PAL)</div>
                 </div>
 
                 <div class="top-right">
@@ -56,18 +56,18 @@
                             <ul class="navigation clearfix">
                                 <li><a href={{route("department.index")}}>Home</a></li>
                                 <li><a href={{route("visimisi.visi")}}>Visi & Misi</a></li>
-                                        <li><a href={{ route("about.aboutus")}}>About Us</a></li>
-                                         <li><a href={{route('structure.structurediv')}}>Structure</a></li>
-                                <li class="dropdown"><a href="#">Services</a>
+                                        <li><a href={{ route("about.aboutus")}}>Tentang</a></li>
+                                         <li><a href={{route('structure.structurediv')}}>Struktur</a></li>
+                                <li class="dropdown"><a href="#">Layanan</a>
                                     <ul>
-                                        <li><a href={{route("Services.Departement")}}>Departement</a></li>
-                                        <li><a href={{route("Services.hotissue")}}>Hot Issue</a></li>
+                                        <li><a href={{route("Services.Departement")}}>Departemen</a></li>
+                                        <li><a href={{route("Services.hotissue")}}>Berita Terkini</a></li>
                                         <li><a href={{route("Services.tugastanggungjawab")}}>Tugas & Tanggung Jawab</a></li>
                                         <li><a href={{route("Services.sharing")}}>Sharing Knowledge</a></li>
                                         <li><a href="https://portal.pal.co.id/">Layanan TI</a></li>
                                     </ul>
                                 </li>
-                                <li><a href={{ route("galeri.galeri")}}>Gallery</a></li>
+                                <li><a href={{ route("galeri.galeri")}}>Galeri</a></li>
 
                                         <li><a href={{route('qna.qna')}}>Qna</a></li>
                                 <li><a href={{route("contact.contacts")}}>Contact</a></li>
