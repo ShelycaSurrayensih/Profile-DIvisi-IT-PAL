@@ -4575,9 +4575,10 @@ img.lazy-image.loaded {
 	width: max-content;
 	margin: 0 auto;
 	margin-right: 0;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+	-webkit-transform: translate(30%,-50%);
+	-ms-transform: translate(30%,-50%);
+	transform: translate(30%,-50%);
+
 }
 
 .news-block-one .post-meta {

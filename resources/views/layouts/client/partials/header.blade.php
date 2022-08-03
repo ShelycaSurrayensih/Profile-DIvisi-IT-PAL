@@ -64,7 +64,7 @@
                                         <li><a href={{route("Services.hotissue")}}>Hot Issue</a></li>
                                         <li><a href={{route("Services.tugastanggungjawab")}}>Tugas & Tanggung Jawab</a></li>
                                         <li><a href={{route("Services.sharing")}}>Sharing Knowledge</a></li>
-                                        <li><a href="https://portal.pal.co.id/">Layanan TI</a></li>
+                                        <li><a href="{{route('Services.layananti')}}">Layanan TI</a></li>
                                     </ul>
                                 </li>
                                 <li><a href={{ route("galeri.galeri")}}>Gallery</a></li>

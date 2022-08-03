@@ -17,13 +17,13 @@
                 <form action="{{ route('Asharing.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group form-group-default">
                                 <label>Judul</label>
                                 <input id="judul" type="text" name="judul" class="form-control" placeholder="Masukkan Judul">
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group form-group-default">
                                 <label>Deskripsi</label>
                                 <input id="description" type="text" name="description" class="form-control" placeholder="Description">

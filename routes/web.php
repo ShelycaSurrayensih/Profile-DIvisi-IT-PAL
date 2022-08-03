@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QnaController;
 // use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\VisiController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AdminController;
@@ -25,6 +26,7 @@ use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\AdepartmentController;
 use App\Http\Controllers\KedudukandihController;
 use App\Http\Controllers\KedudukandpaController;
+use App\Http\Controllers\LayananController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,6 +57,7 @@ Route::get('kedudukandih', [KedudukandihController::class, 'index'])->name('Serv
 Route::get('kedudukandpa', [KedudukandpaController::class, 'index'])->name('Services.kedudukandpa');
 Route::get('tugasdih', [TugasdihController::class, 'index'])->name('Services.tugasdih');
 Route::get('tugasdpa', [TugasdpaController::class, 'index'])->name('Services.tugasdpa');
+Route::get('layanan-ti', [LayananController::class, 'index'])->name('Services.layananti');
 
 
 Auth::routes();
