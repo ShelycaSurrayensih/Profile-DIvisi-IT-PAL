@@ -138,7 +138,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://bupot21.pal.co.id/login.php">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -150,7 +150,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://bupot21.pal.co.id/login.php">
                                         Bukti Potong PPh21
                                     </a>
                                 </h3>
@@ -160,7 +160,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://helpdesk.pal.co.id/vidcon/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -172,7 +172,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://helpdesk.pal.co.id/vidcon/">
                                         Video Conference
                                     </a>
                                 </h3>
@@ -182,7 +182,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://manrisk.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -194,7 +194,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://manrisk.pal.co.id/">
                                         Manajemen Risiko PAL
                                     </a>
                                 </h3>
@@ -204,7 +204,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://btdver.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -216,7 +216,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://btdver.pal.co.id/">
                                         BTD Verification
                                     </a>
                                 </h3>
@@ -226,7 +226,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://izin.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -238,7 +238,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://izin.pal.co.id/">
                                         Perizinan Orang
                                     </a>
                                 </h3>
@@ -248,7 +248,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://ddrcms.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -260,7 +260,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://ddrcms.pal.co.id/">
                                         Aplikasi Revisi Gambar
                                     </a>
                                 </h3>
@@ -270,7 +270,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://ppid.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -282,7 +282,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://ppid.pal.co.id/">
                                         Aplikasi PPID
                                     </a>
                                 </h3>
@@ -292,7 +292,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://edoc.pal.co.id/bp/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -304,8 +304,8 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
-                                        Key Performance
+                                    <a href="https://edoc.pal.co.id/bp/">
+                                        Key Performance Performance
                                     </a>
                                 </h3>
                             </div>
@@ -314,7 +314,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://infokes.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -326,7 +326,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://infokes.pal.co.id/">
                                         Info Kesehatan PAL
                                     </a>
                                 </h3>
@@ -336,7 +336,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://edoc.pal.co.id/bp/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -348,7 +348,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://edoc.pal.co.id/bp/">
                                         KPKU
                                     </a>
                                 </h3>
@@ -358,7 +358,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://kopkb.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -370,7 +370,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://kopkb.pal.co.id/">
                                         KOPKB
                                     </a>
                                 </h3>
@@ -380,7 +380,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://edoc.pal.co.id/bp/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -392,7 +392,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://edoc.pal.co.id/bp/">
                                         E-DOC Bangunan Kapal
                                     </a>
                                 </h3>
@@ -402,7 +402,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://edoc.pal.co.id/rekum/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -414,7 +414,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://edoc.pal.co.id/rekum/">
                                         E-DOC Rekum
                                     </a>
                                 </h3>
@@ -424,7 +424,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://edoc.pal.co.id/harkan/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -436,7 +436,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://edoc.pal.co.id/harkan/">
                                         E-DOC Harkan
                                     </a>
                                 </h3>
@@ -446,7 +446,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://sosialisasi.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -458,7 +458,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://sosialisasi.pal.co.id/">
                                         Media Sosialisasi PAL
                                     </a>
                                 </h3>
@@ -468,7 +468,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://edoc.pal.co.id/sc/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -480,7 +480,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://edoc.pal.co.id/sc/">
                                         Pengarsipan Kontrak SC
                                     </a>
                                 </h3>
@@ -490,7 +490,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="http://115.85.70.168/agenda">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -502,7 +502,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="http://115.85.70.168/agenda">
                                         Reminder
                                     </a>
                                 </h3>
@@ -512,7 +512,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://warranty.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -524,7 +524,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://warranty.pal.co.id/">
                                         Warranry QA
                                     </a>
                                 </h3>
@@ -534,7 +534,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="http://192.168.255.230/telp/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -546,7 +546,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="http://192.168.255.230/telp/">
                                         Telp EXT PAL
                                     </a>
                                 </h3>
@@ -556,7 +556,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://knowledge.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -568,7 +568,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://knowledge.pal.co.id/">
                                         Knowledge Management PAL
                                     </a>
                                 </h3>
@@ -578,7 +578,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://drive.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -590,7 +590,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://drive.pal.co.id/">
                                         Drive PAL
                                     </a>
                                 </h3>
@@ -600,7 +600,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://webvendor.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -612,7 +612,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://webvendor.pal.co.id/">
                                         WEBVENDOR
                                     </a>
                                 </h3>
@@ -622,7 +622,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://internalauditiso.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -634,7 +634,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://internalauditiso.pal.co.id/">
                                         Internal Audit ISO
                                     </a>
                                 </h3>
@@ -644,7 +644,7 @@
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
-                                <a href="https://hcmpal.web.id/">
+                                <a href="https://suarapelanggan.pal.co.id/">
                                     <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
                                 </a>
                             </div>
@@ -656,7 +656,7 @@
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
-                                    <a href="https://hcmpal.web.id/">
+                                    <a href="https://suarapelanggan.pal.co.id/">
                                         Survey Kepuasan Pelanggan
                                     </a>
                                 </h3>
