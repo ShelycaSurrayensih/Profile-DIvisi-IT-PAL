@@ -107,6 +107,9 @@
                     @endforeach
                     <!-- End block -->
                 </div>
+                <div class="d-flex justify-content-end">
+                    {{$galeris->links('pagination::bootstrap-4')}}
+                </div>
             </div>
         </div>
     </section>

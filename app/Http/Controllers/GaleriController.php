@@ -14,8 +14,13 @@ class GaleriController extends Controller
      */
     public function index()
     {
-        $galeri = Galeri::index();
-        return view('galeri.galeri', ['galeris' => $galeri]);
+        // $galeri = Galeri::index();
+        // return view('galeri.galeri', ['galeris' => $galeri]);
+
+        $galeris = Galeri::latest()->paginate(12);
+
+        return view('galeri.galeri',compact('galeris'))
+            ->with('i', (request()->input('page', 1) - 1) * 10);
     }
 
     /**

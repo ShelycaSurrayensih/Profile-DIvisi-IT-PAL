@@ -35,11 +35,11 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
-*,
+/* *,
 ::after,
 ::before {
     box-sizing: border-box
-}
+} */
 
 html {
     font-family: sans-serif;
@@ -225,10 +225,10 @@ img {
     border-style: none
 }
 
-svg {
+/* svg {
     overflow: hidden;
     vertical-align: middle
-}
+} */
 
 table {
     border-collapse: collapse
@@ -6802,7 +6802,7 @@ button.bg-dark:hover {
 }
 
 .d-flex {
-    display: -ms-flexbox !important;
+    /* display: -ms-flexbox !important; */
     display: flex !important
 }
 
@@ -6881,7 +6881,7 @@ button.bg-dark:hover {
     }
 
     .d-md-flex {
-        display: -ms-flexbox !important;
+        /* display: -ms-flexbox !important; */
         display: flex !important
     }
 
@@ -7125,7 +7125,7 @@ button.bg-dark:hover {
 }
 
 .justify-content-center {
-    -ms-flex-pack: center !important;
+    /* -ms-flex-pack: center !important; */
     justify-content: center !important
 }
 
