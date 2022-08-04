@@ -57,7 +57,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="{{route('detail',$sharing->id)}}">
-                                    <img class="lazy-image owl-lazy" src="{{asset('images/'.$sharing->gambar)}}" alt="" style="width: 370px; height:300px" data-src="{{asset('images/'.$sharing->gambar)}}" alt="">
+                                    <img class="lazy-image owl-lazy" src="{{asset('images/'.$sharing->gambar)}}" alt="" style="height: 220px" data-src="{{asset('images/'.$sharing->gambar)}}" alt="">
                                 </a>
                             </div>
                             <div class="lower-content">
@@ -67,7 +67,7 @@
                                     <li><a href=""><i class="far fa-user"></i>By Admin</a></li>
                                 </ul>
                                 <h3><a href="{{route('detail',$sharing->id)}}">{{ $sharing->judul }}</a></h3>
-                                <div class="text">{{ $sharing->description }}</div>
+                                <div class="text">{{Str::limit($sharing->description, 76)}}</div>
                             </div>
                         </div>
                     </div>
