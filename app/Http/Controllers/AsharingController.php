@@ -21,10 +21,16 @@ class AsharingController extends Controller
         $request->validate([
             'judul'=>'required',
             'description'=>'required',
+            'gambar' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'tanggal_dibuat'=>'required',
         ]);
         $input = $request->all();
-        Sharing::create($input);
+        $data = Sharing::create($input);
+        if ($request->hasFile('gambar')) {
+            $request->file('gambar')->move('images/', $request->file('gambar')->getClientOriginalName());
+            $data->gambar = $request->file('gambar')->getClientOriginalName();
+            $data->save();
+        }
         return redirect()->route('admin.sharing')->with('success', 'Data Berhasil Ditambahkan');
     }
 
@@ -41,6 +47,16 @@ class AsharingController extends Controller
             'judul'=>$request->judul,
             'description'=>$request->description,
         ]);
+        $input = $request->all();
+        if ($image = $request->file('gambar')) {
+            $destinationPath = 'images/';
+            $profileImage = date('YmdHis').".".$image->getClientOriginalExtension();
+            $image->move($destinationPath, $profileImage);
+            $input['gambar'] = "$profileImage";
+        } else {
+            unset($input['gambar']);
+        }
+        Sharing::find($id)->update($input);
         return redirect()->route('admin.sharing')->with('success', 'Data Berhasil Diedit');
     }
 
@@ -50,6 +66,8 @@ class AsharingController extends Controller
 
     public function destroy($id)
     {
+        $gambar = Sharing::find($id);
+        unlink("images.".$gambar->gambar);
         Sharing::find($id)->delete();
         // Alert::toast('Product berhasil dihapus.', 'success');
         return redirect()->route('admin.sharing')->with('success','Data berhasil Dihapus');

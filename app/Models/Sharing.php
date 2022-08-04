@@ -12,6 +12,7 @@ class Sharing extends Model
     protected $fillable = [
         'judul',
         'description',
+        'gambar',
         'tanggal_dibuat'
     ];
 

@@ -24,6 +24,7 @@
                                                 <th>No</th>
                                                 <th>Judul</th>
                                                 <th>Description</th>
+                                                <th>Gambar</th>
                                                 <th style="width: 30%">Action</th>
                                             </tr>
                                         </thead>
@@ -51,7 +52,7 @@
                                                                     @csrf
                                                                     @method('PUT')
                                                                     <div class="row">
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label>Judul</label>
                                                                                 <input id="judul" type="text"
@@ -61,7 +62,7 @@
                                                                                     placeholder="Masukkan Judul">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label>Deskripsi</label>
                                                                                 <input id="description" type="text"
@@ -70,6 +71,14 @@
                                                                                     class="form-control"
                                                                                     placeholder="Description">
                                                                             </div>
+                                                                        </div>
+                                                                        <div class="col-sm-6">
+                                                                            <div class="form-group form-group-default">
+                                                                                <label>Gambar</label>
+                                                                                <input type="file" name="gambar" class="form-control" placeholder="image">
+                                                                            </div>
+                                                                            {{-- <img src="{{asset('images/.' $s->gambar)}}" width="100px" alt=""> --}}
+                                                                            <img src="{{asset('images/'.$s->gambar)}}"  width="100px" alt="">
                                                                         </div>
                                                                         <div class="col-md-6">
                                                                             <div class="form-group form-group-default">
@@ -112,16 +121,22 @@
                                                             <div class="modal-body">
                                                                 <p class="small">Detail Data ID {{ $loop->iteration }}</p>
                                                                 <div class="row">
-                                                                    <div class="col-sm-12">
+                                                                    <div class="col-sm-6">
                                                                         <div class="form-group form-group-default">
                                                                             <label>Judul</label>
                                                                             {{ $s->judul }}
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-sm-12">
+                                                                    <div class="col-sm-6">
                                                                         <div class="form-group form-group-default">
                                                                             <label>Deskripsi</label>
                                                                             {{ $s->description }}
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group form-group-default">
+                                                                            <label>Gambar</label>
+                                                                            <img src="{{asset('images/'.$s->gambar)}}"  width="100px" alt="">
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-md-6">
@@ -145,6 +160,7 @@
                                                     <td class="text-center">{{ $loop->iteration }}</td>
                                                     <td class="text-center">{{ $s->judul }}</td>
                                                     <td class="text-center">{{ $s->description }}</td>
+                                                    <td class="text-center"><img src="{{asset('images/'.$s->gambar) }}" width="100px"></td>
                                                     <td class="text-center">
                                                         <button class="btn btn-primary" data-toggle="modal" data-target="#editRowModal{{ $s->id }}"><i class="fa fa-edit">Edit</i></button>
                                                         <button class="btn btn-info" data-toggle="modal" data-target="#detailRowModal{{ $s->id }}"><i class="fa fa-edit">Details</i></button>

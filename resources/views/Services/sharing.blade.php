@@ -52,21 +52,25 @@
             </div>
             <div class="row">
                 <!-- News Block One -->
-                  @foreach ($sharings as $sharing)
-                <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                    <div class="inner-box">
-                        <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/resource/news-1.jpg" alt=""></a></div>
-                        <div class="lower-content">
-                            <div class="category">News</div>
-                            <ul class="post-meta">
-                                <li><a href=""><i class="far fa-calendar-alt"></i>{{ $sharing->tanggal_dibuat}}</a></li>
-                                <li><a href=""><i class="far fa-user"></i>By Admin</a></li>
-                            </ul>
-                            <h3><a href="{{route('detail',$sharing->id)}}">{{ $sharing->judul }}</a></h3>
-                            <div class="text">{{ $sharing->description }}</div>
+                @foreach ($sharings as $sharing)
+                    <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                        <div class="inner-box">
+                            <div class="image">
+                                <a href="{{route('detail',$sharing->id)}}">
+                                    <img class="lazy-image owl-lazy" src="{{asset('images/'.$sharing->gambar)}}" alt="" style="width: 370px; height:300px" data-src="{{asset('images/'.$sharing->gambar)}}" alt="">
+                                </a>
+                            </div>
+                            <div class="lower-content">
+                                <div class="category">News</div>
+                                <ul class="post-meta">
+                                    <li><a href=""><i class="far fa-calendar-alt"></i>{{ $sharing->tanggal_dibuat}}</a></li>
+                                    <li><a href=""><i class="far fa-user"></i>By Admin</a></li>
+                                </ul>
+                                <h3><a href="{{route('detail',$sharing->id)}}">{{ $sharing->judul }}</a></h3>
+                                <div class="text">{{ $sharing->description }}</div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 @endforeach
             </div>
         </div>
