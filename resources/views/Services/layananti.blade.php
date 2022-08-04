@@ -46,12 +46,16 @@
         <!-- News Section -->
         <section class="news-section">
             <div class="auto-container">
+                <div class="sec-title text-center">
+                    <div class="sub-title">Divisi Teknologi Informasi</div>
+                    <h2>Layanan TI</h2>
+                </div>
                 <div class="row">
                     <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://helpdesk.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/helpdesk ti.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -73,7 +77,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://eoffice.pal.co.id">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/e official pal.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -95,7 +99,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://kawasan.co.id/helpdesk/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/helpdesk kawasan.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -117,7 +121,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://hcmpal.web.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/slip gaji online.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -139,7 +143,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://bupot21.pal.co.id/login.php">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/bukti potong pph.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -161,7 +165,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://helpdesk.pal.co.id/vidcon/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/video converence.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -183,7 +187,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://manrisk.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/manajemen resiko.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -205,7 +209,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://btdver.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/btd verification.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -227,7 +231,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://izin.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/perizinan orang.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -249,7 +253,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://ddrcms.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/aplikasi revisi gambar.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -271,7 +275,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://ppid.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/aplikasi ppid.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -293,7 +297,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://edoc.pal.co.id/bp/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/key performance indicator.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -315,7 +319,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://infokes.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/info kesehatan pal.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -337,7 +341,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://edoc.pal.co.id/bp/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/kpku.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -359,7 +363,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://kopkb.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/kopkb.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -381,7 +385,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://edoc.pal.co.id/bp/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/e doc bangunan kapal.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -403,7 +407,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://edoc.pal.co.id/rekum/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/e doc rekum.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -425,7 +429,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://edoc.pal.co.id/harkan/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/e doc harkan.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -447,7 +451,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://sosialisasi.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/medsos pal.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -469,7 +473,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://edoc.pal.co.id/sc/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/pengarsipan kontrak sc.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -491,7 +495,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="http://115.85.70.168/agenda">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/reminder agenda.jpg')}}" alt="Image">
                                 </a>
                             </div>
 
@@ -513,7 +517,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://warranty.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/warranry qa.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -535,7 +539,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="http://192.168.255.230/telp/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/telp ext pal.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -557,7 +561,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://knowledge.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/knowledge management pal.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -579,7 +583,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://drive.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/drive pal.jpg')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -601,7 +605,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://webvendor.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/webvendor.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -623,7 +627,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://internalauditiso.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/internal audit iso.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
@@ -645,7 +649,7 @@
                         <div class="inner-box">
                             <div class="image">
                                 <a href="https://suarapelanggan.pal.co.id/">
-                                    <img src="http://old4.commonsupport.com/finandox/wp-content/uploads/2020/03/news-1.jpg" alt="Image">
+                                    <img src="{{asset('assets/images/layananti/survey kepuasan pelanggan.png')}}" alt="Image" style="height: 220px">
                                 </a>
                             </div>
 
