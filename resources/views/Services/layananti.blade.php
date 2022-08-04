@@ -496,14 +496,14 @@
                             </div>
 
                             <div class="lower-content">
-                                <div class="category">
+                                <div class="category" style="background-color: rgb(255, 0, 0); background-image: -webkit-linear-gradient( 0deg, rgb(202, 0, 0) 0%, rgb(244, 69, 69) 100%)">
                                     <ul class="post-categories">
-                                        <li>Public Access</a></li>
+                                        <li>Local Access</a></li>
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
                                     <a href="http://115.85.70.168/agenda">
-                                        Reminder
+                                        Reminder Agenda
                                     </a>
                                 </h3>
                             </div>
@@ -540,9 +540,9 @@
                             </div>
 
                             <div class="lower-content">
-                                <div class="category">
+                                <div class="category" style="background-color: rgb(255, 0, 0); background-image: -webkit-linear-gradient( 0deg, rgb(202, 0, 0) 0%, rgb(244, 69, 69) 100%)">
                                     <ul class="post-categories">
-                                        <li>Public Access</a></li>
+                                        <li>Local Access</a></li>
                                     </ul>
                                 </div>
                                 <h3 style="text-align: center">
