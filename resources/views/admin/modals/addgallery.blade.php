@@ -19,13 +19,13 @@
                 <form action="{{ route('gallery.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group form-group-default">
                                 <label>Nama Kegiatan</label>
                                 <input id="nama_kegiatan" type="text" name="nama_kegiatan" class="form-control" placeholder="Masukkan Nama kegiatan">
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group form-group-default">
                                 <label>Kategori</label>
                                 <select name="kategori" id="kategori" type="text" class="form-control" placeholder="Masukkan Kategori">
@@ -36,7 +36,7 @@
                                 {{-- <input id="kategori" type="text" name="kategori" class="form-control" placeholder="Masukkan Kategori"> --}}
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group form-group-default">
                                 <label>Gambar</label>
                                 <input type="file" name="gambar" class="form-control" placeholder="image">

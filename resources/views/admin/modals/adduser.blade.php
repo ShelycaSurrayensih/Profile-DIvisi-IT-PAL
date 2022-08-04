@@ -20,19 +20,19 @@
                 <form action="{{ route('Auser.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group form-group-default">
                                 <label>Nama</label>
                                 <input id="name" type="text" name="name" class="form-control" placeholder="Masukkan Nama">
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group form-group-default">
                                 <label>Email</label>
                                 <input id="email" type="text" name="email" class="form-control" placeholder="Masukkan Email">
                             </div>
                         </div>
-                        <div class="col-sm-12">
+                        <div class="col-sm-6">
                             <div class="form-group form-group-default">
                                 <label>Password</label>
                                 <input id="password" type="text" name="password" class="form-control" placeholder="masukkan password">

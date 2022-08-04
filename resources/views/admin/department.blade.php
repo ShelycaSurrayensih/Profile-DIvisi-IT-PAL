@@ -39,20 +39,20 @@
                                                 enctype="multipart/form-data">
                                                 @csrf
                                                 <div class="row">
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label>Nama Department</label>
                                                             <input id="nama" type="text" name="nama"
                                                                 class="form-control" placeholder="Masukkan Nama Department">
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="kedudukan" class="col-form-label">Kedudukan</label>
                                                             <textarea id="kedudukan" type="text" name="kedudukan" class="form-control" placeholder="Masukkan Kedudukan"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label>Organisasi</label>
                                                             <input id="organisasi1" type="text" name="organisasi1"
@@ -60,7 +60,7 @@
                                                                 placeholder="Masukkan Organisasi Pertama">
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label>Organisasi</label>
                                                             <input id="organisasi2" type="text" name="organisasi2"
@@ -68,49 +68,49 @@
                                                                 placeholder="Masukkan Organisasi Kedua">
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="tugas1" class="col-form-label">Tugas</label>
                                                             <textarea id="tugas1" type="text" name="tugas1" class="form-control" placeholder="Masukkan Tugas Pertama"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="tugas2" class="col-form-label">Tugas</label>
                                                             <textarea id="tugas2" type="text" name="tugas2" class="form-control" placeholder="Masukkan Tugas Kedua"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="fungsi1" class="col-form-label">Fungsi</label>
                                                             <textarea id="fungsi1" type="text" name="fungsi1" class="form-control" placeholder="Masukkan Fungsi Pertama"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="fungsi2" class="col-form-label">Fungsi</label>
                                                             <textarea id="fungsi2" type="text" name="fungsi2" class="form-control" placeholder="Masukkan Fungsi Kedua"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="fungsi3" class="col-form-label">Fungsi</label>
                                                             <textarea id="fungsi3" type="text" name="fungsi3" class="form-control" placeholder="Masukkan Fungsi Ketiga"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="fungsi4" class="col-form-label">Fungsi</label>
                                                             <textarea id="fungsi4" type="text" name="fungsi4" class="form-control" placeholder="Masukkan Fungsi Keempat"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="fungsi5" class="col-form-label">Fungsi</label>
                                                             <textarea id="fungsi5" type="text" name="fungsi5" class="form-control" placeholder="Masukkan Fungsi Kelima"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-sm-12">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group form-group-default">
                                                             <label for="fungsi6" class="col-form-label">Fungsi</label>
                                                             <textarea id="fungsi6" type="text" name="fungsi6" class="form-control" placeholder="Masukkan Fungsi Keenam"></textarea>
@@ -165,7 +165,7 @@
                                                                     @csrf
                                                                     @method('PUT')
                                                                     <div class="row">
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label>Nama Department</label>
                                                                                 <input id="nama" type="text"
@@ -175,14 +175,14 @@
                                                                                     placeholder="Masukkan Nama Department">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label>Kedudukan</label>
                                                                                 <textarea id="kedudukan" type="text" name="kedudukan" class="form-control"
                                                                                     placeholder="Masukkan Kedudukan">{{ $d->kedudukan }}</textarea>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label>Organisasi</label>
                                                                                 <input id="organisasi1" type="text"
@@ -192,7 +192,7 @@
                                                                                     placeholder="Masukkan Organisasi Pertama">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label>Organisasi</label>
                                                                                 <input id="organisasi2" type="text"
@@ -202,7 +202,7 @@
                                                                                     placeholder="Masukkan Organisasi Kedua">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label for="tugas1"
                                                                                     class="col-form-label">Tugas</label>
@@ -210,7 +210,7 @@
                                                                                     placeholder="Masukkan Tugas Pertama">{{ $d->tugas1 }}</textarea>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label for="tugas2"
                                                                                     class="col-form-label">Tugas</label>
@@ -218,7 +218,7 @@
                                                                                     placeholder="Masukkan Tugas Kedua">{{ $d->tugas2 }}</textarea>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label for="fungsi1"
                                                                                     class="col-form-label">Fungsi</label>
@@ -226,7 +226,7 @@
                                                                                     placeholder="Masukkan Fungsi Pertama">{{ $d->fungsi1 }}</textarea>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label for="fungsi2"
                                                                                     class="col-form-label">Fungsi</label>
@@ -234,7 +234,7 @@
                                                                                     placeholder="Masukkan Fungsi Kedua">{{ $d->fungsi2 }}</textarea>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label for="fungsi3"
                                                                                     class="col-form-label">Fungsi</label>
@@ -242,7 +242,7 @@
                                                                                     placeholder="Masukkan Fungsi Ketiga">{{ $d->fungsi3 }}</textarea>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label for="fungsi4"
                                                                                     class="col-form-label">Fungsi</label>
@@ -250,7 +250,7 @@
                                                                                     placeholder="Masukkan Fungsi Keempat">{{ $d->fungsi4 }}</textarea>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label for="fungsi5"
                                                                                     class="col-form-label">Fungsi</label>
@@ -258,7 +258,7 @@
                                                                                     placeholder="Masukkan Fungsi Kelima">{{ $d->fungsi5 }}</textarea>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-sm-12">
+                                                                        <div class="col-sm-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label for="fungsi6"
                                                                                     class="col-form-label">Fungsi</label>
@@ -297,73 +297,73 @@
                                                             <div class="modal-body">
                                                                 <p class="small">Detail Data ID {{ $loop->iteration }}
                                                                 </p>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Nama Department</label>
                                                                         {{ $d->nama }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Kedudukan</label>
                                                                         {{ $d->kedudukan }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Organisasi</label>
                                                                         {{ $d->organisasi1 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Organisasi</label>
                                                                         {{ $d->organisasi2 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Tugas</label>
                                                                         {{ $d->tugas1 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Tugas</label>
                                                                         {{ $d->tugas2 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Fungsi</label>
                                                                         {{ $d->fungsi1 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Fungsi</label>
                                                                         {{ $d->fungsi2 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Fungsi</label>
                                                                         {{ $d->fungsi3 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Fungsi</label>
                                                                         {{ $d->fungsi4 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Fungsi</label>
                                                                         {{ $d->fungsi5 }}
                                                                     </div>
                                                                 </div>
-                                                                <div class="col-sm-12">
+                                                                <div class="col-sm-6">
                                                                     <div class="form-group form-group-default">
                                                                         <label>Fungsi</label>
                                                                         {{ $d->fungsi6 }}
