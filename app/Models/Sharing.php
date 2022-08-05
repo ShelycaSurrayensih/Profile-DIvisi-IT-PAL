@@ -13,6 +13,7 @@ class Sharing extends Model
         'judul',
         'description',
         'gambar',
+        'dokumen',
         'tanggal_dibuat'
     ];
 

@@ -80,6 +80,13 @@
                                                                             {{-- <img src="{{asset('images/.' $s->gambar)}}" width="100px" alt=""> --}}
                                                                             <img src="{{asset('images/'.$s->gambar)}}"  width="100px" alt="">
                                                                         </div>
+                                                                        <div class="col-sm-6">
+                                                                            <div class="form-group form-group-default">
+                                                                                <label>Dokumen</label>
+                                                                                <input type="file" name="dokumen" class="form-control"  placeholder="dokumen">
+                                                                            </div>
+
+                                                                        </div>
                                                                         <div class="col-md-6">
                                                                             <div class="form-group form-group-default">
                                                                                 <label>Tanggal Dibuat</label>
@@ -139,6 +146,12 @@
                                                                             <img src="{{asset('images/'.$s->gambar)}}"  width="100px" alt="">
                                                                         </div>
                                                                     </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group form-group-default">
+                                                                            <label>Dokumen</label>
+                                                                            {{$s->dokumen}}
+                                                                        </div>
+                                                                    </div>
                                                                     <div class="col-md-6">
                                                                         <div class="form-group form-group-default">
                                                                             <label>Tanggal Dibuat</label>
@@ -161,6 +174,7 @@
                                                     <td class="text-center">{{ $s->judul }}</td>
                                                     <td class="text-center">{{ $s->description }}</td>
                                                     <td class="text-center"><img src="{{asset('images/'.$s->gambar) }}" width="100px"></td>
+                                                    <td class="text-center"><a href="{{asset('dokument/'.$s->dokumen)}}">{{$s->dokumen}}</a></td>
                                                     <td class="text-center">
                                                         <button class="btn btn-primary" data-toggle="modal" data-target="#editRowModal{{ $s->id }}"><i class="fa fa-edit">Edit</i></button>
                                                         <button class="btn btn-info" data-toggle="modal" data-target="#detailRowModal{{ $s->id }}"><i class="fa fa-edit">Details</i></button>

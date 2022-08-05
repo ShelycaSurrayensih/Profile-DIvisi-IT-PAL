@@ -17,7 +17,8 @@ class CreateSharingsTable extends Migration
             $table->id();
             $table->text("judul");
             $table->text("description");
-            $table->string('gambar',50)->nullable();
+            $table->string('gambar',50);
+            $table->string('dokumen',300)->nullable();
             $table->date('tanggal_dibuat');
             $table->timestamps();
         });

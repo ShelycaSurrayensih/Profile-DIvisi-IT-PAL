@@ -35,6 +35,12 @@
                                 <input id="gambar" type="file" name="gambar" class="form-control" placeholder="Gambar">
                             </div>
                         </div>
+                        <div class="col-sm-6">
+                            <div class="form-group form-group-default">
+                                <label>Dokumen</label>
+                                <input id="dokuemn" type="file" name="dokumen" class="form-control" placeholder="Dokumen">
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-default">
                                 <label>Tanggal Dibuat</label>

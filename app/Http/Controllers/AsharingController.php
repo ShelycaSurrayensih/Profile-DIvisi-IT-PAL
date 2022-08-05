@@ -22,15 +22,17 @@ class AsharingController extends Controller
             'judul'=>'required',
             'description'=>'required',
             'gambar' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'dokumen'=>'mimes:pdf',
             'tanggal_dibuat'=>'required',
         ]);
         $input = $request->all();
         $data = Sharing::create($input);
-        if ($request->hasFile('gambar')) {
-            $request->file('gambar')->move('images/', $request->file('gambar')->getClientOriginalName());
-            $data->gambar = $request->file('gambar')->getClientOriginalName();
-            $data->save();
-        }
+
+        $request->file('gambar')->move('images/', $request->file('gambar')->getClientOriginalName());
+        $data->gambar = $request->file('gambar')->getClientOriginalName();
+        $request->file('dokumen')->move('dokument/', $request->file('dokumen')->getClientOriginalName());
+        $data->dokumen = $request->file('dokumen')->getClientOriginalName();
+        $data->save();
         return redirect()->route('admin.sharing')->with('success', 'Data Berhasil Ditambahkan');
     }
 
@@ -43,33 +45,46 @@ class AsharingController extends Controller
 
     public function update(Request $request, $id)
     {
-        Sharing::find($id)->update([
-            'judul'=>$request->judul,
-            'description'=>$request->description,
-        ]);
-        $input = $request->all();
+        $input3 = Sharing::find($id);
+        $input3->judul = $request->get('judul');
+        $input3->description = $request->get('description');
+        // Sharing::find($id)->update([
+        //     'judul'=>$request->judul,
+        //     'description'=>$request->description,
+        // ]);
+        $input = $request->image;
         if ($image = $request->file('gambar')) {
             $destinationPath = 'images/';
-            $profileImage = date('YmdHis').".".$image->getClientOriginalExtension();
+            $profileImage = $image->getClientOriginalName().".".$image->getClientOriginalExtension();
             $image->move($destinationPath, $profileImage);
-            $input['gambar'] = "$profileImage";
+            // $input['gambar'] = "$profileImage";
+            $input3->gambar = $profileImage;
         } else {
             unset($input['gambar']);
         }
-        Sharing::find($id)->update($input);
+        $input2 = $request->dokumen;
+        if ($dokumen = $request->file('dokumen')) {
+            $destinationPath = 'dokument/';
+            $profileDokumen = $dokumen->getClientOriginalName().".".$dokumen->getClientOriginalExtension();
+            $dokumen->move($destinationPath, $profileDokumen);
+            $input3->dokumen = $profileDokumen;
+            // $input2['dokumen'] = "$profileDokumen";
+        } else {
+            unset($input2['dokumen']);
+        }
+        // $input3->image = $input;
+        // $input3->dokumen = $input2;
+        $input3->save();
+        // Sharing::find($id)->update([]);
         return redirect()->route('admin.sharing')->with('success', 'Data Berhasil Diedit');
     }
-
-
-
-
 
     public function destroy($id)
     {
         $gambar = Sharing::find($id);
-        unlink("images.".$gambar->gambar);
+        unlink("images/".$gambar->gambar);
+        unlink('dokument/'.$gambar->dokumen);
         Sharing::find($id)->delete();
-        // Alert::toast('Product berhasil dihapus.', 'success');
         return redirect()->route('admin.sharing')->with('success','Data berhasil Dihapus');
     }
 }

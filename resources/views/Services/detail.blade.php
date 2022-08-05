@@ -42,17 +42,17 @@
         </div>
     </section>
     <!--End Banner Section -->
-    
- <!-- Sidebar Page Container --> 
+
+ <!-- Sidebar Page Container -->
     <div class="sidebar-page-container">
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-8">
                     <!-- News Block Two -->
                     <div class="news-block-two blog-single-post">
-                        <div class="inner-box">                            
+                        <div class="inner-box">
                             <div class="lower-content">
-                                <div class="category">Business</div>
+                                <div class="category"><a href="{{asset('dokument/'.$sharings->dokumen)}}" style="color: white">Download pdf</a></div>
                                 <ul class="post-meta">
                                     {{--  <li><a href="#"><i class="far fa-eye"></i>332 Views</a></li>
                                     <li><a href="#"><i class="far fa-comments"></i>35 Comments</a></li>  --}}
@@ -118,22 +118,22 @@
                                 </div>
                                 <div class="blog-post-pagination">
                                     <div class="wrapper-box">
-                                        
+
                                         <div class="prev-post">
                                             <h5> Previous Post</h5>
                                             <h4>Tips On Minimalist</h4>
                                         </div>
 
                                         <div class="page-view"><span class="fa fa-th"></span></div>
-                                        
+
                                         <div class="next-post">
                                             <h5>Next Topic </h5>
                                             <h4>Less Is More</h4>
                                         </div>
-                                        
+
                                     </div>
                                 </div>  --}}
-                                
+
                                 <div class="related-post">
                                     <div class="group-title">
                                         <h3>Related Post</h3>
@@ -163,7 +163,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>                                        
+                                    </div>
                                 </div>
                                 <div class="author-box-two">
                                     <div class="wrapper-area">
@@ -175,7 +175,7 @@
                                             <h3>Steve Anderson</h3>
                                             <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation is enougn for today.</div>
                                         </div>
-                                            
+
                                     </div>
                                 </div>
                                 <div class="comments-area">
@@ -225,7 +225,7 @@
                                     <!-- Contact Form-->
                                     <div class="contact-form">
                                         <form method="post" action="http://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
-                                            <div class="row clearfix">                                    
+                                            <div class="row clearfix">
                                                 <div class="col-md-12 form-group">
                                                     <textarea name="message" placeholder="Enter message here......"></textarea>
                                                     <i class="fas fa-edit"></i>
@@ -235,17 +235,17 @@
                                                     <input type="text" name="username" placeholder="Enter name here......" required="">
                                                     <i class="fas fa-user"></i>
                                                 </div>
-                                                
+
                                                 <div class="col-md-12 form-group">
                                                     <input type="email" name="email" placeholder="Enter email here......" required="">
                                                     <i class="fas fa-envelope"></i>
-                                                </div> 
+                                                </div>
 
                                                 <div class="col-md-12 form-group">
                                                     <input type="email" name="email" placeholder="Type your website...." required="">
                                                     <i class="fas fa-globe"></i>
-                                                </div>                        
-                        
+                                                </div>
+
                                                 <div class="col-md-12 form-group">
                                                     <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Post Comment</span></button>
                                                 </div>
@@ -276,7 +276,7 @@
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <!-- Search -->
                         <div class="sidebar-widget search-box">
                             <div class="sidebar-title"><h3>Search Objects</h3></div>
@@ -292,7 +292,7 @@
                         <div class="sidebar-widget popular-posts">
                             <div class="sidebar-title"><h3>Popular Feeds</h3></div>
                             <div class="widget-content">
-                                
+
                                 <!--News Post-->
                                 <div class="news-post">
                                     <div class="post-thumb"><a href="blog-details.html"><img class="lazy-image loaded" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/thumb-8.jpg')}}" alt=""></a></div>
@@ -440,7 +440,7 @@
                                 </div>
                             </div>
                         </div>
-                                            
+
                     </aside>
                 </div>
             </div>
