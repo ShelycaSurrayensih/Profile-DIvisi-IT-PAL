@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\galeri;
 use App\Models\Qna;
 use Illuminate\Http\Request;
 
@@ -15,7 +16,8 @@ class QnaController extends Controller
     public function index()
     {
         $qna = Qna::index();
-        return view('qna.qna', ['qnas' => Qna::index()]);
+        $galeri = Galeri::latest()->paginate(9);
+        return view('qna.qna', compact('qna', 'galeri'));
     }
 
     /**

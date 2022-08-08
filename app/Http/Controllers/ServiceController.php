@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Adepartment;
+use App\Models\galeri;
 use App\Models\Service;
 use Illuminate\Http\Request;
 
@@ -16,7 +17,8 @@ class ServiceController extends Controller
     public function index()
     {
         $adepartments = Adepartment::index();
-        return view('Services.Departement', ['adepartments' => Adepartment::index()]);
+        $galeri = Galeri::latest()->paginate(9);
+        return view('Services.Departement', compact('adepartments', 'galeri'));
     }
 
     /**

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\galeri;
 use App\Models\Hotissue;
 use Illuminate\Http\Request;
 
@@ -15,7 +16,8 @@ class HotissueController extends Controller
     public function index()
     {
         $hotissue = Hotissue::index();
-        return view('Services.hotissue', ['hotissues' => Hotissue::index()]);
+        $galeri = Galeri::latest()->paginate(9);
+        return view('Services.hotissue', compact('hotissue', 'galeri'));
     }
 
     /**

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Department;
 use App\Http\Requests\StoreDepartmentRequest;
 use App\Http\Requests\UpdateDepartmentRequest;
+use App\Models\galeri;
 
 class DepartmentController extends Controller
 {
@@ -17,7 +18,9 @@ class DepartmentController extends Controller
     {
         $departments = Department::index();
         // return view('department.index', compact('departments'));
-        return view('department.index', ['departments' => Department::index()]);
+        $galeri = Galeri::latest()->paginate(9);
+
+        return view('department.index', compact('departments', 'galeri'));
         // return view('department.index', ['departments' => Department::index()]);
     }
 

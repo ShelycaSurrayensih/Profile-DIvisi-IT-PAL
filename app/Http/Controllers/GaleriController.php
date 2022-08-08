@@ -18,8 +18,8 @@ class GaleriController extends Controller
         // return view('galeri.galeri', ['galeris' => $galeri]);
 
         $galeris = Galeri::latest()->paginate(12);
-
-        return view('galeri.galeri',compact('galeris'))
+        $galeri = Galeri::latest()->paginate(9);
+        return view('galeri.galeri',compact('galeris', 'galeri'))
             ->with('i', (request()->input('page', 1) - 1) * 10);
     }
 
