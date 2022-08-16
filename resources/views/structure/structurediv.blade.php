@@ -31,7 +31,7 @@
 
 <!-- Page Banner Section -->
 <section class="page-banner">
-    <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
+    <div class="image-layer lazy-image" data-bg="url({{asset('assets/images/background/image-11.jpg')}})"></div>
     <div class="bottom-rotten-curve alternate"></div>
 
     <div class="auto-container">
@@ -50,10 +50,10 @@
 <br>
 <div class="container text-center">
     <h2>Struktur Organisasi</h2>
-    <img src="assets/images/gallery/gallery-35.png" alt="">
+    <img src="{{asset('assets/images/gallery/gallery-35.png')}}" alt="">
 
     <h2>Informasi Jabatan</h2>
-    <img src="assets/images/gallery/gallery-36.png" alt="">
+    <img src="{{asset('assets/images/gallery/gallery-36.png')}}" alt="">
 </div>
 <br>
 <br>

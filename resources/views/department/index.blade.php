@@ -33,7 +33,7 @@
     <div class="banner-carousel theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="{{asset('assets/images/main-slider/2.jpg')}}"></div>
+            <div class="image-layer lazy-image" data-bg="url({{asset('assets/images/main-slider/2.jpg')}})"></div>
 
             <div class="auto-container">
                 <div class="content-box">
@@ -46,7 +46,7 @@
 
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="{{asset('assets/images/main-slider/6.jpg')}}"></div>
+            <div class="image-layer lazy-image" data-bg="url({{asset('assets/images/main-slider/6.jpg')}})"></div>
 
             <div class="auto-container">
                 <div class="content-box">
@@ -166,7 +166,7 @@
 </section>
 
 <!-- Funfacts Section -->
-<section class="funfacts-section" style="background-image: {{asset('(assets/images/background/image-19.jpg)')}};">
+<section class="funfacts-section" style="background-image: url({{asset('assets/images/background/image-19.jpg')}});">
     <div class="auto-container">
         <!-- Fact Counter -->
         <div class="fact-counter-two">
@@ -229,7 +229,7 @@
 </section>
 
 <!-- Video Section -->
-<section class="video-section style-two" style="background-image: {{asset(assets/images/background/image-21.jpg)}};">
+<section class="video-section style-two" style="background-image: url({{asset('assets/images/background/image-21.jpg')}});">
     <div class="auto-container">
         <div class="sec-title text-center">
             <div class="sub-title">Intro Video</div>
