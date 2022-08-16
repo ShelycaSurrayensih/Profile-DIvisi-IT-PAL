@@ -30,7 +30,7 @@
 
     <!-- Page Banner Section -->
     <section class="page-banner">
-     <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
+     <div class="image-layer lazy-image" data-bg="{{asset('assets/images/background/image-11.jpg')}}"></div>
         <div class="bottom-rotten-curve alternate"></div>
 
         <div class="auto-container">
@@ -66,7 +66,7 @@
                 <div class="tab-pane fadeInUp animated active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
+                            <div class="image"><img src="{{asset('assets/images/resource/image-18.jpg')}}" alt=""></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">
@@ -88,7 +88,7 @@
                 <div class="tab-pane fadeInUp animated" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
+                            <div class="image"><img src="{{asset('assets/images/resource/image-18.jpg')}}" alt=""></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">
@@ -116,7 +116,7 @@
                 <div class="tab-pane fadeInUp animated" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
+                            <div class="image"><img src="{{asset('assets/images/resource/image-18.jpg')}}" alt=""></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">
@@ -142,7 +142,7 @@
                 <div class="tab-pane fadeInUp animated" id="tab-four" role="tabpanel" aria-labelledby="tab-four">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
+                            <div class="image"><img src="{{asset('assets/images/resource/image-18.jpg')}}" alt=""></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">
@@ -164,7 +164,7 @@
                 <div class="tab-pane fadeInUp animated" id="tab-five" role="tabpanel" aria-labelledby="tab-five">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="image"><img src="assets/images/resource/image-18.jpg" alt=""></div>
+                            <div class="image"><img src="{{asset('assets/images/resource/image-18.jpg')}}" alt=""></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="content pl-lg-4">

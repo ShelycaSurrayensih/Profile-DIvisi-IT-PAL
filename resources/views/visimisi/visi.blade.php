@@ -33,7 +33,7 @@
             <div class="banner-carousel theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
                 <!-- Page Banner Section -->
                 <section class="page-banner">
-                    <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
+                    <div class="image-layer lazy-image" data-bg="{{asset('assets/images/background/image-11.jpg')}}"></div>
                     <div class="bottom-rotten-curve alternate"></div>
 
                     <div class="auto-container">
@@ -51,6 +51,6 @@
 
         <!-- About Section Two -->
         <section class="about-section-two">
-            <div class="thumb"  align="center"><img src="assets/images/VisiMisi.jpg" alt=""></div>
+            <div class="thumb" align="center"><img src="{{asset('assets/images/VisiMisi.jpg')}}" alt=""></div>
         </section>
 @endsection

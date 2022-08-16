@@ -33,7 +33,7 @@
     <div class="banner-carousel theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="url('assets/images/main-slider/2.jpg')"></div>
+            <div class="image-layer lazy-image" data-bg="{{asset('assets/images/main-slider/2.jpg')}}"></div>
 
             <div class="auto-container">
                 <div class="content-box">
@@ -46,7 +46,7 @@
 
         <!-- Slide Item -->
         <div class="slide-item">
-            <div class="image-layer lazy-image" data-bg="url('assets/images/main-slider/6.jpg')"></div>
+            <div class="image-layer lazy-image" data-bg="{{asset('assets/images/main-slider/6.jpg')}}"></div>
 
             <div class="auto-container">
                 <div class="content-box">
@@ -84,7 +84,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                     <div class="feature-block-one">
                         <div class="inner-box">
-                            <img src="assets/images/sinergi.png">
+                            <img src="{{asset('assets/images/sinergi.png')}}">
                             <h5>Sinergi</h5>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                     <div class="feature-block-one">
                         <div class="inner-box">
-                            <img src="assets/images/conversation.png">
+                            <img src="{{asset('assets/images/conversation.png')}}">
                             <h5>Interaktif</h5>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                     <div class="feature-block-one">
                         <div class="inner-box">
-                            <img src="assets/images/adaptation.png">
+                            <img src="{{asset('assets/images/adaptation.png')}}">
                             <h5>Adaptif</h5>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
                     <div class="feature-block-one">
                         <div class="inner-box">
-                            <img src="assets/images/product-development.png">
+                            <img src="{{asset('assets/images/product-development.png')}}">
                             <h5>Produktif</h5>
                         </div>
                     </div>
@@ -145,8 +145,8 @@
             <div class="col-lg-6">
                 <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                     <div class="image-one">
-                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png"
-                        style="height: 800px!important;width: 600px!important;" data-src="assets/images/resource/Aris-5.png" alt="">
+                        <img class="lazy-image owl-lazy" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}"
+                        style="height: 800px!important;width: 600px!important;" data-src="{{asset('assets/images/resource/Aris-5.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -160,13 +160,13 @@
         <div class="sec-title text-center">
             <div class="sub-title">Divisi Teknologi Informasi</div>
             <h2>ROADMAP</h2>
-            <div class="thumb" align="center"><img src="assets/images/MapRoad.jpg" alt=""></div>
+            <div class="thumb" align="center"><img src="{{asset('assets/images/MapRoad.jpg')}}" alt=""></div>
         </div>
     </div>
 </section>
 
 <!-- Funfacts Section -->
-<section class="funfacts-section" style="background-image: url(assets/images/background/image-19.jpg);">
+<section class="funfacts-section" style="background-image: {{asset('(assets/images/background/image-19.jpg)')}};">
     <div class="auto-container">
         <!-- Fact Counter -->
         <div class="fact-counter-two">
@@ -175,7 +175,7 @@
                 <div class="column counter-column col-xl-3 col-lg-6">
                     <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="content">
-                            <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
+                            <div class="icon"><img src="{{asset('assets/images/icons/icon-12.png')}}" alt=""></div>
                             <div class="count-outer count-box">
                                 <span class="count-text" data-speed="3000" data-stop="4.0">0</span>
                             </div>
@@ -188,7 +188,7 @@
                 <div class="column counter-column col-xl-3 col-lg-6">
                     <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="content">
-                            <div class="icon"><img src="assets/images/icons/icon-13.png" alt=""></div>
+                            <div class="icon"><img src="{{asset('assets/images/icons/icon-13.png')}}" alt=""></div>
                             <div class="count-outer count-box">
                                 <span class="count-text">ISO</span>
                             </div>
@@ -201,7 +201,7 @@
                 <div class="column counter-column col-xl-3 col-lg-6">
                     <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="content">
-                            <div class="icon"><img src="assets/images/icons/icon-12.png" alt=""></div>
+                            <div class="icon"><img src="{{asset('assets/images/icons/icon-12.png')}}" alt=""></div>
                             <div class="count-outer count-box">
                                 <span class="count-text" data-speed="3000" data-stop="3.5">0</span>
                             </div>
@@ -214,7 +214,7 @@
                 <div class="column counter-column col-xl-3 col-lg-6">
                     <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
                         <div class="content">
-                            <div class="icon"><img src="assets/images/icons/icon-15.png" alt=""></div>
+                            <div class="icon"><img src="{{asset('assets/images/icons/icon-15.png')}}" alt=""></div>
                             <div class="count-outer count-box">
                                 <span class="count-text" data-speed="3000" data-stop="42">0</span><span>%</span>
                             </div>
@@ -229,7 +229,7 @@
 </section>
 
 <!-- Video Section -->
-<section class="video-section style-two" style="background-image: url(assets/images/background/image-21.jpg);">
+<section class="video-section style-two" style="background-image: {{asset(assets/images/background/image-21.jpg)}};">
     <div class="auto-container">
         <div class="sec-title text-center">
             <div class="sub-title">Intro Video</div>
