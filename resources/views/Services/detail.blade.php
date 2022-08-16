@@ -54,86 +54,11 @@
                             <div class="lower-content">
                                 <div class="category"><a href="{{asset('dokument/'.$sharings->dokumen)}}" style="color: white">Download pdf</a></div>
                                 <ul class="post-meta">
-                                    {{--  <li><a href="#"><i class="far fa-eye"></i>332 Views</a></li>
-                                    <li><a href="#"><i class="far fa-comments"></i>35 Comments</a></li>  --}}
                                     <li><a href="#"><i class="far fa-calendar-alt"></i>{{$sharings->tanggal_dibuat}}</a></li>
                                 </ul>
                                 <h2>{{$sharings->judul}}</h2>
                                 <div class="text"><p>{{$sharings->description}}</p></div>
                                 <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png') }}" data-src="{{ asset('assets/images/resource/news-7.jpg')}}" alt=""></a></div>
-                                {{--  <div class="text-block-wrapper">
-                                    <div class="text-block">
-                                        <h3>A cleansing hot shower or bath</h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. </div>
-                                    </div>
-                                    <div class="text-block">
-                                        <h3>Setting the mood with incense</h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. </div>
-                                    </div>
-                                    <div class="text-block">
-                                        <h3>Excepteur sint occaecat cupidatat</h3>
-                                        <ul class="list">
-                                            <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li>
-                                            <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li>
-                                            <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li>
-                                            <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li>
-                                            <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <blockquote>
-                                    <h5>by Hetmayar</h5>
-                                    <div class="text">Viral dreamcatcher keytar typewriter, aest hetic offal umami. Aesthetic polaroid pug pitchfork post-ironic.</div>
-                                    <div class="quote-icon"><span class="fa fa-quote-left"></span></div>
-                                </blockquote>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. </div>
-                                <div class="row">
-                                    <div class="col-md-5">
-                                        <div class="image"><a href="#"><img class="lazy-image owl-lazy" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/news-8.jpg')}}" alt=""></a></div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div>
-                                    </div>
-                                </div>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.  </div>
-                                <div class="post-share">
-                                    <div class="left-column">
-                                        <h4>Releted Tags</h4>
-                                        <ul class="tag-list clearfix">
-                                            <li><a href="blog-details.html"><span>Popular</span></a></li>
-                                            <li><a href="blog-details.html"><span>desgin</span></a></li>
-                                            <li><a href="blog-details.html"><span>ux</span></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="right-column">
-                                        <h4>Social Share</h4>
-                                        <ul class="social-links">
-                                            <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-behance"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                                            <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="blog-post-pagination">
-                                    <div class="wrapper-box">
-
-                                        <div class="prev-post">
-                                            <h5> Previous Post</h5>
-                                            <h4>Tips On Minimalist</h4>
-                                        </div>
-
-                                        <div class="page-view"><span class="fa fa-th"></span></div>
-
-                                        <div class="next-post">
-                                            <h5>Next Topic </h5>
-                                            <h4>Less Is More</h4>
-                                        </div>
-
-                                    </div>
-                                </div>  --}}
-
                                 <div class="related-post">
                                     <div class="group-title">
                                         <h3>Related Post</h3>
@@ -305,18 +230,6 @@
                                     <div class="date"><span class="fa fa-calendar-alt"></span> Feb 20, 2020</div>
                                     <h4><a href="blog-details.html">Lorem ipsum dolor sit <br>cing elit, sed do.</a></h4>
                                 </div>
-                                {{--  <!--News Post-->
-                                <div class="news-post">
-                                    <div class="post-thumb"><a href="blog-details.html"><img class="lazy-image loaded" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/thumb-10.jpg')}}" alt=""></a></div>
-                                    <div class="date"><span class="fa fa-calendar-alt"></span> Feb 14, 2020</div>
-                                    <h4><a href="blog-details.html">Lorem ipsum dolor sit <br> cing elit, sed do.</a></h4>
-                                </div>
-                                <!--News Post-->
-                                <div class="news-post">
-                                    <div class="post-thumb"><a href="blog-details.html"><img class="lazy-image loaded" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/thumb-11.jpg')}}" alt=""></a></div>
-                                    <div class="date"><span class="fa fa-calendar-alt"></span> Feb 14, 2020</div>
-                                    <h4><a href="blog-details.html">Lorem ipsum dolor sit <br> cing elit, sed do.</a></h4>
-                                </div>  --}}
                             </div>
                         </div>
 

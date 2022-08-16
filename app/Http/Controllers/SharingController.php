@@ -19,7 +19,8 @@ class SharingController extends Controller
     public function show($id)
     {
         $sharings = Sharing::where('id', $id)->first();
-        return view('Services.detail', ['sharings' => $sharings]);
+        $galeri = Galeri::latest()->paginate(9);
+        return view('Services.detail', compact('sharings', 'galeri'));
     }
 
 }

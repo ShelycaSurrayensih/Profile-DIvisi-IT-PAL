@@ -56,7 +56,7 @@
 
                 <div class="service-block-one col-lg-3">
                     <div class="inner-box">
-                        <img src="assets/images/hotissue/HI1.png">
+                        <img src="{{asset('assets/images/hotissue/HI1.png')}}">
                         <h3>Project schedulling masih manual</h3>
                         <br>
                         <br>
@@ -65,7 +65,7 @@
                  <!-- Services Block One -->
                  <div class="service-block-one col-lg-3">
                     <div class="inner-box">
-                        <img src="assets/images/hotissue/HI2.png">
+                        <img src="{{asset('assets/images/hotissue/HI2.png')}}">
                         <h3>Infrastruktur jaringan digital di area produksi kurang memadai</h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
@@ -73,7 +73,7 @@
                  <!-- Services Block One -->
                  <div class="service-block-one col-lg-3">
                     <div class="inner-box">
-                        <img src="assets/images/hotissue/HI3.png">
+                        <img src="{{asset('assets/images/hotissue/HI3.png')}}">
                         <h3>Fasilitas & peralatan produksi belum terkomputerisasi</h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
@@ -81,7 +81,7 @@
                 <!-- Services Block One -->
                 <div class="service-block-one col-lg-3">
                     <div class="inner-box">
-                        <img src="assets/images/hotissue/HI4.png">
+                        <img src="{{asset('assets/images/hotissue/HI4.png')}}">
                         <h3>Pemenuhan persyaratan sistem manajemen Divisi TI masih rendah</h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
@@ -95,7 +95,7 @@
                 <!-- Services Block One -->
                 <div class="service-block-one col-lg-3">
                     <div class="inner-box">
-                        <img src="assets/images/hotissue/Hope1.png">
+                        <img src="{{asset('assets/images/hotissue/Hope1.png')}}">
                         <h3>Project scheduling sudah terintegrasi</h3>
                         <br>
                     </div>
@@ -103,7 +103,7 @@
                 <!-- Services Block One -->
                 <div class="service-block-one col-lg-3">
                     <div class="inner-box">
-                        <img src="assets/images/hotissue/Hope2.png">
+                        <img src="{{asset('assets/images/hotissue/Hope2.png')}}">
                         <h3>Tersedia jaringan digital yang memadai</h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
@@ -111,7 +111,7 @@
                 <!-- Services Block One -->
                 <div class="service-block-one col-lg-3">
                     <div class="inner-box">
-                        <img src="assets/images/hotissue/Hope3.png">
+                        <img src="{{asset('assets/images/hotissue/Hope3.png')}}">
                         <h3>Fasilitas produksi sudah terkomputerisasi</h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
@@ -119,7 +119,7 @@
                 <!-- Services Block One -->
                 <div class="service-block-one col-lg-3">
                     <div class="inner-box">
-                        <img src="assets/images/hotissue/Hope3.png">
+                        <img src="{{asset('assets/images/hotissue/Hope3.png')}}">
                         <h3>Sistem manajemen Divisi TI sesuai strandard</h3>
                         {{-- <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div> --}}
                     </div>
